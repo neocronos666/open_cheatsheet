@@ -1,0 +1,56 @@
+{
+    "title": "Movimiento rectil\u00edneo uniforme",
+    "description": "Descripci\u00f3n breve sobre el movimiento rectil\u00edneo uniforme.",
+    "detail": "<markup>Explicaci\u00f3n detallada del tema, puede incluir m\u00faltiples p\u00e1rrafos, listas, etc.</markup>",
+    "forms": "\\frac{d}{t} = v",
+    "var_table": [
+        {
+            "var": "d",
+            "desc": "Distancia recorrida"
+        },
+        {
+            "var": "t",
+            "desc": "Tiempo transcurrido"
+        },
+        {
+            "var": "v",
+            "desc": "Velocidad"
+        }
+    ],
+    "cons_table": {
+        "headers": [
+            "Constante",
+            "Valor",
+            "Descripci\u00f3n"
+        ],
+        "rows": [
+            {
+                "constante": "g",
+                "valor": "9.81 \\text{ m/s}^2",
+                "descripcion": "Aceleraci\u00f3n de la gravedad"
+            },
+            {
+                "constante": "c",
+                "valor": "3.00 \\times 10^8 \\text{ m/s}",
+                "descripcion": "Velocidad de la luz en el vac\u00edo"
+            }
+        ]
+    },
+    "c_date": "2024-08-27",
+    "m_date": "2024-08-27",
+    "author": "Nombre del Autor",
+    "email": "autor@example.com",
+    "web": "http://autorwebsite.com",
+    "ref_webs": [
+        "http://web1.com",
+        "http://web2.com"
+    ],
+    "rel_forms": [
+        "ES_Aceleracion_constante.chsheet",
+        "ES_Caida_libre.chsheet"
+    ],
+    "template": [
+        "Default",
+        "dark"
+    ]
+}

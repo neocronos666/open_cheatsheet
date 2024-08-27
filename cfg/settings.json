@@ -1,0 +1,11 @@
+{
+    "autorefresh": true,
+    "logging": {
+        "level": "INFO",
+        "file": "log/app.log",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    },
+    "favs": [],
+    "selected_template": "default"
+}
+
