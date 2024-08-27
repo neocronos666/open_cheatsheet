@@ -1,0 +1,33 @@
+{
+    "titulo": "Movimiento rectilíneo uniforme", // Título de la fórmula, extraído del nombre del archivo sin extensión
+    "descripcion_breve": "Descripción breve sobre el movimiento rectilíneo uniforme.", // Texto breve que resume el concepto
+    "detalles": "<markup>Explicación detallada del tema, puede incluir múltiples párrafos, listas, etc.</markup>", // Sección para detalles extensos, puede incluir HTML o algún otro markup
+    "formula": "\\frac{d}{t} = v", // Fórmula principal en formato LaTeX
+    "tabla_de_variables": [
+        {"variable": "d", "descripcion": "Distancia recorrida"},
+        {"variable": "t", "descripcion": "Tiempo transcurrido"},
+        {"variable": "v", "descripcion": "Velocidad"}
+    ], // Tabla con variables involucradas y sus descripciones
+    "tabla_de_constantes": [
+        {"constante": "g", "valor": "9.81 \\text{ m/s}^2", "descripcion": "Aceleración de la gravedad"} 
+        // Cada constante con su valor y descripción; puede contener código LaTeX
+    ],
+    "fecha_de_creacion": "2024-08-27", // Fecha en que se creó el archivo JSON
+    "fecha_de_modificacion": "2024-08-27", // Fecha de la última modificación
+    "nombre_del_autor": "Nombre del Autor", // Nombre del autor de la fórmula
+    "mail_del_autor": "autor@example.com", // Correo electrónico del autor
+    "web_del_autor": "http://autorwebsite.com", // Sitio web del autor
+    "webs_de_consulta": [
+        "http://web1.com", 
+        "http://web2.com"
+    ], // Lista de webs consultadas o recomendadas
+    "formulas_relacionadas": [
+        "ES_Aceleracion_constante.chsheet", 
+        "ES_Caida_libre.chsheet"
+    ], // Referencias a archivos JSON de fórmulas relacionadas
+    "plantillas": [
+        "plantilla_formula.html", 
+        "plantilla_autor.html"
+    ] // Nombres de las plantillas HTML que se utilizarán para mostrar la fórmula y los datos del autor
+}
+
