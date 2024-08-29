@@ -1,11 +1,10 @@
 {
-    "autorefresh": true,
-    "logging": {
-        "level": "INFO",
-        "file": "log/app.log",
-        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-    },
-    "favs": [],
+    "default_author": "Neocronos666 ",
+    "default_email": "ne0cr0n0s-bulk@yahoo.com.ar",
+    "default_web": "https://repuestosimpresos.com",
+    "auto_refresh": true,
+    "logging_level": "INFO",
+    "logging_file": "log/app.log",
+    "logging_format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     "selected_template": "default"
 }
-
