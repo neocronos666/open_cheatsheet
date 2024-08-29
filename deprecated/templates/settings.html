@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Configuración{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Configuración</h2>
+    <form action="{{ url_for('update_settings') }}" method="post">
+        {% for setting in settings %}
+        <div class="setting">
+            <label>{{ setting.name }}</label>
+            <input type="text" name="{{ setting.name }}" value="{{ setting.value }}">
+        </div>
+        {% endfor %}
+        <button type="submit">Guardar Cambios</button>
+    </form>
+
+    <button id="add-setting">Agregar Nueva Configuración</button>
+</div>
+{% endblock %}

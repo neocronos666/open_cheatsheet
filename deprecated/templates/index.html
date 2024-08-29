@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="category-tree">
+        <h2>Categorías</h2>
+        <ul>
+            {% for category in categories %}
+            <li>{{ category.name }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="formula-list">
+        <h2>Formulas</h2>
+        <ul>
+            {% for formula in formulas %}
+            <li><a href="{{ url_for('sheet', formula_id=formula.id) }}">{{ formula.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+header, footer {
+    background-color: #ddd;
+}
+
+nav {
+    background-color: #eee;
+}
+
+button {
+    background-color: #ccc;
+}
