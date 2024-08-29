@@ -29,12 +29,33 @@ class SettingsManager:
 
         logging.info("Logging configurado correctamente.")
 
+    def update_setting(self, key, value):
+        # Cargar las configuraciones actuales
+        with open(self.settings_file, 'r') as f:
+            settings = json.load(f)
+
+        # Actualizar o agregar el nuevo valor
+        settings[key] = value
+
+        # Guardar las configuraciones actualizadas
+        with open(self.settings_file, 'w') as f:
+            json.dump(settings, f, indent=4)
+
 # Ejemplo de uso
 if __name__ == "__main__":
     #Si se inicia sin parametro toma por defecto el archivo cfg/settings.json
-    settings_manager = SettingsManager('cfg/settings.json')
+    ##settings_manager = SettingsManager('cfg/settings.json')
 
     #Ver todas las Settings
-    print(settings_manager.settings)
+    ##print(settings_manager.settings)
+   
     #Ver una setting
-    print(settings_manager.settings.get('logging_file'))
+    ##print(settings_manager.settings.get('logging_file'))
+
+    # Actualizar el autor por defecto
+    ##settings_manager.update_setting('default_author', 'Neocronos666')
+
+    # Verificar el cambio (opcional)
+    # #print(settings_manager.load_settings())
+    
+    pass
