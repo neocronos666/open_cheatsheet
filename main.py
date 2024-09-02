@@ -34,9 +34,9 @@ class TabSelector(ft.Row):
         tabs = ft.Tabs(
             selected_index=0,
             tabs=[
-                ft.Tab(text="Favs"),
+                ft.Tab(text="All"),
                 ft.Tab(text="Lists"),
-                ft.Tab(text="All")
+                ft.Tab(text="Favs")
             ],
             expand=True
         )
@@ -62,6 +62,18 @@ class MainContent(ft.Column):
             self.build_directory_view(),
             self.build_file_view()
         ]
+#""" def load_directory_structure(self):
+#        directory_structure = {}
+#        with open(self.buffer_file, "r") as f:
+#            for line in f:
+#                parts = line.strip().split('/')
+#                current_level = directory_structure
+#                for part in parts:
+#                    if part not in current_level:
+#                        current_level[part] = {}
+#                    current_level = current_level[part]
+#        return directory_structure
+#"""
 
     def load_directory_structure(self):
         directory_structure = {}
@@ -69,12 +81,15 @@ class MainContent(ft.Column):
             for line in f:
                 parts = line.strip().split('/')
                 current_level = directory_structure
-                for part in parts:
+                
+                # Ignorar el último elemento ya que es el nombre del archivo
+                for part in parts[:-1]:  
                     if part not in current_level:
                         current_level[part] = {}
                     current_level = current_level[part]
+                    
         return directory_structure
-
+    
     def build_directory_view(self, structure=None, level=0):
         if structure is None:
             structure = self.directory_structure
@@ -89,7 +104,8 @@ class MainContent(ft.Column):
                             ft.Icon(ft.icons.FOLDER),
                             ft.Text(directory)
                         ],
-                    )
+                    ),
+                    on_click=self.on_file_click
                 )
             )
             directory_view.controls.append(
@@ -112,9 +128,9 @@ class MainContent(ft.Column):
                                     ft.Icon(ft.icons.INSERT_DRIVE_FILE),
                                     ft.Text(file_name)
                                 ],
-                                #on_click=self.on_file_click
-                                
-                            )
+                                #on_click=self.on_file_click                                
+                            ),
+                            on_click=self.on_file_click
                         )
                     )
         return file_view
@@ -139,7 +155,7 @@ class MyApp(ft.Column):
 
 
 def main(page: ft.Page):
-    page.title = "My App"
+    page.title = "open CHEATSHEET Alpha"
     page.vertical_alignment = ft.MainAxisAlignment.START
     page.scroll = ft.ScrollMode.ADAPTIVE
 
