@@ -58,4 +58,9 @@ if __name__ == "__main__":
     # Verificar el cambio (opcional)
     # #print(settings_manager.load_settings())
     
+#
+#   Aca deberia cargar la app de manipulacion de opciones
+#
+
+
     pass

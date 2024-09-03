@@ -17,6 +17,7 @@ Los archivos `.chsheet` son archivos JSON que siguen una estructura específica 
     "title": "Título del tema",
     "description": "Descripción breve del tema",
     "detail": "<markup>Descripción detallada que puede incluir HTML o markup</markup>",
+    "img": "Una imagen",
     "forms": "Fórmula en LaTeX",
     "var_table": [
         {"var": "nombre_variable", "desc": "Descripción de la variable usada en la imagen"}
@@ -34,10 +35,7 @@ Los archivos `.chsheet` son archivos JSON que siguen una estructura específica 
         "URL de referencia 2"
     ],
     "rel_forms": [
-        "Nombre de archivo .chsheet relacionado"
-    ],
-    "template": [
-        "Nombre del template",
-        "Estilo (por ejemplo, oscuro o claro)"
+       "Nombre de archivo .chsheet relacionado"
     ]
+    
 }

@@ -1,13 +1,16 @@
 {
-    "title": "Movimiento rectil\u00edneo uniforme",
-    "description": "Descripci\u00f3n breve sobre el movimiento rectil\u00edneo uniforme.",
+    "title": "Tabla de Trigonometricas",
+    "description": "Descripci\u00f3n breve sobre el movimiento rectil\u00edneo uniformementye variado.",
     "detail": "<markup>Explicaci\u00f3n detallada del tema, puede incluir m\u00faltiples p\u00e1rrafos, listas, etc.</markup>",
     "forms": "\\frac{d}{t} = v",
-    "img": "Movimiento rectilíneo uniforme.jpg",
     "var_table": [
         {
-            "var": "d",
-            "desc": "Distancia recorrida"
+            "var": "xi",
+            "desc": "Distancia Inicial"
+        },
+        {
+            "var": "xf",
+            "desc": "Distancia Final"
         },
         {
             "var": "t",
@@ -16,6 +19,10 @@
         {
             "var": "v",
             "desc": "Velocidad"
+        },
+        {
+            "var": "a",
+            "desc": "aceleracion"
         }
     ],
     "cons_table": {

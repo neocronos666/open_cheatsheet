@@ -104,3 +104,6 @@
 2024-08-29 10:40:48,354 - root - INFO - Logging configurado correctamente.
 2024-08-29 10:40:48,377 - werkzeug - WARNING -  * Debugger is active!
 2024-08-29 10:40:48,378 - werkzeug - INFO -  * Debugger PIN: 688-329-849
+2024-09-02 21:42:49,141 - root - INFO - Logging configurado correctamente.
+2024-09-02 21:42:49,143 - root - INFO - Buffer creado con 4 archivos .chsheet.
+2024-09-02 21:42:49,144 - root - INFO - Buffer cargado con 4 archivos.

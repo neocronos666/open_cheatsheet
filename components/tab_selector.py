@@ -1,5 +1,44 @@
+#Codigo de sergio
 import flet as ft
+class TabSelector(ft.Row):
+    def build(self):
+        back_button = ft.IconButton(icon=ft.icons.ARROW_BACK)
+        up_button = ft.IconButton(icon=ft.icons.ARROW_UPWARD)
+        tabs = ft.Tabs(
+            selected_index=0,
+            tabs=[
+                ft.Tab(text="All"),
+                ft.Tab(text="Lists"),
+                ft.Tab(text="Favs")
+            ],
+            expand=True
+        )
 
+        return ft.Row(
+            [
+                tabs,
+                back_button,
+                up_button                
+            ],
+            alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
+            vertical_alignment=ft.CrossAxisAlignment.CENTER,
+            expand=True
+        )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
 class TabSelector(ft):
     def build(self):
         back_button = ft.IconButton(icon=ft.icons.ARROW_BACK)
@@ -24,3 +63,4 @@ class TabSelector(ft):
             vertical_alignment=ft.CrossAxisAlignment.CENTER,
             expand=True
         )
+'''
