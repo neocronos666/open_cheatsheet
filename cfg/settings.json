@@ -6,5 +6,6 @@
     "logging_level": "INFO",
     "logging_file": "log/app.log",
     "logging_format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    "selected_template": "default"
+    "selected_template": "dark",
+    "selected_template2": "dark4"
 }

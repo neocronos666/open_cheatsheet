@@ -3,7 +3,7 @@
 import flet as ft
 
 # from main import sheet
-# from screens.cheat_sheet import *
+from screens.cheat_sheet import *
 
 
 
@@ -82,19 +82,80 @@ class MainContent(ft.Column):
          #self.selected_sheet = e.control.content.controls[1].value
          #ft.app(target=sheet)
          #print(f"Archivo seleccionado: {e.control.content.controls[1].value}")       
-        
-    
-        selected_value = e.control.content.controls[1].value
-        #self.page.route = f"/sheet/{selected_value}"
-        print("-----------SUB sheet-------------------")
-        
-        print(f"Archivo seleccionado: {e.control.content.controls[1].value}")       
-        # self.page.route = "fisica/cinematica/Movimiento rectilíneo uniforme"
-        self.selected = "fisica/cinematica/Movimiento rectilíneo uniforme"
-        print(self.page.route)
 
-        self.page.go("/sheet?s=" + self.selected)
-       
+        selected_value = e.control.content.controls[1].value
+        self.page.go("/sheet", {"selected": selected_value})
+        
+        """Manejar el clic en una fórmula, cambiar a la página 'sheet' y pasar el valor de la fórmula.
+        # Obtener el valor de la fórmula clickeada
+        self.selected_value = e.control.content.controls[1].value
+        print("Selected Value: "+self.selected_value)
+        print("")
+        # Verificar si 'sheet' ya está cargada
+        if not hasattr(self, 'sheet'):
+            # Si la página 'sheet' no está cargada, crearla
+            self.sheet_page = self.sheet(self.selected_value)
+            self.page.add(self.sheet(self.selected_value))  # Agregar la página a la app
+
+        else:
+            # Si ya existe, actualizamos su contenido
+            self.update_sheet_page(self.selected_value)
+
+        # Cambiar a la página 'sheet'
+        self.page.controls.clear()  # Limpiar la pantalla actual
+        self.page.add(self.sheet_page)  # Mostrar la página 'sheet'
+        self.page.update()  # Refrescar la interfaz
+        """
+    def create_sheet_page(page: ft.Page,selected):
+        # Crear la estructura de la página 'sheet' y pasarle el valor de la fórmula
+        '''
+        sheet_page = ft.Container(
+            controls=[
+                ft.Text(f"Fórmula: {formula_value}"),
+                # Otros controles necesarios para la página 'sheet'
+            ]
+        )
+        return sheet_page
+        '''
+        page.title = " - open CHEATSHEET Alpha"
+        page.vertical_alignment = ft.MainAxisAlignment.START
+        page.scroll = ft.ScrollMode.ADAPTIVE    
+        page.add(CheatSheetViewer(selected))   
+        
+        
+
+    def on_file_click(self, e):
+        """Manejar el clic en una fórmula, cambiar a la página 'sheet' y pasar el valor de la fórmula."""
+        # Obtener el valor de la fórmula clickeada
+        self.selected_value = e.control.content.controls[1].value
+
+        # Verificar si 'sheet' ya está cargada
+        if not hasattr(self, 'sheet_page'):
+            # Si la página 'sheet' no está cargada, crearla
+            self.sheet_page = self.create_sheet_page(self.selected_value)
+            self.page.add(self.sheet_page)  # Agregar la página a la app
+
+        else:
+            # Si ya existe, actualizamos su contenido
+            self.update_sheet_page(self.selected_value)
+
+        # Cambiar a la página 'sheet'
+        self.page.controls.clear()  # Limpiar la pantalla actual
+        self.page.add(self.sheet_page)  # Mostrar la página 'sheet'
+        self.page.update()  # Refrescar la interfaz
+
+
+    def update_sheet_page(self, formula_value):
+        # Actualizar el contenido de la página 'sheet' con la nueva fórmula
+        self.sheet_page.controls[0].value = f"Fórmula: {formula_value}"
+        self.sheet_page.update()
+
+
+
+    
+    #def on_category_click(self,e):
+        # evento cuando se hace click en el directorios
+    #    print(f"Categoria seleccionada: {e.control.content.controls[1].value}")       
 
     def on_category_click(self, e):
         # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ROTO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!        
