@@ -11,6 +11,7 @@ class MainContent(ft.Column):
     def __init__(self, buffer_file):
         super().__init__()
         self.buffer_file = buffer_file
+        self.all_paths = []  # Lista para almacenar las rutas completas
         self.directory_structure = self.load_directory_structure()
         self.controls = [
             self.build_directory_view(),
@@ -23,6 +24,9 @@ class MainContent(ft.Column):
             for line in f:
                 parts = line.strip().split('/')
                 current_level = directory_structure
+
+                # Guardar la línea completa en la variable de la clase
+                self.all_paths.append(line.strip())
                 
                 # Ignorar el último elemento ya que es el nombre del archivo
                 for part in parts[:-1]:  
@@ -32,6 +36,13 @@ class MainContent(ft.Column):
                     
         return directory_structure
     
+    def find_full_path(self, filename):
+        for path in self.all_paths:
+            if path.endswith(filename):
+                return path
+        return None
+
+
     def build_directory_view(self, structure=None, level=0):
         if structure is None:
             structure = self.directory_structure
@@ -90,8 +101,9 @@ class MainContent(ft.Column):
         
         print(f"Archivo seleccionado: {e.control.content.controls[1].value}")       
         # self.page.route = "fisica/cinematica/Movimiento rectilíneo uniforme"
-        self.selected = "fisica/cinematica/Movimiento rectilíneo uniforme"
-        print(self.page.route)
+        self.selected = self.find_full_path(e.control.content.controls[1].value)
+        
+        print("Full Path:" + self.find_full_path(e.control.content.controls[1].value))
 
         self.page.go("/sheet?s=" + self.selected)
        
