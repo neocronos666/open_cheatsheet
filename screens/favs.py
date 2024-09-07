@@ -34,8 +34,15 @@ class Favs(ft.Column):
         return file_view
     def on_file_click(self, e):
                    
-        print( e.control.content.controls[1].value)
+        print("VALOR CONTROL:" + self.find_full_path(e.control.content.controls[1].value))
 
+        self.page.go("/sheet?s=" + self.find_full_path(e.control.content.controls[1].value))
+
+    def find_full_path(self, filename):
+        for path in self.fav_items:
+            if path.endswith(filename):
+                return path
+        return None
 '''
     def build(self):
         fav_list_view = ft.ListView(
