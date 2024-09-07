@@ -27,4 +27,4 @@ Este proyecto utiliza archivos `.chsheet` para almacenar y organizar informació
 ## Uso
 
 ```bash
-python app.py
+python main.py

@@ -417,3 +417,28 @@ TypeError: SettingsManager.run_gui.<locals>.add_setting() missing 1 required pos
 2024-09-04 20:32:33,893 - flet_runtime - INFO - Starting Flet View app...
 2024-09-04 20:32:33,894 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
 2024-09-04 20:32:35,470 - flet_runtime - INFO - App session started
+2024-09-06 16:12:24,378 - root - INFO - Logging configurado correctamente.
+2024-09-06 16:12:24,380 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-06 16:12:24,382 - flet_runtime - INFO - Starting up UDS server on /tmp/tZ4hJVq9fH
+2024-09-06 16:12:24,383 - flet_runtime - INFO - Flet app has started...
+2024-09-06 16:12:24,383 - flet_runtime - INFO - App URL: /tmp/tZ4hJVq9fH
+2024-09-06 16:12:24,383 - flet_runtime - INFO - Starting Flet View app...
+2024-09-06 16:12:24,384 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-06 16:12:25,650 - flet_runtime - INFO - App session started
+2024-09-06 16:12:45,981 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=NameError("name 'list_view' is not defined")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 77, in <lambda>
+    ft.IconButton(ft.icons.DELETE, on_click=lambda e: delete_setting(key))
+                                                      ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 125, in delete_setting
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 129, in update_list_view
+    list_view.controls = build_controls() #------------
+    ^^^^^^^^^
+NameError: name 'list_view' is not defined

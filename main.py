@@ -7,7 +7,7 @@ from screens.main_content import *
 from screens.cheat_sheet import *
 
 # --------------------------------------------------
-class MyApp(ft.Column):
+class MainApp(ft.Column):
     def __init__(self):
         super().__init__()
         self.menu_find_nav = MenuFindNav()
@@ -18,15 +18,9 @@ class MyApp(ft.Column):
             self.tab_selector,
             self.main_content
         ]
-'''  
-def sheet(page: ft.Page,selected):
-    page.title = " - open CHEATSHEET Alpha"
-    page.vertical_alignment = ft.MainAxisAlignment.START
-    page.scroll = ft.ScrollMode.ADAPTIVE        
-    page.add(CheatSheetViewer(selected))
-'''
+
 def main(page: ft.Page):
-    page.title = "open CHEATSHEET Alpha"
+    page.title = "open CHEATSHEET pre-Alpha"
     page.vertical_alignment = ft.MainAxisAlignment.START
     page.scroll = ft.ScrollMode.ADAPTIVE
     
@@ -54,22 +48,21 @@ def main(page: ft.Page):
         if params:
             s_value = params.split('=')[1] if '=' in params else None
 
-        print("Ruta:", path)
-        print("Valor de 's':", s_value)
+            print("Ruta:", path)
+            print("Valor de 's':", s_value)
 
-        #-------
+        #-------RUTAS-------------------------
         if page.route == "/":
-            page.add(MyApp())  # Página principal
-           
+            page.add(MainApp())  # Página principal           
         elif path == "/sheet":
-            # Recuperar el valor seleccionado al cambiar a la página 'sheet'
-            # selected = page.route_params.get("selected")#-----------------
-            
-            #selected =  "fisica/cinematica/Movimiento rectilíneo uniforme" #-----------------
-            
-            page.add(CheatSheetViewer(s_value))
-            
-        #page.update
+            page.title = s_value + " [open CHEATSHEET pre-Alpha]"            
+            page.add(CheatSheetViewer(s_value))        
+        elif page.route == "/lists":
+            print("-----LISTS")
+        elif page.route == "/favs":
+            print("-----FAVS")
+        
+    
 
     page.on_route_change = route_change
     page.go("/")  # Cargar la página principal al inicio

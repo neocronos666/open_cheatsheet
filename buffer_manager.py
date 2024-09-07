@@ -40,6 +40,8 @@ class BufferManager:
         else:
             logging.error("El archivo de buffer no existe.")
             return []
+        
+    
 
 # Ejemplo de uso
 if __name__ == "__main__":

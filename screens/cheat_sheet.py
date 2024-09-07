@@ -3,6 +3,7 @@ import json
 import os
 import matplotlib.pyplot as plt
 import io
+# from components.menu_find_nav import MenuFindNav as bar
 
 class CheatSheetViewer(ft.Column):
     def __init__(self, chsheet_file):
@@ -21,22 +22,6 @@ class CheatSheetViewer(ft.Column):
             print(f"Error: El archivo {file_path} no existe.")
             return None
     
-    '''
-    def render_latex_as_image(self,latex_string): #-------------Algo ACA!!!!!!!!!!!!!!!!!
-        # Crear un gráfico vacío y agregar el texto LaTeX
-        fig, ax = plt.subplots()
-        ax.text(0.5, 0.5, f"${latex_string}$", fontsize=20, ha='center', va='center')
-        ax.axis('off')
-
-        # Guardar la imagen en un buffer en memoria
-        buf = io.BytesIO()
-        plt.savefig(buf, format='png', bbox_inches='tight', pad_inches=0.1)
-        buf.seek(0)
-
-        plt.close(fig)
-        print(buf)
-        return buf
-    '''
     def render_latex_as_image(self, latex_string):
         # Crear un gráfico vacío y agregar el texto LaTeX
         fig, ax = plt.subplots()
@@ -55,6 +40,8 @@ class CheatSheetViewer(ft.Column):
             return []
 
         controls = []
+        #---------Aca agrego a la paginacion
+        # controls.append (bar.build)
 
         # Iterar directamente sobre las claves y valores de self.cheatsheet_data
         for key, value in self.cheatsheet_data.items():

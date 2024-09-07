@@ -97,13 +97,13 @@ class MainContent(ft.Column):
     
         selected_value = e.control.content.controls[1].value
         #self.page.route = f"/sheet/{selected_value}"
-        print("-----------SUB sheet-------------------")
+        # print("-----------SUB sheet-------------------")
         
-        print(f"Archivo seleccionado: {e.control.content.controls[1].value}")       
+        # print(f"Archivo seleccionado: {e.control.content.controls[1].value}")       
         # self.page.route = "fisica/cinematica/Movimiento rectilíneo uniforme"
         self.selected = self.find_full_path(e.control.content.controls[1].value)
         
-        print("Full Path:" + self.find_full_path(e.control.content.controls[1].value))
+        # print("Full Path:" + self.find_full_path(e.control.content.controls[1].value))
 
         self.page.go("/sheet?s=" + self.selected)
        
