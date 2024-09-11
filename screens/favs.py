@@ -24,7 +24,7 @@ class Favs(ft.Column):
                         padding=ft.Padding(left=10, top=5, right=0, bottom=5),
                         content=ft.Row(
                             controls=[
-                                ft.Icon(ft.icons.INSERT_DRIVE_FILE),
+                                ft.Icon(ft.icons.BOOKMARK),
                                 ft.Text(file_name)
                             ],                                                            
                         ),

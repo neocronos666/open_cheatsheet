@@ -14,9 +14,9 @@ class MenuFindNav(ft.Row):
             ]
         )
 
-        find_button = ft.IconButton(icon=ft.icons.SEARCH)
-        search_box = ft.TextField(hint_text="Search...", expand=True)
-        back_button = ft.IconButton(icon=ft.icons.ARROW_BACK)
+        find_button = ft.IconButton(icon=ft.icons.SEARCH, on_click=self.on_search_click)
+        search_box = ft.TextField(hint_text="Search...", expand=True,on_change=self.on_search_change)
+        back_button = ft.IconButton(icon=ft.icons.ARROW_BACK, on_click=self.on_back_click)
 
         return ft.Row(
             [
@@ -33,7 +33,7 @@ class MenuFindNav(ft.Row):
     def on_settings_click(self, e):
         # on_click=self.on_settings_click
         print("Settings------------")
-    
+
     def on_new_click(self, e):        
         print("NEW------------")
     
@@ -42,3 +42,14 @@ class MenuFindNav(ft.Row):
     
     def on_about_click(self, e):        
         print("ABOUT------------")
+
+    def on_back_click(self, e):
+        print("BACK------------")
+    
+        # self.page.go("/favs")
+
+    def on_search_click(self, e):
+        print("SEARCH------------")
+    def on_search_change(self,e):
+        print(e.data)
+        # print(self.all_paths)

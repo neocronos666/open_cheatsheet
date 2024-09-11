@@ -2,37 +2,50 @@
 import flet as ft
 class TabSelector(ft.Row):
     def build(self):
-        # back_button = ft.IconButton(icon=ft.icons.ARROW_BACK)
-        up_button = ft.IconButton(icon=ft.icons.ARROW_UPWARD)
+        back_button = ft.IconButton(icon=ft.icons.ARROW_BACK)
+        # up_button = ft.IconButton(icon=ft.icons.ARROW_UPWARD)
         tabs = ft.Tabs(
-            selected_index=0,
-            # animation_duration=300,
+                        
+            # selected_index = 0 if not e.data else int(e.data),
+            # selected_index = 0 if not self.controls.selected_index else int(self.controls.selected_index),
+            #selected_index = int(selected_tab),
+            selected_index = self.get_tab,
+            animation_duration=300,
             tabs=[               
                 ft.Tab(text="All"),
                 ft.Tab(text="Lists"),
                 ft.Tab(text="Favs")                
             ],
-            expand=True,
+            expand=True,            
             on_change=self.onchange_all
         )
         return ft.Row(
             [
                 tabs,
-                #back_button,
-                up_button                
+                back_button
+                #up_button                
             ],
             alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
             vertical_alignment=ft.CrossAxisAlignment.CENTER,
             expand=True
         )
-    def onchange_all(self,e):        
+    def onchange_all(self,e):            
+        print(f"Tab seleccionado: {e.control.tabs[e.control.selected_index].text}")
+        # self.selected_index=int(e.data)
+        #e.control.selected_index=int(e.data)
         if e.data =="0":            
-            self.page.go("/")             
+            self.page.go("/")                
+            # e.selected= True         
         elif e.data =="1":            
             self.page.go("/lists") 
         elif e.data =="2":            
             self.page.go("/favs") 
 
+        # self.update
+    
+    def get_tab(self=None, e=None):
+        print(f"Tab seleccionado: {e.control.tabs[e.control.selected_index].text}") if e else print("NO e")
+        return 0 if not e else int(e.controls.selected_index)
    
 
 

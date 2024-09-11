@@ -3,19 +3,21 @@ import flet as ft
 from utils import read_lists
 import os
 
-class Lists(ft.UserControl):
-    def __init__(self):
+class Lists(ft.Column):
+    def __init__(self,selected):
         super().__init__()
-        self.lists_directory = "/lists"
+        self.lists_directory = "./lists"
         self.selected_list = None
-        self.list_files = [
-            file for file in os.listdir(self.lists_directory) if file.endswith(".chlist")
+        print("----------ACAA------------")
+        print(os.listdir(self.lists_directory))
+        self.list_files = [            
+            file for file in os.listdir(self.lists_directory)if file.endswith(".chlist")
         ]
         self.list_content = []
 
     def build(self):
         # Lista de archivos .chlist
-        lists_view = ft.ListView(
+        lists_view = ft.Column(
             items=[
                 ft.TextButton(
                     text=list_file,
