@@ -17,15 +17,32 @@ class Lists(ft.Column):
 
     def build(self):
         # Lista de archivos .chlist
-        lists_view = ft.Column(
-            items=[
-                ft.TextButton(
-                    text=list_file,
-                    on_click=lambda e, file=list_file: self.on_list_click(file)
-                )
-                for list_file in self.list_files
-            ]
-        )
+        lists_view = ft.Column(           
+            lists_view.controls.append(
+                        ft.Container(
+                            padding=ft.Padding(left=10, top=5, right=0, bottom=5),
+                            content=ft.Row(
+                                controls=[
+                                    ft.Icon(ft.icons.INSERT_DRIVE_FILE),
+                                    ft.Text(self.list_files)
+                                    # ft.Text(file_name)
+                                ],                                                            
+                            ),
+                            #on_click=self.on_file_click
+                            on_click=lambda e, path=item: self.on_item_click(path)
+                        )
+                    )
+            )
+        '''
+        items=[
+            ft.TextButton(
+                text=list_file,
+                on_click=lambda e, file=list_file: self.on_list_click(file)
+            )
+            for list_file in self.list_files
+        ]
+        '''
+        
 
         # Lista de contenido de archivo seleccionado
         self.content_view = ft.ListView(

@@ -1,5 +1,7 @@
 import flet as ft
-import os
+# import os
+
+from components.global_cfg import GlobalCfg
 
 from components.menu_find_nav import *
 from components.button_bar import *
@@ -9,11 +11,12 @@ from screens.lists import *
 from screens.favs import *
 from screens.lists import *
 
+
 # ----Clases de Maquetacion-------------------------------------------
 class MainApp(ft.Column):
-    def __init__(self):
+    def __init__(self,back_link):
         super().__init__()
-        self.menu_find_nav = MenuFindNav()
+        self.menu_find_nav = MenuFindNav(back_link)
         # self.tab_selector = TabSelector()
         self.iconbutton_selector = IconButtonSelector()
         self.main_content = MainContent(buffer_file="./cfg/.buffer")            
@@ -23,10 +26,10 @@ class MainApp(ft.Column):
             self.main_content
         ]
 class FavsApp(ft.Column):
-    def __init__(self):
+    def __init__(self,back_link):
         super().__init__()
         #self.menu_find_nav = self.page.controls.menu_find_nav
-        self.menu_find_nav = MenuFindNav()
+        self.menu_find_nav = MenuFindNav(back_link)
         self.tab_selector = IconButtonSelector()        
         # self.tab_selector = TabSelector()
         self.favs_content = Favs()            
@@ -36,10 +39,10 @@ class FavsApp(ft.Column):
             self.favs_content
         ]
 class ListApp(ft.Column):
-    def __init__(self,selected):
+    def __init__(self,selected,back_link):
         super().__init__()
         #self.menu_find_nav = self.page.controls.menu_find_nav
-        self.menu_find_nav = MenuFindNav()
+        self.menu_find_nav = MenuFindNav(back_link)
         self.tab_selector = IconButtonSelector()                
         self.lists_content = Lists(selected)            
         self.controls = [
@@ -54,7 +57,8 @@ def main(page: ft.Page):
     page.title = "open CHEATSHEET pre-Alpha"
     page.vertical_alignment = ft.MainAxisAlignment.START
     page.scroll = ft.ScrollMode.ADAPTIVE  
-    nav = []
+    g_c = GlobalCfg()
+    # nav = []
     # Manejar rutas
     def route_change(route):        
         page.controls.clear()
@@ -84,28 +88,32 @@ def main(page: ft.Page):
 
         #-------RUTAS-------------------------
         if page.route == "/":
-            nav.append("/")
-            page.add(MainApp())  # Página principal           
+            g_c.add_nav("/")
+            # nav.append("/")
+            page.add(MainApp(g_c.get_nav_link()))  # Página principal           
         elif path == "/sheet":
-            nav.append(full_route)
+            g_c.add_nav(full_route)
+            # nav.append(full_route)
             page.title = selected_value + " [open CHEATSHEET pre-Alpha]"            
             page.add(CheatSheetViewer(s_value))        
         elif page.route == "/lists":
-            nav.append("/lists")
+            g_c.add_nav("/lists")
+            # nav.append("/lists")
             print("-----LISTS")
-            page.add(ListApp(0)) 
+            page.add(ListApp(0,g_c.get_nav_link())) 
         elif page.route == "/favs":
-            nav.append("/favs")
+            g_c.add_nav("/favs")
+            #nav.append("/favs")
             print("-----FAVS")
-            page.add(FavsApp())
+            page.add(FavsApp(g_c.get_nav_link()))
         else:
-            nav.append("/")
+            g_c.add_nav("/")
+            # nav.append("/")
             page.route = "/"
-            page.add(MainApp())
-        print(nav)
-        
-    
-    
+            page.add(MainApp(g_c.get_nav_link()))
+        print("MAIN:GET NAV LINK:")
+        print(g_c.get_nav_link())        
+   
 
     page.on_route_change = route_change
     page.go(page.route)  # Cargar la página principal al inicio

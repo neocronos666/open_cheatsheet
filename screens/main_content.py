@@ -88,24 +88,16 @@ class MainContent(ft.Column):
         return file_view
 
     def on_file_click(self, e):
-         #
-         # Aca deberia abrir una ventana con la formula
-         #self.selected_sheet = e.control.content.controls[1].value
-         #ft.app(target=sheet)
-         #print(f"Archivo seleccionado: {e.control.content.controls[1].value}")       
         
-    
         selected_value = e.control.content.controls[1].value
-        #self.page.route = f"/sheet/{selected_value}"
-        # print("-----------SUB sheet-------------------")
+        # if not selected_value: selected_value ="/"
         
-        # print(f"Archivo seleccionado: {e.control.content.controls[1].value}")       
-        # self.page.route = "fisica/cinematica/Movimiento rectilíneo uniforme"
-        self.selected = self.find_full_path(e.control.content.controls[1].value)
+        self.selected = self.find_full_path(selected_value) #problema aca
         
-        # print("Full Path:" + self.find_full_path(e.control.content.controls[1].value))
+        print("-----SELF.SELECTED:" + self.selected)
 
         self.page.go("/sheet?s=" + self.selected)
+
        
 
     def on_category_click(self, e):

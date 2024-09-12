@@ -2,3 +2,6 @@ relevamiento.txt
 docs/gui.xlsx
 estructura.json
 __pycache__
+qtest.py
+.pytest_cache
+.vscode
