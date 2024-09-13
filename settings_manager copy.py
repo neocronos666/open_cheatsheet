@@ -2,36 +2,58 @@
 import logging as lg
 import json
 import flet as ft
-from components.global_cfg import GlobalCfg
 
 class SettingsManager:
-
-
-
     def __init__(self, settings_file='cfg/settings.json'):
-        
         self.settings_file = settings_file
+        self.settings = self.load_settings()
+        self.setup_logging()
+        self.new_key_input = ""
+        self.new_value_input = ""
+        self.temp_settings = ""
 
-        self.g_c = GlobalCfg()
+    def load_settings(self): # [OK] PASADO
+        """Cargar configuraciones desde el archivo settings.json."""
+        with open(self.settings_file, 'r') as f:
+            settings = json.load(f)
+        return settings
 
-        # self.settings = self.load_settings()
-        self.settings = self.g_c.load_settings()
-        
-        # self.setup_logging()
-        self.g_c.setup_logging()
+    def setup_logging(self):# [OK] PASADO
+        """Configurar el sistema de logging según las opciones de configuración."""
+        logging_level = self.settings.get("logging_level", "INFO")
+        logging_file = self.settings.get("logging_file", "log/app.log")
+        logging_format = self.settings.get("logging_format", "%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 
-   
+        lg.basicConfig(level=logging_level,
+                            format=logging_format,
+                            handlers=[lg.FileHandler(logging_file), lg.StreamHandler()])
+
+        lg.info("Logging configurado correctamente.")
+
+    def update_setting(self, key, value):# [OK] PASADO
+        """Actualizar o agregar una configuración y guardarla en el archivo."""
+        self.settings[key] = value
+        with open(self.settings_file, 'w') as f:
+            json.dump(self.settings, f, indent=4)
+
+    def delete_setting(self, key):# [OK] PASADO
+        """Eliminar una configuración y guardarla en el archivo."""
+        if key in self.settings:
+            del self.settings[key]
+            with open(self.settings_file, 'w') as f:
+                json.dump(self.settings, f, indent=4)
+
+    def save_settings(self):# [OK] PASADO
+        """Guardar las configuraciones actuales en el archivo."""
+        with open(self.settings_file, 'w') as f:
+            json.dump(self.settings, f, indent=4)
 #-------------------------------------------------------------------------------------------
     def run_gui(self):# Deberia llamarse BUILD y extender a column?
         """Ejecutar la interfaz gráfica para editar configuraciones."""
-        # self.new_key_input = ""
-        # self.new_value_input = ""
-        # self.temp_settings = ""
-        temp_settings = {}
-        temp_settings = self.settings
-        new_key_input = None
-        new_value_input = None
-
+        self.new_key_input = ""
+        self.new_value_input = ""
+        self.temp_settings = ""
+        
         def build_controls():
             """Construir controles de la lista de configuraciones."""
             controls = []
@@ -45,11 +67,7 @@ class SettingsManager:
 
         def update_temp_settings(key, value):
             """Actualizar la configuración temporalmente antes de guardarla."""
-            print("UPDATE KEY: " + key + " VALUE: " + value)
-            # print(self.temp_settings)
-            self.temp_settings = {}
-            temp_settings = self.settings.copy()
-            self.temp_settings[key] = value
+            temp_settings[key] = value
 
         
         '''
@@ -63,7 +81,7 @@ class SettingsManager:
                 self.new_key_input = ""
                 self.new_value_input = ""
         '''
-        def add_setting(self):
+        def add_setting(self, e):
             """Agregar una nueva configuración a la lista."""
             new_key = self.new_key_input
             new_value = self.new_value_input
@@ -89,12 +107,9 @@ class SettingsManager:
 
         def delete_setting(key):
             """Eliminar una configuración."""
-            if key in self.temp_settings:
+            if key in temp_settings:
                 del temp_settings[key]
-                # update_list_view()
-            print("KEY: " + key)
-            print("SELF.temp_settings: ")
-            print[self.temp_settings]
+                update_list_view()
 
         def update_list_view():
             """Actualizar la vista de la lista de configuraciones."""
@@ -103,22 +118,14 @@ class SettingsManager:
 
         def save_settings_and_close(e):
             """Guardar las configuraciones y cerrar la aplicación."""
-            
-            # self.settings.update(temp_settings)
-            # self.settings.update(temp_settings) #-----------QUEDE ACA-----------
-
-            print(self.temp_settings)
-             # self.g_c.save_settings(self.temp_settings)            
-
-
-
+            self.settings.update(temp_settings)
+            self.save_settings()            
             # page.window_close() #--------------funcion deprecada
-            #    que save cambie a saved, espere 1 segundo y vuelva
-       
-        # temp_settings = self.settings.copy()
 
-        # --------------Crear la ventana de Flet------------ESTO SE VA PARA MAIN
-        def settings(page: ft.Page):
+        temp_settings = self.settings.copy()
+
+        # Crear la ventana de Flet
+        def main(page: ft.Page):
             page.title = "Settings Manager"
             page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
             page.vertical_alignment = ft.MainAxisAlignment.CENTER
@@ -145,7 +152,7 @@ class SettingsManager:
             )
 
         # Mostrar la ventana
-        ft.app(target=settings)
+        ft.app(target=main)
 
 # Código para ejecutar la ventana si este archivo se ejecuta directamente
 if __name__ == "__main__":

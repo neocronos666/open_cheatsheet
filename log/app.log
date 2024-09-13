@@ -450,3 +450,910 @@ NameError: name 'list_view' is not defined
 2024-09-11 16:08:17,158 - flet_runtime - INFO - Starting Flet View app...
 2024-09-11 16:08:17,159 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
 2024-09-11 16:08:18,310 - flet_runtime - INFO - App session started
+2024-09-12 20:56:07,720 - root - INFO - Logging configurado correctamente.
+2024-09-12 20:56:07,723 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 20:56:07,724 - flet_runtime - INFO - Starting up UDS server on /tmp/UUn03hFumK
+2024-09-12 20:56:07,725 - flet_runtime - INFO - Flet app has started...
+2024-09-12 20:56:07,726 - flet_runtime - INFO - App URL: /tmp/UUn03hFumK
+2024-09-12 20:56:07,726 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 20:56:07,726 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 20:56:09,343 - flet_runtime - INFO - App session started
+2024-09-12 21:08:27,344 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:08:27,347 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:08:27,352 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 21:08:27,356 - flet_runtime - INFO - Starting up UDS server on /tmp/QaW0KZUtL3
+2024-09-12 21:08:27,357 - flet_runtime - INFO - Flet app has started...
+2024-09-12 21:08:27,358 - flet_runtime - INFO - App URL: /tmp/QaW0KZUtL3
+2024-09-12 21:08:27,358 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 21:08:27,359 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 21:08:28,938 - flet_runtime - INFO - App session started
+2024-09-12 21:15:00,765 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:15:00,766 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:15:00,768 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 21:15:00,770 - flet_runtime - INFO - Starting up UDS server on /tmp/ZBelbLMQMX
+2024-09-12 21:15:00,771 - flet_runtime - INFO - Flet app has started...
+2024-09-12 21:15:00,771 - flet_runtime - INFO - App URL: /tmp/ZBelbLMQMX
+2024-09-12 21:15:00,771 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 21:15:00,772 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 21:15:02,280 - flet_runtime - INFO - App session started
+2024-09-12 21:15:08,824 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=NameError("name 'list_view' is not defined")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 75, in <lambda>
+    ft.IconButton(ft.icons.DELETE, on_click=lambda e: delete_setting(key))
+                                                      ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 123, in delete_setting
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 127, in update_list_view
+    list_view.controls = build_controls() #------------
+    ^^^^^^^^^
+NameError: name 'list_view' is not defined
+2024-09-12 21:18:36,525 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:18:36,526 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:18:36,528 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 21:18:36,530 - flet_runtime - INFO - Starting up UDS server on /tmp/kgYZz0Ockg
+2024-09-12 21:18:36,531 - flet_runtime - INFO - Flet app has started...
+2024-09-12 21:18:36,531 - flet_runtime - INFO - App URL: /tmp/kgYZz0Ockg
+2024-09-12 21:18:36,531 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 21:18:36,532 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 21:18:38,356 - flet_runtime - INFO - App session started
+2024-09-12 21:18:45,263 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=NameError("name 'list_view' is not defined")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 75, in <lambda>
+    ft.IconButton(ft.icons.DELETE, on_click=lambda e: delete_setting(key))
+                                                      ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 123, in delete_setting
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 127, in update_list_view
+    list_view.controls = build_controls() #------------
+    ^^^^^^^^^
+NameError: name 'list_view' is not defined
+2024-09-12 21:24:52,066 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:24:52,067 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:24:52,069 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 21:24:52,071 - flet_runtime - INFO - Starting up UDS server on /tmp/xPiaPB37H7
+2024-09-12 21:24:52,072 - flet_runtime - INFO - Flet app has started...
+2024-09-12 21:24:52,072 - flet_runtime - INFO - App URL: /tmp/xPiaPB37H7
+2024-09-12 21:24:52,072 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 21:24:52,073 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 21:24:53,623 - flet_runtime - INFO - App session started
+2024-09-12 21:25:06,184 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("SettingsManager.run_gui.<locals>.add_setting() missing 1 required positional argument: 'e'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+TypeError: SettingsManager.run_gui.<locals>.add_setting() missing 1 required positional argument: 'e'
+2024-09-12 21:27:04,168 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:27:04,169 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:27:22,050 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:27:22,051 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:27:22,053 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 21:27:22,055 - flet_runtime - INFO - Starting up UDS server on /tmp/VeUaNcFqeA
+2024-09-12 21:27:22,055 - flet_runtime - INFO - Flet app has started...
+2024-09-12 21:27:22,056 - flet_runtime - INFO - App URL: /tmp/VeUaNcFqeA
+2024-09-12 21:27:22,056 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 21:27:22,057 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 21:27:23,779 - flet_runtime - INFO - App session started
+2024-09-12 21:28:41,630 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:28:41,638 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:28:54,550 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 21:28:54,560 - flet_runtime - INFO - Starting up UDS server on /tmp/fvIYoqb3oV
+2024-09-12 21:28:54,565 - flet_runtime - INFO - Flet app has started...
+2024-09-12 21:28:54,566 - flet_runtime - INFO - App URL: /tmp/fvIYoqb3oV
+2024-09-12 21:28:54,568 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 21:28:54,572 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 21:28:56,455 - flet_runtime - INFO - App session started
+2024-09-12 21:29:05,483 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("SettingsManager.run_gui.<locals>.add_setting() missing 1 required positional argument: 'e'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+TypeError: SettingsManager.run_gui.<locals>.add_setting() missing 1 required positional argument: 'e'
+2024-09-12 21:30:25,650 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:30:25,651 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:30:25,653 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 21:30:25,654 - flet_runtime - INFO - Starting up UDS server on /tmp/2s18NsTifM
+2024-09-12 21:30:25,655 - flet_runtime - INFO - Flet app has started...
+2024-09-12 21:30:25,655 - flet_runtime - INFO - App URL: /tmp/2s18NsTifM
+2024-09-12 21:30:25,656 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 21:30:25,656 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 21:30:27,706 - flet_runtime - INFO - App session started
+2024-09-12 21:30:34,153 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'new_key_input'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 97, in add_setting
+    new_key = self.new_key_input
+              ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'new_key_input'
+2024-09-12 21:34:09,932 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:34:09,936 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:34:09,938 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 21:34:09,940 - flet_runtime - INFO - Starting up UDS server on /tmp/iiZRJ2tJKD
+2024-09-12 21:34:09,945 - flet_runtime - INFO - Flet app has started...
+2024-09-12 21:34:09,947 - flet_runtime - INFO - App URL: /tmp/iiZRJ2tJKD
+2024-09-12 21:34:09,949 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 21:34:09,951 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 21:34:11,853 - flet_runtime - INFO - App session started
+2024-09-12 21:34:22,735 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:34:22,736 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:34:22,737 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 21:34:22,739 - flet_runtime - INFO - Starting up UDS server on /tmp/H5VKarucy4
+2024-09-12 21:34:22,740 - flet_runtime - INFO - Flet app has started...
+2024-09-12 21:34:22,740 - flet_runtime - INFO - App URL: /tmp/H5VKarucy4
+2024-09-12 21:34:22,740 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 21:34:22,741 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 21:34:24,237 - flet_runtime - INFO - App session started
+2024-09-12 21:34:30,104 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'save_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 135, in save_settings_and_close
+    self.save_settings()
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'save_settings'. Did you mean: 'temp_settings'?
+2024-09-12 21:45:48,270 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:45:48,271 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:45:48,273 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 21:45:48,275 - flet_runtime - INFO - Starting up UDS server on /tmp/fpFdYbTvPy
+2024-09-12 21:45:48,276 - flet_runtime - INFO - Flet app has started...
+2024-09-12 21:45:48,276 - flet_runtime - INFO - App URL: /tmp/fpFdYbTvPy
+2024-09-12 21:45:48,276 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 21:45:48,277 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 21:45:49,725 - flet_runtime - INFO - App session started
+2024-09-12 21:45:56,225 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 21:45:56,422 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 21:45:56,615 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 21:46:07,082 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:46:07,083 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:46:07,085 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 21:46:07,086 - flet_runtime - INFO - Starting up UDS server on /tmp/Rci16xjwUV
+2024-09-12 21:46:07,087 - flet_runtime - INFO - Flet app has started...
+2024-09-12 21:46:07,087 - flet_runtime - INFO - App URL: /tmp/Rci16xjwUV
+2024-09-12 21:46:07,088 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 21:46:07,088 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 21:46:08,623 - flet_runtime - INFO - App session started
+2024-09-12 21:46:13,160 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 21:46:13,378 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 21:46:13,576 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 21:46:14,511 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 21:50:28,812 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:50:28,816 - root - INFO - Logging configurado correctamente.
+2024-09-12 21:51:22,993 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 21:51:23,005 - flet_runtime - INFO - Starting up UDS server on /tmp/aWhuqMOSJR
+2024-09-12 21:51:23,010 - flet_runtime - INFO - Flet app has started...
+2024-09-12 21:51:23,012 - flet_runtime - INFO - App URL: /tmp/aWhuqMOSJR
+2024-09-12 21:51:23,014 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 21:51:23,018 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 21:51:24,798 - flet_runtime - INFO - App session started
+2024-09-12 21:51:27,704 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 21:51:44,672 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:10:30,983 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:10:30,987 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:10:30,991 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:10:30,996 - flet_runtime - INFO - Starting up UDS server on /tmp/yXd8Vsvbfg
+2024-09-12 22:10:30,999 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:10:31,004 - flet_runtime - INFO - App URL: /tmp/yXd8Vsvbfg
+2024-09-12 22:10:31,005 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:10:31,006 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:10:32,843 - flet_runtime - INFO - App session started
+2024-09-12 22:10:35,536 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("invalid literal for int() with base 10: 'selected_template2'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[int(key)] = value
+                       ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'selected_template2'
+2024-09-12 22:10:35,769 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("invalid literal for int() with base 10: 'selected_template2'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[int(key)] = value
+                       ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'selected_template2'
+2024-09-12 22:10:35,937 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("invalid literal for int() with base 10: 'selected_template2'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[int(key)] = value
+                       ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'selected_template2'
+2024-09-12 22:10:46,801 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:10:46,803 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:10:46,807 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:10:46,811 - flet_runtime - INFO - Starting up UDS server on /tmp/cKbKLssbPy
+2024-09-12 22:10:46,812 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:10:46,813 - flet_runtime - INFO - App URL: /tmp/cKbKLssbPy
+2024-09-12 22:10:46,814 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:10:46,815 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:10:49,067 - flet_runtime - INFO - App session started
+2024-09-12 22:11:30,251 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:11:30,252 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:11:30,254 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:11:30,255 - flet_runtime - INFO - Starting up UDS server on /tmp/gjrK6LyPJk
+2024-09-12 22:11:30,256 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:11:30,257 - flet_runtime - INFO - App URL: /tmp/gjrK6LyPJk
+2024-09-12 22:11:30,257 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:11:30,258 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:11:32,088 - flet_runtime - INFO - App session started
+2024-09-12 22:11:35,767 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("invalid literal for int() with base 10: 'selected_template2'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 77, in <lambda>
+    ft.IconButton(ft.icons.DELETE, on_click=lambda e: delete_setting(key))
+                                                      ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 124, in delete_setting
+    del temp_settings[int(key)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'selected_template2'
+2024-09-12 22:12:48,629 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:12:48,629 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:12:48,631 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:12:48,633 - flet_runtime - INFO - Starting up UDS server on /tmp/2IVJEnJIK9
+2024-09-12 22:12:48,634 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:12:48,634 - flet_runtime - INFO - App URL: /tmp/2IVJEnJIK9
+2024-09-12 22:12:48,634 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:12:48,635 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:12:50,204 - flet_runtime - INFO - App session started
+2024-09-12 22:13:06,985 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:13:06,985 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:13:06,987 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:13:06,989 - flet_runtime - INFO - Starting up UDS server on /tmp/DhI7q8tGby
+2024-09-12 22:13:06,990 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:13:06,990 - flet_runtime - INFO - App URL: /tmp/DhI7q8tGby
+2024-09-12 22:13:06,991 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:13:06,991 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:13:08,578 - flet_runtime - INFO - App session started
+2024-09-12 22:13:29,442 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:13:29,443 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:13:29,445 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:13:29,447 - flet_runtime - INFO - Starting up UDS server on /tmp/DbisjzNUsp
+2024-09-12 22:13:29,447 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:13:29,448 - flet_runtime - INFO - App URL: /tmp/DbisjzNUsp
+2024-09-12 22:13:29,448 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:13:29,449 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:13:31,097 - flet_runtime - INFO - App session started
+2024-09-12 22:14:45,157 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:14:45,160 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:20:43,401 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:20:43,402 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:20:43,404 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:20:43,406 - flet_runtime - INFO - Starting up UDS server on /tmp/o9YfQptkSM
+2024-09-12 22:20:43,407 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:20:43,407 - flet_runtime - INFO - App URL: /tmp/o9YfQptkSM
+2024-09-12 22:20:43,407 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:20:43,408 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:20:44,967 - flet_runtime - INFO - App session started
+2024-09-12 22:22:07,244 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:22:07,247 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:22:07,251 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:22:07,255 - flet_runtime - INFO - Starting up UDS server on /tmp/srcgihN17s
+2024-09-12 22:22:07,257 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:22:07,260 - flet_runtime - INFO - App URL: /tmp/srcgihN17s
+2024-09-12 22:22:07,261 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:22:07,263 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:22:08,961 - flet_runtime - INFO - App session started
+2024-09-12 22:22:11,742 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'builtin_function_or_method' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 77, in <lambda>
+    ft.IconButton(ft.icons.DELETE, on_click=lambda e: delete_setting(key))
+                                                      ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 128, in delete_setting
+    print[self.temp_settings]
+    ~~~~~^^^^^^^^^^^^^^^^^^^^
+TypeError: 'builtin_function_or_method' object is not subscriptable
+2024-09-12 22:27:22,761 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:27:22,762 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:27:22,764 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:27:22,766 - flet_runtime - INFO - Starting up UDS server on /tmp/MSnTpx9Okg
+2024-09-12 22:27:22,766 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:27:22,767 - flet_runtime - INFO - App URL: /tmp/MSnTpx9Okg
+2024-09-12 22:27:22,767 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:27:22,768 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:27:24,080 - flet_runtime - INFO - App session started
+2024-09-12 22:27:30,553 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:27:30,713 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:27:30,898 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:27:33,784 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'builtin_function_or_method' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 77, in <lambda>
+    ft.IconButton(ft.icons.DELETE, on_click=lambda e: delete_setting(key))
+                                                      ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 128, in delete_setting
+    print[self.temp_settings]
+    ~~~~~^^^^^^^^^^^^^^^^^^^^
+TypeError: 'builtin_function_or_method' object is not subscriptable
+2024-09-12 22:27:43,869 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:27:43,872 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:27:43,875 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:27:43,878 - flet_runtime - INFO - Starting up UDS server on /tmp/iko98SMKEA
+2024-09-12 22:27:43,880 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:27:43,880 - flet_runtime - INFO - App URL: /tmp/iko98SMKEA
+2024-09-12 22:27:43,880 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:27:43,882 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:27:45,281 - flet_runtime - INFO - App session started
+2024-09-12 22:28:15,512 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:28:15,513 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:28:15,515 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:28:15,517 - flet_runtime - INFO - Starting up UDS server on /tmp/JgULulVnNr
+2024-09-12 22:28:15,517 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:28:15,518 - flet_runtime - INFO - App URL: /tmp/JgULulVnNr
+2024-09-12 22:28:15,518 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:28:15,518 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:28:16,766 - flet_runtime - INFO - App session started
+2024-09-12 22:28:28,827 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:28:29,114 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:28:29,338 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 83, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:30:19,470 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:30:19,471 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:30:19,473 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:30:19,475 - flet_runtime - INFO - Starting up UDS server on /tmp/AinY2a0f1H
+2024-09-12 22:30:19,475 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:30:19,476 - flet_runtime - INFO - App URL: /tmp/AinY2a0f1H
+2024-09-12 22:30:19,476 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:30:19,477 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:30:20,822 - flet_runtime - INFO - App session started
+2024-09-12 22:30:26,168 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 84, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:30:27,440 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 84, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:30:27,886 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 84, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:30:28,415 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 84, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:30:29,534 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 84, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:30:29,998 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 84, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:31:30,611 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:31:30,612 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:31:30,614 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:31:30,615 - flet_runtime - INFO - Starting up UDS server on /tmp/la2NelMeRZ
+2024-09-12 22:31:30,616 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:31:30,616 - flet_runtime - INFO - App URL: /tmp/la2NelMeRZ
+2024-09-12 22:31:30,617 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:31:30,617 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:31:31,965 - flet_runtime - INFO - App session started
+2024-09-12 22:31:35,714 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 85, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:33:00,813 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:33:00,814 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:33:00,816 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:33:00,818 - flet_runtime - INFO - Starting up UDS server on /tmp/x82TnLDLhP
+2024-09-12 22:33:00,819 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:33:00,819 - flet_runtime - INFO - App URL: /tmp/x82TnLDLhP
+2024-09-12 22:33:00,819 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:33:00,820 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:33:02,085 - flet_runtime - INFO - App session started
+2024-09-12 22:33:05,421 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 85, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:34:49,179 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:34:49,180 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:34:49,182 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:34:49,185 - flet_runtime - INFO - Starting up UDS server on /tmp/TTg3S83fuk
+2024-09-12 22:34:49,186 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:34:49,186 - flet_runtime - INFO - App URL: /tmp/TTg3S83fuk
+2024-09-12 22:34:49,187 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:34:49,188 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:34:50,704 - flet_runtime - INFO - App session started
+2024-09-12 22:34:55,045 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'str' object does not support item assignment")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 76, in <lambda>
+    ft.TextField(value=str(value), expand=2, on_change=lambda e: update_temp_settings(key, e.control.value)),
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 86, in update_temp_settings
+    self.temp_settings[key] = value
+    ~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'str' object does not support item assignment
+2024-09-12 22:35:47,244 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:35:47,246 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:35:47,247 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:35:47,249 - flet_runtime - INFO - Starting up UDS server on /tmp/yAnJWwCOzR
+2024-09-12 22:35:47,249 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:35:47,249 - flet_runtime - INFO - App URL: /tmp/yAnJWwCOzR
+2024-09-12 22:35:47,250 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:35:47,250 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:35:48,898 - flet_runtime - INFO - App session started
+2024-09-12 22:36:13,898 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:36:13,899 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:36:13,902 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:36:13,904 - flet_runtime - INFO - Starting up UDS server on /tmp/FVWSD2Md43
+2024-09-12 22:36:13,906 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:36:13,906 - flet_runtime - INFO - App URL: /tmp/FVWSD2Md43
+2024-09-12 22:36:13,906 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:36:13,907 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:36:15,912 - flet_runtime - INFO - App session started
+2024-09-12 22:36:25,705 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:36:25,707 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:36:25,709 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:36:25,711 - flet_runtime - INFO - Starting up UDS server on /tmp/DwLyTmHeXZ
+2024-09-12 22:36:25,711 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:36:25,712 - flet_runtime - INFO - App URL: /tmp/DwLyTmHeXZ
+2024-09-12 22:36:25,712 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:36:25,713 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:36:27,261 - flet_runtime - INFO - App session started
+2024-09-12 22:40:31,161 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:40:31,162 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:40:31,164 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:40:31,166 - flet_runtime - INFO - Starting up UDS server on /tmp/eE9hclflYe
+2024-09-12 22:40:31,167 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:40:31,167 - flet_runtime - INFO - App URL: /tmp/eE9hclflYe
+2024-09-12 22:40:31,168 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:40:31,168 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:40:32,666 - flet_runtime - INFO - App session started
+2024-09-12 22:40:48,539 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'new_key_input'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 103, in add_setting
+    new_key = self.new_key_input
+              ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'new_key_input'
+2024-09-12 22:42:10,160 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:42:10,161 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:42:10,163 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:42:10,164 - flet_runtime - INFO - Starting up UDS server on /tmp/tyEWmy0Pu6
+2024-09-12 22:42:10,165 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:42:10,165 - flet_runtime - INFO - App URL: /tmp/tyEWmy0Pu6
+2024-09-12 22:42:10,166 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:42:10,166 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:42:11,710 - flet_runtime - INFO - App session started
+2024-09-12 22:42:22,405 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:42:22,406 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:42:22,408 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:42:22,411 - flet_runtime - INFO - Starting up UDS server on /tmp/vbAm9UZPpq
+2024-09-12 22:42:22,412 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:42:22,412 - flet_runtime - INFO - App URL: /tmp/vbAm9UZPpq
+2024-09-12 22:42:22,413 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:42:22,414 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:42:24,046 - flet_runtime - INFO - App session started
+2024-09-12 22:53:56,209 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:53:56,212 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:53:56,215 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:53:56,218 - flet_runtime - INFO - Starting up UDS server on /tmp/Jv4kcqFFVE
+2024-09-12 22:53:56,220 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:53:56,220 - flet_runtime - INFO - App URL: /tmp/Jv4kcqFFVE
+2024-09-12 22:53:56,221 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:53:56,222 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:53:57,805 - flet_runtime - INFO - App session started
+2024-09-12 22:54:11,840 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:54:11,841 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:54:11,843 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:54:11,845 - flet_runtime - INFO - Starting up UDS server on /tmp/3z2dGZ8zkw
+2024-09-12 22:54:11,845 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:54:11,846 - flet_runtime - INFO - App URL: /tmp/3z2dGZ8zkw
+2024-09-12 22:54:11,846 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:54:11,846 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:54:13,441 - flet_runtime - INFO - App session started
+2024-09-12 22:56:18,439 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:56:18,440 - root - INFO - Logging configurado correctamente.
+2024-09-12 22:56:18,442 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 22:56:18,444 - flet_runtime - INFO - Starting up UDS server on /tmp/DWXocH6tVX
+2024-09-12 22:56:18,446 - flet_runtime - INFO - Flet app has started...
+2024-09-12 22:56:18,446 - flet_runtime - INFO - App URL: /tmp/DWXocH6tVX
+2024-09-12 22:56:18,446 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 22:56:18,447 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 22:56:19,940 - flet_runtime - INFO - App session started
+2024-09-12 22:56:23,208 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 108, in save_settings_and_close
+    print(self.temp_settings)
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'temp_settings'
+2024-09-12 23:00:07,617 - root - INFO - Logging configurado correctamente.
+2024-09-12 23:00:07,620 - root - INFO - Logging configurado correctamente.
+2024-09-12 23:00:07,623 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-12 23:00:07,625 - flet_runtime - INFO - Starting up UDS server on /tmp/w87Ip8iZSx
+2024-09-12 23:00:07,626 - flet_runtime - INFO - Flet app has started...
+2024-09-12 23:00:07,627 - flet_runtime - INFO - App URL: /tmp/w87Ip8iZSx
+2024-09-12 23:00:07,627 - flet_runtime - INFO - Starting Flet View app...
+2024-09-12 23:00:07,628 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-12 23:00:09,275 - flet_runtime - INFO - App session started
+2024-09-12 23:00:15,765 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 110, in save_settings_and_close
+    print(self.temp_settings)
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'temp_settings'
