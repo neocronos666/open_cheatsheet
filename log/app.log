@@ -1357,3 +1357,2394 @@ Traceback (most recent call last):
     print(self.temp_settings)
           ^^^^^^^^^^^^^^^^^^
 AttributeError: 'SettingsManager' object has no attribute 'temp_settings'
+2024-09-13 13:13:45,321 - root - INFO - Logging configurado correctamente.
+2024-09-13 13:13:45,322 - root - INFO - Logging configurado correctamente.
+2024-09-13 13:13:45,325 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 13:13:45,328 - flet_runtime - INFO - Starting up UDS server on /tmp/U4mGm6aCzN
+2024-09-13 13:13:45,329 - flet_runtime - INFO - Flet app has started...
+2024-09-13 13:13:45,330 - flet_runtime - INFO - App URL: /tmp/U4mGm6aCzN
+2024-09-13 13:13:45,330 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 13:13:45,333 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 13:13:47,920 - flet_runtime - INFO - App session started
+2024-09-13 13:13:52,213 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 42, in <lambda>
+    ft.IconButton(ft.icons.DELETE, on_click=lambda e: delete_setting(key))
+                                                      ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 92, in delete_setting
+    if key in self.temp_settings:
+              ^^^^^^^^^^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'temp_settings'
+2024-09-13 13:17:15,481 - root - INFO - Logging configurado correctamente.
+2024-09-13 13:17:15,489 - root - INFO - Logging configurado correctamente.
+2024-09-13 13:17:15,494 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 13:17:15,501 - flet_runtime - INFO - Starting up UDS server on /tmp/Hp5PivWCGM
+2024-09-13 13:17:15,507 - flet_runtime - INFO - Flet app has started...
+2024-09-13 13:17:15,510 - flet_runtime - INFO - App URL: /tmp/Hp5PivWCGM
+2024-09-13 13:17:15,511 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 13:17:15,512 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 13:17:17,375 - flet_runtime - INFO - App session started
+2024-09-13 13:17:21,091 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'builtin_function_or_method' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 42, in <lambda>
+    ft.IconButton(ft.icons.DELETE, on_click=lambda e: delete_setting(key))
+                                                      ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 97, in delete_setting
+    print[self.temp_settings]
+    ~~~~~^^^^^^^^^^^^^^^^^^^^
+TypeError: 'builtin_function_or_method' object is not subscriptable
+2024-09-13 13:18:35,322 - root - INFO - Logging configurado correctamente.
+2024-09-13 13:19:36,690 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=UnboundLocalError("cannot access local variable 'lists_view' where it is not associated with a value")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(ListApp(0,g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 445, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 513, in _build_add_commands
+    content = self.build()
+              ^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 21, in build
+    lists_view.controls.append(
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'lists_view' where it is not associated with a value
+2024-09-13 14:53:23,594 - root - INFO - Logging configurado correctamente.
+2024-09-13 14:53:23,598 - root - INFO - Logging configurado correctamente.
+2024-09-13 14:54:36,465 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 14:54:36,475 - flet_runtime - INFO - Starting up UDS server on /tmp/biFFgkU7w0
+2024-09-13 14:54:36,479 - flet_runtime - INFO - Flet app has started...
+2024-09-13 14:54:36,482 - flet_runtime - INFO - App URL: /tmp/biFFgkU7w0
+2024-09-13 14:54:36,484 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 14:54:36,488 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 14:54:38,351 - flet_runtime - INFO - App session started
+2024-09-13 15:05:59,350 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:05:59,351 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:05:59,354 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:05:59,356 - flet_runtime - INFO - Starting up UDS server on /tmp/fmy1Smn2TK
+2024-09-13 15:05:59,358 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:05:59,359 - flet_runtime - INFO - App URL: /tmp/fmy1Smn2TK
+2024-09-13 15:05:59,360 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:05:59,361 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:06:00,919 - flet_runtime - INFO - App session started
+2024-09-13 15:06:06,838 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("unhashable type: 'dict'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 112, in save_settings_and_close
+    if self.temp_settings in self.temp_settings:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'dict'
+2024-09-13 15:07:05,878 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:07:05,879 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:07:05,882 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:07:05,883 - flet_runtime - INFO - Starting up UDS server on /tmp/FDIakQ8Ycu
+2024-09-13 15:07:05,884 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:07:05,885 - flet_runtime - INFO - App URL: /tmp/FDIakQ8Ycu
+2024-09-13 15:07:05,885 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:07:05,887 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:07:07,778 - flet_runtime - INFO - App session started
+2024-09-13 15:12:06,377 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:12:06,380 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:12:06,390 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:12:06,393 - flet_runtime - INFO - Starting up UDS server on /tmp/XONQJynshR
+2024-09-13 15:12:06,397 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:12:06,400 - flet_runtime - INFO - App URL: /tmp/XONQJynshR
+2024-09-13 15:12:06,405 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:12:06,410 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:12:08,543 - flet_runtime - INFO - App session started
+2024-09-13 15:12:21,986 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:12:21,989 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:12:21,992 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:12:21,994 - flet_runtime - INFO - Starting up UDS server on /tmp/zpuChG9HbS
+2024-09-13 15:12:21,995 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:12:21,996 - flet_runtime - INFO - App URL: /tmp/zpuChG9HbS
+2024-09-13 15:12:21,996 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:12:21,997 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:12:24,166 - flet_runtime - INFO - App session started
+2024-09-13 15:16:41,195 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:16:41,196 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:16:41,199 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:16:41,200 - flet_runtime - INFO - Starting up UDS server on /tmp/1rrvgkRkad
+2024-09-13 15:16:41,201 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:16:41,202 - flet_runtime - INFO - App URL: /tmp/1rrvgkRkad
+2024-09-13 15:16:41,202 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:16:41,203 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:16:43,027 - flet_runtime - INFO - App session started
+2024-09-13 15:16:53,546 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'builtin_function_or_method' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 42, in <lambda>
+    ft.IconButton(ft.icons.DELETE, on_click=lambda e: delete_setting(key))
+                                                      ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 105, in delete_setting
+    print[self.temp_settings]
+    ~~~~~^^^^^^^^^^^^^^^^^^^^
+TypeError: 'builtin_function_or_method' object is not subscriptable
+2024-09-13 15:18:42,176 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:18:42,177 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:18:42,179 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:18:42,182 - flet_runtime - INFO - Starting up UDS server on /tmp/4Fia3v48zK
+2024-09-13 15:18:42,183 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:18:42,184 - flet_runtime - INFO - App URL: /tmp/4Fia3v48zK
+2024-09-13 15:18:42,184 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:18:42,186 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:18:43,921 - flet_runtime - INFO - App session started
+2024-09-13 15:20:47,356 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:20:47,359 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:20:47,365 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:20:47,368 - flet_runtime - INFO - Starting up UDS server on /tmp/jHEb6TS4up
+2024-09-13 15:20:47,373 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:20:47,375 - flet_runtime - INFO - App URL: /tmp/jHEb6TS4up
+2024-09-13 15:20:47,379 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:20:47,380 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:20:49,297 - flet_runtime - INFO - App session started
+2024-09-13 15:22:59,989 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:22:59,994 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:23:24,862 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:23:24,882 - flet_runtime - INFO - Starting up UDS server on /tmp/Pz4RI3z0Be
+2024-09-13 15:23:24,888 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:23:24,891 - flet_runtime - INFO - App URL: /tmp/Pz4RI3z0Be
+2024-09-13 15:23:24,895 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:23:24,905 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:23:27,062 - flet_runtime - INFO - App session started
+2024-09-13 15:25:13,831 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:25:13,833 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:25:13,835 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:25:13,837 - flet_runtime - INFO - Starting up UDS server on /tmp/du11YXn6Sv
+2024-09-13 15:25:13,840 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:25:13,841 - flet_runtime - INFO - App URL: /tmp/du11YXn6Sv
+2024-09-13 15:25:13,841 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:25:13,842 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:25:15,705 - flet_runtime - INFO - App session started
+2024-09-13 15:25:39,706 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:25:39,707 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:25:39,709 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:25:39,711 - flet_runtime - INFO - Starting up UDS server on /tmp/4OXEn5fNDC
+2024-09-13 15:25:39,712 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:25:39,713 - flet_runtime - INFO - App URL: /tmp/4OXEn5fNDC
+2024-09-13 15:25:39,713 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:25:39,714 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:25:41,479 - flet_runtime - INFO - App session started
+2024-09-13 15:26:12,159 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:26:12,160 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:26:12,162 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:26:12,164 - flet_runtime - INFO - Starting up UDS server on /tmp/e4pVV1VuEH
+2024-09-13 15:26:12,165 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:26:12,165 - flet_runtime - INFO - App URL: /tmp/e4pVV1VuEH
+2024-09-13 15:26:12,165 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:26:12,166 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:26:14,295 - flet_runtime - INFO - App session started
+2024-09-13 15:35:46,001 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:37:57,657 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:38:14,458 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=UnboundLocalError("cannot access local variable 'lists_view' where it is not associated with a value")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(ListApp(0,g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 445, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 513, in _build_add_commands
+    content = self.build()
+              ^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 21, in build
+    lists_view.controls.append(
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'lists_view' where it is not associated with a value
+2024-09-13 15:46:04,245 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:46:04,246 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:46:04,248 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:46:04,250 - flet_runtime - INFO - Starting up UDS server on /tmp/095GkKJpZb
+2024-09-13 15:46:04,251 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:46:04,251 - flet_runtime - INFO - App URL: /tmp/095GkKJpZb
+2024-09-13 15:46:04,251 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:46:04,252 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:46:06,108 - flet_runtime - INFO - App session started
+2024-09-13 15:46:20,575 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:46:20,576 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:46:20,579 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:46:20,581 - flet_runtime - INFO - Starting up UDS server on /tmp/Uda58WrUqo
+2024-09-13 15:46:20,582 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:46:20,582 - flet_runtime - INFO - App URL: /tmp/Uda58WrUqo
+2024-09-13 15:46:20,582 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:46:20,584 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:46:22,504 - flet_runtime - INFO - App session started
+2024-09-13 15:57:49,804 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:57:49,809 - root - INFO - Logging configurado correctamente.
+2024-09-13 15:57:49,821 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 15:57:49,829 - flet_runtime - INFO - Starting up UDS server on /tmp/EpjqpvgLwJ
+2024-09-13 15:57:49,833 - flet_runtime - INFO - Flet app has started...
+2024-09-13 15:57:49,835 - flet_runtime - INFO - App URL: /tmp/EpjqpvgLwJ
+2024-09-13 15:57:49,836 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 15:57:49,841 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 15:57:51,707 - flet_runtime - INFO - App session started
+2024-09-13 16:02:15,100 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:02:15,101 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:02:15,104 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 16:02:15,105 - flet_runtime - INFO - Starting up UDS server on /tmp/Un0oRpola7
+2024-09-13 16:02:15,106 - flet_runtime - INFO - Flet app has started...
+2024-09-13 16:02:15,106 - flet_runtime - INFO - App URL: /tmp/Un0oRpola7
+2024-09-13 16:02:15,107 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 16:02:15,108 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 16:02:16,950 - flet_runtime - INFO - App session started
+2024-09-13 16:05:01,268 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:05:01,269 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:05:01,271 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 16:05:01,273 - flet_runtime - INFO - Starting up UDS server on /tmp/3VeXwet7dx
+2024-09-13 16:05:01,274 - flet_runtime - INFO - Flet app has started...
+2024-09-13 16:05:01,275 - flet_runtime - INFO - App URL: /tmp/3VeXwet7dx
+2024-09-13 16:05:01,275 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 16:05:01,276 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 16:05:03,178 - flet_runtime - INFO - App session started
+2024-09-13 16:05:24,207 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:05:24,208 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:05:24,211 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 16:05:24,213 - flet_runtime - INFO - Starting up UDS server on /tmp/9Lkz1QbeTz
+2024-09-13 16:05:24,215 - flet_runtime - INFO - Flet app has started...
+2024-09-13 16:05:24,216 - flet_runtime - INFO - App URL: /tmp/9Lkz1QbeTz
+2024-09-13 16:05:24,216 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 16:05:24,218 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 16:05:26,070 - flet_runtime - INFO - App session started
+2024-09-13 16:16:19,933 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:16:19,937 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:16:48,940 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 16:16:48,956 - flet_runtime - INFO - Starting up UDS server on /tmp/uKqqjU2otk
+2024-09-13 16:16:48,960 - flet_runtime - INFO - Flet app has started...
+2024-09-13 16:16:48,967 - flet_runtime - INFO - App URL: /tmp/uKqqjU2otk
+2024-09-13 16:16:48,970 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 16:16:48,977 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 16:16:51,375 - flet_runtime - INFO - App session started
+2024-09-13 16:24:05,371 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:24:05,372 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:24:05,374 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 16:24:05,377 - flet_runtime - INFO - Starting up UDS server on /tmp/j4FuytGdFV
+2024-09-13 16:24:05,378 - flet_runtime - INFO - Flet app has started...
+2024-09-13 16:24:05,378 - flet_runtime - INFO - App URL: /tmp/j4FuytGdFV
+2024-09-13 16:24:05,378 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 16:24:05,379 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 16:24:07,287 - flet_runtime - INFO - App session started
+2024-09-13 16:24:11,237 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("SettingsManager.run_gui.<locals>.update_list_view() missing 1 required positional argument: 'self'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 42, in <lambda>
+    ft.IconButton(ft.icons.DELETE, on_click=lambda e: delete_setting(key))
+                                                      ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 100, in delete_setting
+    update_list_view()
+TypeError: SettingsManager.run_gui.<locals>.update_list_view() missing 1 required positional argument: 'self'
+2024-09-13 16:25:22,388 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:25:22,388 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:25:22,391 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 16:25:22,393 - flet_runtime - INFO - Starting up UDS server on /tmp/VnNy70EqJd
+2024-09-13 16:25:22,394 - flet_runtime - INFO - Flet app has started...
+2024-09-13 16:25:22,394 - flet_runtime - INFO - App URL: /tmp/VnNy70EqJd
+2024-09-13 16:25:22,395 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 16:25:22,396 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 16:25:25,077 - flet_runtime - INFO - App session started
+2024-09-13 16:25:28,459 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'update'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 42, in <lambda>
+    ft.IconButton(ft.icons.DELETE, on_click=lambda e: delete_setting(key))
+                                                      ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 100, in delete_setting
+    update_list_view(self)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 112, in update_list_view
+    self.update()
+    ^^^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'update'
+2024-09-13 16:27:44,072 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:27:44,074 - root - INFO - Logging configurado correctamente.
+2024-09-13 16:27:44,078 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 16:27:44,080 - flet_runtime - INFO - Starting up UDS server on /tmp/yF1jTibXpn
+2024-09-13 16:27:44,081 - flet_runtime - INFO - Flet app has started...
+2024-09-13 16:27:44,082 - flet_runtime - INFO - App URL: /tmp/yF1jTibXpn
+2024-09-13 16:27:44,082 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 16:27:44,083 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 16:27:47,837 - flet_runtime - INFO - App session started
+2024-09-13 20:42:20,605 - root - INFO - Logging configurado correctamente.
+2024-09-13 20:42:20,605 - root - INFO - Logging configurado correctamente.
+2024-09-13 20:42:20,607 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 20:42:20,608 - flet_runtime - INFO - Starting up UDS server on /tmp/Y8Ccz6sBw4
+2024-09-13 20:42:20,609 - flet_runtime - INFO - Flet app has started...
+2024-09-13 20:42:20,609 - flet_runtime - INFO - App URL: /tmp/Y8Ccz6sBw4
+2024-09-13 20:42:20,609 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 20:42:20,610 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 20:42:21,731 - flet_runtime - INFO - App session started
+2024-09-13 20:43:40,264 - root - INFO - Logging configurado correctamente.
+2024-09-13 20:43:40,265 - root - INFO - Logging configurado correctamente.
+2024-09-13 20:43:40,267 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 20:43:40,270 - flet_runtime - INFO - Starting up UDS server on /tmp/3RxpfRBF9F
+2024-09-13 20:43:40,271 - flet_runtime - INFO - Flet app has started...
+2024-09-13 20:43:40,272 - flet_runtime - INFO - App URL: /tmp/3RxpfRBF9F
+2024-09-13 20:43:40,272 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 20:43:40,274 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 20:43:41,561 - flet_runtime - INFO - App session started
+2024-09-13 20:49:18,429 - root - INFO - Logging configurado correctamente.
+2024-09-13 20:49:18,432 - root - INFO - Logging configurado correctamente.
+2024-09-13 20:50:27,381 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 20:50:27,393 - flet_runtime - INFO - Starting up UDS server on /tmp/ypKaWU2zyR
+2024-09-13 20:50:27,398 - flet_runtime - INFO - Flet app has started...
+2024-09-13 20:50:27,399 - flet_runtime - INFO - App URL: /tmp/ypKaWU2zyR
+2024-09-13 20:50:27,401 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 20:50:27,404 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 20:50:28,700 - flet_runtime - INFO - App session started
+2024-09-13 20:50:38,940 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("SettingsManager.run_gui.<locals>.update_list_view() missing 1 required positional argument: 'self'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 106, in save_settings
+    update_list_view()
+TypeError: SettingsManager.run_gui.<locals>.update_list_view() missing 1 required positional argument: 'self'
+2024-09-13 21:10:30,033 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:10:30,034 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:10:30,035 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:10:30,036 - flet_runtime - INFO - Starting up UDS server on /tmp/cfvyIvsNYx
+2024-09-13 21:10:30,037 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:10:30,037 - flet_runtime - INFO - App URL: /tmp/cfvyIvsNYx
+2024-09-13 21:10:30,037 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:10:30,038 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:10:31,254 - flet_runtime - INFO - App session started
+2024-09-13 21:10:38,702 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("SettingsManager.run_gui.<locals>.update_list_view() missing 1 required positional argument: 'self'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 106, in save_settings
+    update_list_view()
+TypeError: SettingsManager.run_gui.<locals>.update_list_view() missing 1 required positional argument: 'self'
+2024-09-13 21:14:30,175 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:14:30,176 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:14:30,178 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:14:30,179 - flet_runtime - INFO - Starting up UDS server on /tmp/5IwFTRqe8W
+2024-09-13 21:14:30,180 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:14:30,180 - flet_runtime - INFO - App URL: /tmp/5IwFTRqe8W
+2024-09-13 21:14:30,180 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:14:30,181 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:14:31,653 - flet_runtime - INFO - App session started
+2024-09-13 21:15:08,999 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:15:09,000 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:15:09,002 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:15:09,003 - flet_runtime - INFO - Starting up UDS server on /tmp/Mw67xEX3Cd
+2024-09-13 21:15:09,004 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:15:09,005 - flet_runtime - INFO - App URL: /tmp/Mw67xEX3Cd
+2024-09-13 21:15:09,005 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:15:09,006 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:15:10,504 - flet_runtime - INFO - App session started
+2024-09-13 21:15:12,567 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'page'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 110, in save_settings
+    self.page.update
+    ^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'page'
+2024-09-13 21:15:14,606 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'page'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 110, in save_settings
+    self.page.update
+    ^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'page'
+2024-09-13 21:15:15,694 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'page'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 110, in save_settings
+    self.page.update
+    ^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'page'
+2024-09-13 21:15:52,554 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:15:52,554 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:15:52,556 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:15:52,558 - flet_runtime - INFO - Starting up UDS server on /tmp/ybPuYl5TPh
+2024-09-13 21:15:52,559 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:15:52,559 - flet_runtime - INFO - App URL: /tmp/ybPuYl5TPh
+2024-09-13 21:15:52,559 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:15:52,560 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:15:54,062 - flet_runtime - INFO - App session started
+2024-09-13 21:15:56,235 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'sabe_button'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 110, in save_settings
+    self.sabe_button.update
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'sabe_button'. Did you mean: 'save_button'?
+2024-09-13 21:16:14,599 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:16:14,599 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:16:14,601 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:16:14,602 - flet_runtime - INFO - Starting up UDS server on /tmp/YJifsh5uHe
+2024-09-13 21:16:14,603 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:16:14,603 - flet_runtime - INFO - App URL: /tmp/YJifsh5uHe
+2024-09-13 21:16:14,604 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:16:14,604 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:16:16,052 - flet_runtime - INFO - App session started
+2024-09-13 21:17:00,759 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:17:00,761 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:17:00,763 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:17:00,768 - flet_runtime - INFO - Starting up UDS server on /tmp/AOGlkW3ZhP
+2024-09-13 21:17:00,770 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:17:00,771 - flet_runtime - INFO - App URL: /tmp/AOGlkW3ZhP
+2024-09-13 21:17:00,772 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:17:00,773 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:17:02,224 - flet_runtime - INFO - App session started
+2024-09-13 21:17:05,626 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError('super(type, obj): obj must be an instance or subtype of type')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 110, in save_settings
+    super().page.update
+    ^^^^^^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+2024-09-13 21:18:08,729 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:18:08,730 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:18:08,731 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:18:08,732 - flet_runtime - INFO - Starting up UDS server on /tmp/ONzyrcXLY6
+2024-09-13 21:18:08,733 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:18:08,733 - flet_runtime - INFO - App URL: /tmp/ONzyrcXLY6
+2024-09-13 21:18:08,733 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:18:08,734 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:18:10,136 - flet_runtime - INFO - App session started
+2024-09-13 21:18:12,129 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'dict' object has no attribute 'refresh'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 110, in save_settings
+    self.settings.refresh
+AttributeError: 'dict' object has no attribute 'refresh'
+2024-09-13 21:18:13,890 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'dict' object has no attribute 'refresh'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 110, in save_settings
+    self.settings.refresh
+AttributeError: 'dict' object has no attribute 'refresh'
+2024-09-13 21:18:47,166 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:18:47,167 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:18:47,169 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:18:47,171 - flet_runtime - INFO - Starting up UDS server on /tmp/ho0A7dNi4V
+2024-09-13 21:18:47,171 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:18:47,172 - flet_runtime - INFO - App URL: /tmp/ho0A7dNi4V
+2024-09-13 21:18:47,172 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:18:47,172 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:18:48,875 - flet_runtime - INFO - App session started
+2024-09-13 21:19:28,682 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:19:28,684 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:19:34,310 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:19:34,327 - flet_runtime - INFO - Starting up UDS server on /tmp/EC9GLJm2wI
+2024-09-13 21:19:34,332 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:19:34,339 - flet_runtime - INFO - App URL: /tmp/EC9GLJm2wI
+2024-09-13 21:19:34,340 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:19:34,357 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:19:35,916 - flet_runtime - INFO - App session started
+2024-09-13 21:24:52,491 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:24:52,493 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:24:52,495 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:24:52,497 - flet_runtime - INFO - Starting up UDS server on /tmp/zObjpY3BI9
+2024-09-13 21:24:52,498 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:24:52,499 - flet_runtime - INFO - App URL: /tmp/zObjpY3BI9
+2024-09-13 21:24:52,499 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:24:52,501 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:24:54,660 - flet_runtime - INFO - App session started
+2024-09-13 21:24:57,423 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'Column' object has no attribute 'cotrols'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 110, in save_settings
+    self.list_view.cotrols.clear
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Column' object has no attribute 'cotrols'. Did you mean: 'controls'?
+2024-09-13 21:26:42,408 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:26:42,411 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:26:42,420 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:26:42,426 - flet_runtime - INFO - Starting up UDS server on /tmp/4V8JCsBthE
+2024-09-13 21:26:42,428 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:26:42,429 - flet_runtime - INFO - App URL: /tmp/4V8JCsBthE
+2024-09-13 21:26:42,430 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:26:42,433 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:26:44,462 - flet_runtime - INFO - App session started
+2024-09-13 21:27:56,504 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'Column' object has no attribute 'cotrols'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 110, in save_settings
+    self.list_view.cotrols.clear
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Column' object has no attribute 'cotrols'. Did you mean: 'controls'?
+2024-09-13 21:32:10,671 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'Column' object has no attribute 'cotrols'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 110, in save_settings
+    self.list_view.update()
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Column' object has no attribute 'cotrols'. Did you mean: 'controls'?
+2024-09-13 21:32:30,036 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'Column' object has no attribute 'cotrols'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 110, in save_settings
+    self.list_view.update()
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Column' object has no attribute 'cotrols'. Did you mean: 'controls'?
+2024-09-13 21:33:09,400 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:33:09,401 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:33:09,403 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:33:09,404 - flet_runtime - INFO - Starting up UDS server on /tmp/J4yPXGZTc8
+2024-09-13 21:33:09,405 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:33:09,406 - flet_runtime - INFO - App URL: /tmp/J4yPXGZTc8
+2024-09-13 21:33:09,406 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:33:09,407 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:33:10,573 - flet_runtime - INFO - App session started
+2024-09-13 21:33:17,077 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'function' object has no attribute 'clear'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 111, in save_settings
+    self.list_view.controls.clear
+AttributeError: 'function' object has no attribute 'clear'
+2024-09-13 21:34:31,598 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:34:31,598 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:34:31,600 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:34:31,601 - flet_runtime - INFO - Starting up UDS server on /tmp/LhDxvtTtW9
+2024-09-13 21:34:31,602 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:34:31,602 - flet_runtime - INFO - App URL: /tmp/LhDxvtTtW9
+2024-09-13 21:34:31,602 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:34:31,603 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:34:32,939 - flet_runtime - INFO - App session started
+2024-09-13 21:34:35,801 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'function' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 113, in save_settings
+    self.list_view.update()
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 315, in update
+    self.__page.update(self)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 720, in update
+    r = self.__update(*controls)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 404, in build_update_commands
+    for ctrl in current_children:
+TypeError: 'function' object is not iterable
+2024-09-13 21:35:46,322 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:35:46,325 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:35:46,334 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:35:46,340 - flet_runtime - INFO - Starting up UDS server on /tmp/8HBVS56lwt
+2024-09-13 21:35:46,342 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:35:46,344 - flet_runtime - INFO - App URL: /tmp/8HBVS56lwt
+2024-09-13 21:35:46,345 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:35:46,348 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:35:47,979 - flet_runtime - INFO - App session started
+2024-09-13 21:38:14,952 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'function' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 113, in save_settings
+    self.list_view.update()
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 315, in update
+    self.__page.update(self)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 720, in update
+    r = self.__update(*controls)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 404, in build_update_commands
+    for ctrl in current_children:
+TypeError: 'function' object is not iterable
+2024-09-13 21:38:59,340 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:38:59,341 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:38:59,342 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:38:59,344 - flet_runtime - INFO - Starting up UDS server on /tmp/YbtYHPaNy3
+2024-09-13 21:38:59,345 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:38:59,345 - flet_runtime - INFO - App URL: /tmp/YbtYHPaNy3
+2024-09-13 21:38:59,345 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:38:59,346 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:39:00,652 - flet_runtime - INFO - App session started
+2024-09-13 21:53:31,915 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:53:31,916 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:53:31,917 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:53:31,918 - flet_runtime - INFO - Starting up UDS server on /tmp/75WSdrTOJj
+2024-09-13 21:53:31,919 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:53:31,919 - flet_runtime - INFO - App URL: /tmp/75WSdrTOJj
+2024-09-13 21:53:31,919 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:53:31,920 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:53:33,384 - flet_runtime - INFO - App session started
+2024-09-13 21:57:28,520 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:57:28,520 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:57:28,522 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:57:28,523 - flet_runtime - INFO - Starting up UDS server on /tmp/m6JWhl8ZMG
+2024-09-13 21:57:28,524 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:57:28,524 - flet_runtime - INFO - App URL: /tmp/m6JWhl8ZMG
+2024-09-13 21:57:28,524 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:57:28,525 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:57:29,807 - flet_runtime - INFO - App session started
+2024-09-13 21:58:20,767 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:58:20,767 - root - INFO - Logging configurado correctamente.
+2024-09-13 21:58:20,769 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 21:58:20,770 - flet_runtime - INFO - Starting up UDS server on /tmp/PUrWTiQChH
+2024-09-13 21:58:20,771 - flet_runtime - INFO - Flet app has started...
+2024-09-13 21:58:20,771 - flet_runtime - INFO - App URL: /tmp/PUrWTiQChH
+2024-09-13 21:58:20,771 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 21:58:20,772 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 21:58:22,040 - flet_runtime - INFO - App session started
+2024-09-13 22:04:57,880 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:04:57,884 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:04:57,896 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 22:04:57,910 - flet_runtime - INFO - Starting up UDS server on /tmp/7cnttw6M85
+2024-09-13 22:04:57,914 - flet_runtime - INFO - Flet app has started...
+2024-09-13 22:04:57,916 - flet_runtime - INFO - App URL: /tmp/7cnttw6M85
+2024-09-13 22:04:57,917 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 22:04:57,922 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 22:04:59,814 - flet_runtime - INFO - App session started
+2024-09-13 22:11:28,276 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'page'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 106, in save_settings
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 98, in update_list_view
+    self.page.update()
+    ^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'page'
+2024-09-13 22:16:48,560 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'page'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 106, in save_settings
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 98, in update_list_view
+    self.controls.update()
+    ^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'page'
+2024-09-13 22:17:44,172 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'page'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 106, in save_settings
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 98, in update_list_view
+    self.controls.update()
+    ^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'page'
+2024-09-13 22:18:41,496 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'page'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 106, in save_settings
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 98, in update_list_view
+    self.controls.update()
+    ^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'page'
+2024-09-13 22:19:11,871 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:19:11,876 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:19:11,881 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 22:19:11,894 - flet_runtime - INFO - Starting up UDS server on /tmp/b6ov1eOZNY
+2024-09-13 22:19:11,896 - flet_runtime - INFO - Flet app has started...
+2024-09-13 22:19:11,897 - flet_runtime - INFO - App URL: /tmp/b6ov1eOZNY
+2024-09-13 22:19:11,901 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 22:19:11,907 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 22:19:14,003 - flet_runtime - INFO - App session started
+2024-09-13 22:19:29,785 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'list' object has no attribute 'update'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 42, in <lambda>
+    ft.IconButton(ft.icons.DELETE, on_click=lambda e: delete_setting(key))
+                                                      ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 88, in delete_setting
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 98, in update_list_view
+    self.controls.update()
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'update'
+2024-09-13 22:21:08,771 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:21:08,776 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:21:08,789 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 22:21:08,797 - flet_runtime - INFO - Starting up UDS server on /tmp/CG3mxQZ6Yg
+2024-09-13 22:21:08,800 - flet_runtime - INFO - Flet app has started...
+2024-09-13 22:21:08,802 - flet_runtime - INFO - App URL: /tmp/CG3mxQZ6Yg
+2024-09-13 22:21:08,803 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 22:21:08,810 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 22:21:10,422 - flet_runtime - INFO - App session started
+2024-09-13 22:27:43,595 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:27:43,598 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:27:43,607 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 22:27:43,613 - flet_runtime - INFO - Starting up UDS server on /tmp/G0U09UrpKb
+2024-09-13 22:27:43,616 - flet_runtime - INFO - Flet app has started...
+2024-09-13 22:27:43,617 - flet_runtime - INFO - App URL: /tmp/G0U09UrpKb
+2024-09-13 22:27:43,618 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 22:27:43,621 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 22:27:45,443 - flet_runtime - INFO - App session started
+2024-09-13 22:40:39,242 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:40:39,243 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:40:39,246 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 22:40:39,248 - flet_runtime - INFO - Starting up UDS server on /tmp/tRFTqXRuK3
+2024-09-13 22:40:39,249 - flet_runtime - INFO - Flet app has started...
+2024-09-13 22:40:39,250 - flet_runtime - INFO - App URL: /tmp/tRFTqXRuK3
+2024-09-13 22:40:39,250 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 22:40:39,251 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 22:40:41,085 - flet_runtime - INFO - App session started
+2024-09-13 22:40:43,375 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'Page' object has no attribute 'clear'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 131, in save_settings
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 100, in update_list_view
+    self.list_view.page.clear()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'clear'. Did you mean: 'clean'?
+2024-09-13 22:41:12,549 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:41:12,550 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:41:12,552 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 22:41:12,554 - flet_runtime - INFO - Starting up UDS server on /tmp/dSbTVtrHBg
+2024-09-13 22:41:12,555 - flet_runtime - INFO - Flet app has started...
+2024-09-13 22:41:12,555 - flet_runtime - INFO - App URL: /tmp/dSbTVtrHBg
+2024-09-13 22:41:12,556 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 22:41:12,557 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 22:41:14,242 - flet_runtime - INFO - App session started
+2024-09-13 22:41:19,476 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'NoneType' object has no attribute 'update'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 131, in save_settings
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 119, in update_list_view
+    self.list_view.page.update()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+2024-09-13 22:43:33,396 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:43:33,397 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:43:33,401 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 22:43:33,408 - flet_runtime - INFO - Starting up UDS server on /tmp/cMBG4Nb2KS
+2024-09-13 22:43:33,415 - flet_runtime - INFO - Flet app has started...
+2024-09-13 22:43:33,415 - flet_runtime - INFO - App URL: /tmp/cMBG4Nb2KS
+2024-09-13 22:43:33,415 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 22:43:33,417 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 22:43:35,102 - flet_runtime - INFO - App session started
+2024-09-13 22:43:38,623 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'NoneType' object has no attribute 'add'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 137, in save_settings
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 119, in update_list_view
+    self.list_view.page.add(
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'add'
+2024-09-13 22:45:17,295 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:45:17,301 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:45:17,317 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 22:45:17,333 - flet_runtime - INFO - Starting up UDS server on /tmp/b751CTZC4n
+2024-09-13 22:45:17,338 - flet_runtime - INFO - Flet app has started...
+2024-09-13 22:45:17,340 - flet_runtime - INFO - App URL: /tmp/b751CTZC4n
+2024-09-13 22:45:17,346 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 22:45:17,355 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 22:45:19,356 - flet_runtime - INFO - App session started
+2024-09-13 22:46:09,176 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'NoneType' object has no attribute 'add'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 137, in save_settings
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 119, in update_list_view
+    self.list_view.page.add(
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'add'
+2024-09-13 22:47:05,391 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:47:05,395 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:47:05,405 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 22:47:05,412 - flet_runtime - INFO - Starting up UDS server on /tmp/DIqliwhiUo
+2024-09-13 22:47:05,416 - flet_runtime - INFO - Flet app has started...
+2024-09-13 22:47:05,417 - flet_runtime - INFO - App URL: /tmp/DIqliwhiUo
+2024-09-13 22:47:05,419 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 22:47:05,423 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 22:47:07,283 - flet_runtime - INFO - App session started
+2024-09-13 22:54:40,204 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'NoneType' object has no attribute 'add'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 137, in save_settings
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 119, in update_list_view
+    self.list_view.page.add(
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'add'
+2024-09-13 22:57:32,492 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:57:32,495 - root - INFO - Logging configurado correctamente.
+2024-09-13 22:57:32,505 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 22:57:32,512 - flet_runtime - INFO - Starting up UDS server on /tmp/KLjNmUpITs
+2024-09-13 22:57:32,515 - flet_runtime - INFO - Flet app has started...
+2024-09-13 22:57:32,516 - flet_runtime - INFO - App URL: /tmp/KLjNmUpITs
+2024-09-13 22:57:32,517 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 22:57:32,521 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 22:57:35,757 - flet_runtime - INFO - App session started
+2024-09-13 23:06:10,498 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:06:10,499 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:06:10,501 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:06:10,502 - flet_runtime - INFO - Starting up UDS server on /tmp/DUbjAffs69
+2024-09-13 23:06:10,503 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:06:10,503 - flet_runtime - INFO - App URL: /tmp/DUbjAffs69
+2024-09-13 23:06:10,503 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:06:10,504 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:06:12,460 - flet_runtime - INFO - App session started
+2024-09-13 23:06:14,788 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'NoneType' object has no attribute 'append'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 137, in save_settings
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 119, in update_list_view
+    self.list_view.page.append(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'append'
+2024-09-13 23:06:44,649 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:06:44,650 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:06:44,652 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:06:44,654 - flet_runtime - INFO - Starting up UDS server on /tmp/I65qlMeiYy
+2024-09-13 23:06:44,656 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:06:44,656 - flet_runtime - INFO - App URL: /tmp/I65qlMeiYy
+2024-09-13 23:06:44,656 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:06:44,657 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:06:46,469 - flet_runtime - INFO - App session started
+2024-09-13 23:06:49,661 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'NoneType' object has no attribute 'add'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 137, in save_settings
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 119, in update_list_view
+    self.list_view.page.add(
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'add'
+2024-09-13 23:10:14,050 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:10:14,051 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:10:14,053 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:10:14,055 - flet_runtime - INFO - Starting up UDS server on /tmp/HzPPE6Cm0n
+2024-09-13 23:10:14,056 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:10:14,056 - flet_runtime - INFO - App URL: /tmp/HzPPE6Cm0n
+2024-09-13 23:10:14,056 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:10:14,057 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:10:16,010 - flet_runtime - INFO - App session started
+2024-09-13 23:10:20,440 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:10:20,455 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError('signal only works in main thread of the main interpreter')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 139, in save_settings
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 102, in update_list_view
+    ft.app(target=settings)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_runtime/app.py", line 70, in app
+    return asyncio.run(
+           ^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_runtime/app.py", line 148, in app_async
+    signal.signal(signal.SIGINT, exit_gracefully)
+  File "/home/neocronos/anaconda3/lib/python3.12/signal.py", line 58, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: signal only works in main thread of the main interpreter
+2024-09-13 23:13:21,136 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:13:21,137 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:13:21,139 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:13:21,142 - flet_runtime - INFO - Starting up UDS server on /tmp/rZdxVhTUiC
+2024-09-13 23:13:21,143 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:13:21,143 - flet_runtime - INFO - App URL: /tmp/rZdxVhTUiC
+2024-09-13 23:13:21,144 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:13:21,145 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:13:23,005 - flet_runtime - INFO - App session started
+2024-09-13 23:13:25,283 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("SettingsManager.run_gui.<locals>.settings() missing 1 required positional argument: 'page'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 140, in save_settings
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 101, in update_list_view
+    settings()
+TypeError: SettingsManager.run_gui.<locals>.settings() missing 1 required positional argument: 'page'
+2024-09-13 23:14:07,047 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:14:07,048 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:14:07,050 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:14:07,052 - flet_runtime - INFO - Starting up UDS server on /tmp/vHyAfH5Xaq
+2024-09-13 23:14:07,053 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:14:07,053 - flet_runtime - INFO - App URL: /tmp/vHyAfH5Xaq
+2024-09-13 23:14:07,054 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:14:07,054 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:14:09,164 - flet_runtime - INFO - App session started
+2024-09-13 23:15:55,600 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:15:55,601 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:15:55,603 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:15:55,605 - flet_runtime - INFO - Starting up UDS server on /tmp/3uiKyM4dOR
+2024-09-13 23:15:55,605 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:15:55,606 - flet_runtime - INFO - App URL: /tmp/3uiKyM4dOR
+2024-09-13 23:15:55,606 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:15:55,606 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:15:57,574 - flet_runtime - INFO - App session started
+2024-09-13 23:19:56,680 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:19:56,682 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:19:56,683 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:19:56,685 - flet_runtime - INFO - Starting up UDS server on /tmp/xnX7DHCGWU
+2024-09-13 23:19:56,686 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:19:56,686 - flet_runtime - INFO - App URL: /tmp/xnX7DHCGWU
+2024-09-13 23:19:56,686 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:19:56,687 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:19:59,287 - flet_runtime - INFO - App session started
+2024-09-13 23:24:07,974 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:24:07,975 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:24:07,979 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:24:07,985 - flet_runtime - INFO - Starting up UDS server on /tmp/Wq3ncWWtyW
+2024-09-13 23:24:07,987 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:24:07,988 - flet_runtime - INFO - App URL: /tmp/Wq3ncWWtyW
+2024-09-13 23:24:07,989 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:24:07,991 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:24:09,932 - flet_runtime - INFO - App session started
+2024-09-13 23:27:42,111 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:27:42,112 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:27:42,114 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:27:42,116 - flet_runtime - INFO - Starting up UDS server on /tmp/5ePNnSlfsr
+2024-09-13 23:27:42,117 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:27:42,117 - flet_runtime - INFO - App URL: /tmp/5ePNnSlfsr
+2024-09-13 23:27:42,117 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:27:42,118 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:27:44,243 - flet_runtime - INFO - App session started
+2024-09-13 23:28:38,312 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:28:38,313 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:28:38,315 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:28:38,317 - flet_runtime - INFO - Starting up UDS server on /tmp/GKLGwkstGU
+2024-09-13 23:28:38,318 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:28:38,318 - flet_runtime - INFO - App URL: /tmp/GKLGwkstGU
+2024-09-13 23:28:38,318 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:28:38,320 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:28:40,236 - flet_runtime - INFO - App session started
+2024-09-13 23:32:23,588 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:32:23,589 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:32:23,591 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:32:23,592 - flet_runtime - INFO - Starting up UDS server on /tmp/hxhz5K4Jo0
+2024-09-13 23:32:23,593 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:32:23,593 - flet_runtime - INFO - App URL: /tmp/hxhz5K4Jo0
+2024-09-13 23:32:23,593 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:32:23,594 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:32:25,298 - flet_runtime - INFO - App session started
+2024-09-13 23:34:02,661 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:34:02,665 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:34:02,674 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:34:02,681 - flet_runtime - INFO - Starting up UDS server on /tmp/qmxIavFHvf
+2024-09-13 23:34:02,683 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:34:02,684 - flet_runtime - INFO - App URL: /tmp/qmxIavFHvf
+2024-09-13 23:34:02,685 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:34:02,689 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:34:04,783 - flet_runtime - INFO - App session started
+2024-09-13 23:38:23,071 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:38:23,072 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:38:23,074 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:38:23,076 - flet_runtime - INFO - Starting up UDS server on /tmp/HmE58aTkjf
+2024-09-13 23:38:23,077 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:38:23,077 - flet_runtime - INFO - App URL: /tmp/HmE58aTkjf
+2024-09-13 23:38:23,077 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:38:23,078 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:38:25,182 - flet_runtime - INFO - App session started
+2024-09-13 23:39:27,647 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:39:27,650 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:39:27,660 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:39:27,667 - flet_runtime - INFO - Starting up UDS server on /tmp/arJ74OmFoh
+2024-09-13 23:39:27,670 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:39:27,671 - flet_runtime - INFO - App URL: /tmp/arJ74OmFoh
+2024-09-13 23:39:27,673 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:39:27,676 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:39:29,667 - flet_runtime - INFO - App session started
+2024-09-13 23:40:43,417 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:40:43,418 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:40:43,423 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:40:43,428 - flet_runtime - INFO - Starting up UDS server on /tmp/3PseTnll9D
+2024-09-13 23:40:43,431 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:40:43,433 - flet_runtime - INFO - App URL: /tmp/3PseTnll9D
+2024-09-13 23:40:43,435 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:40:43,437 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:40:45,299 - flet_runtime - INFO - App session started
+2024-09-13 23:41:58,801 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:41:58,803 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:41:58,805 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:41:58,807 - flet_runtime - INFO - Starting up UDS server on /tmp/lHw9xUBjkl
+2024-09-13 23:41:58,808 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:41:58,809 - flet_runtime - INFO - App URL: /tmp/lHw9xUBjkl
+2024-09-13 23:41:58,810 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:41:58,811 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:42:00,763 - flet_runtime - INFO - App session started
+2024-09-13 23:43:00,060 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:43:00,064 - root - INFO - Logging configurado correctamente.
+2024-09-13 23:44:18,554 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-13 23:44:18,571 - flet_runtime - INFO - Starting up UDS server on /tmp/IU4GuM87CZ
+2024-09-13 23:44:18,574 - flet_runtime - INFO - Flet app has started...
+2024-09-13 23:44:18,576 - flet_runtime - INFO - App URL: /tmp/IU4GuM87CZ
+2024-09-13 23:44:18,577 - flet_runtime - INFO - Starting Flet View app...
+2024-09-13 23:44:18,582 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-13 23:44:21,162 - flet_runtime - INFO - App session started
+2024-09-14 00:02:36,416 - root - INFO - Logging configurado correctamente.
+2024-09-14 00:02:57,726 - root - INFO - Logging configurado correctamente.
+2024-09-14 00:02:57,727 - root - INFO - Logging configurado correctamente.
+2024-09-14 00:02:57,728 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 00:02:57,730 - flet_runtime - INFO - Starting up UDS server on /tmp/iCkgd9tVrZ
+2024-09-14 00:02:57,731 - flet_runtime - INFO - Flet app has started...
+2024-09-14 00:02:57,731 - flet_runtime - INFO - App URL: /tmp/iCkgd9tVrZ
+2024-09-14 00:02:57,731 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 00:02:57,732 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 00:02:59,233 - flet_runtime - INFO - App session started
+2024-09-14 00:03:08,063 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'new_key_input'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 56, in add_setting
+    new_key = self.new_key_input
+              ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'new_key_input'
+2024-09-14 12:13:25,731 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:13:25,731 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:13:25,733 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:13:25,735 - flet_runtime - INFO - Starting up UDS server on /tmp/OaQ5ZaPtyg
+2024-09-14 12:13:25,735 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:13:25,736 - flet_runtime - INFO - App URL: /tmp/OaQ5ZaPtyg
+2024-09-14 12:13:25,736 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:13:25,736 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:13:26,973 - flet_runtime - INFO - App session started
+2024-09-14 12:14:44,974 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:14:44,975 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:14:44,977 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:14:44,978 - flet_runtime - INFO - Starting up UDS server on /tmp/EYOk84lw3p
+2024-09-14 12:14:44,979 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:14:44,979 - flet_runtime - INFO - App URL: /tmp/EYOk84lw3p
+2024-09-14 12:14:44,979 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:14:44,980 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:14:46,384 - flet_runtime - INFO - App session started
+2024-09-14 12:16:10,135 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:16:10,138 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:16:47,338 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:16:47,351 - flet_runtime - INFO - Starting up UDS server on /tmp/EHAMQjQ5r9
+2024-09-14 12:16:47,355 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:16:47,356 - flet_runtime - INFO - App URL: /tmp/EHAMQjQ5r9
+2024-09-14 12:16:47,358 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:16:47,361 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:16:48,816 - flet_runtime - INFO - App session started
+2024-09-14 12:23:50,391 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:23:50,394 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:23:50,403 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:23:50,409 - flet_runtime - INFO - Starting up UDS server on /tmp/oe6QSfMkb4
+2024-09-14 12:23:50,411 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:23:50,412 - flet_runtime - INFO - App URL: /tmp/oe6QSfMkb4
+2024-09-14 12:23:50,413 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:23:50,416 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:23:51,822 - flet_runtime - INFO - App session started
+2024-09-14 12:27:29,549 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:27:29,549 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:27:29,551 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:27:29,553 - flet_runtime - INFO - Starting up UDS server on /tmp/SdcemRn1cX
+2024-09-14 12:27:29,554 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:27:29,554 - flet_runtime - INFO - App URL: /tmp/SdcemRn1cX
+2024-09-14 12:27:29,555 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:27:29,556 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:27:30,942 - flet_runtime - INFO - App session started
+2024-09-14 12:27:57,657 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:27:57,658 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:27:57,659 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:27:57,661 - flet_runtime - INFO - Starting up UDS server on /tmp/hpgVdXGTAK
+2024-09-14 12:27:57,661 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:27:57,662 - flet_runtime - INFO - App URL: /tmp/hpgVdXGTAK
+2024-09-14 12:27:57,662 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:27:57,662 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:27:59,075 - flet_runtime - INFO - App session started
+2024-09-14 12:29:23,389 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:29:23,389 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:29:23,391 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:29:23,392 - flet_runtime - INFO - Starting up UDS server on /tmp/MJepM1JLIK
+2024-09-14 12:29:23,393 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:29:23,393 - flet_runtime - INFO - App URL: /tmp/MJepM1JLIK
+2024-09-14 12:29:23,393 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:29:23,394 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:29:24,875 - flet_runtime - INFO - App session started
+2024-09-14 12:30:02,807 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:30:02,807 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:30:02,809 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:30:02,811 - flet_runtime - INFO - Starting up UDS server on /tmp/6jcLJoRZ7g
+2024-09-14 12:30:02,812 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:30:02,812 - flet_runtime - INFO - App URL: /tmp/6jcLJoRZ7g
+2024-09-14 12:30:02,812 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:30:02,813 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:30:04,182 - flet_runtime - INFO - App session started
+2024-09-14 12:37:51,720 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:37:51,721 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:37:51,722 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:37:51,724 - flet_runtime - INFO - Starting up UDS server on /tmp/7admQ7BaEg
+2024-09-14 12:37:51,725 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:37:51,725 - flet_runtime - INFO - App URL: /tmp/7admQ7BaEg
+2024-09-14 12:37:51,725 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:37:51,726 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:37:53,045 - flet_runtime - INFO - App session started
+2024-09-14 12:38:08,911 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:38:08,911 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:38:08,913 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:38:08,915 - flet_runtime - INFO - Starting up UDS server on /tmp/zG8Iucxgur
+2024-09-14 12:38:08,915 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:38:08,915 - flet_runtime - INFO - App URL: /tmp/zG8Iucxgur
+2024-09-14 12:38:08,916 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:38:08,916 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:38:10,238 - flet_runtime - INFO - App session started
+2024-09-14 12:39:09,278 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:39:09,283 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:39:09,285 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:39:09,293 - flet_runtime - INFO - Starting up UDS server on /tmp/Ngft7NO0lw
+2024-09-14 12:39:09,297 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:39:09,300 - flet_runtime - INFO - App URL: /tmp/Ngft7NO0lw
+2024-09-14 12:39:09,301 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:39:09,301 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:39:12,858 - flet_runtime - INFO - App session started
+2024-09-14 12:39:23,339 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:39:23,340 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:39:23,342 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:39:23,344 - flet_runtime - INFO - Starting up UDS server on /tmp/67vFzfZxqJ
+2024-09-14 12:39:23,344 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:39:23,345 - flet_runtime - INFO - App URL: /tmp/67vFzfZxqJ
+2024-09-14 12:39:23,345 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:39:23,346 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:39:24,760 - flet_runtime - INFO - App session started
+2024-09-14 12:45:02,131 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:45:02,131 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:45:02,133 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:45:02,135 - flet_runtime - INFO - Starting up UDS server on /tmp/m4kRdW8MX1
+2024-09-14 12:45:02,135 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:45:02,136 - flet_runtime - INFO - App URL: /tmp/m4kRdW8MX1
+2024-09-14 12:45:02,136 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:45:02,137 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:45:03,476 - flet_runtime - INFO - App session started
+2024-09-14 12:45:10,943 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'new_key_input'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 50, in add_setting
+    new_key = self.new_key_input
+              ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'new_key_input'
+2024-09-14 12:49:43,756 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:49:43,758 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:49:43,760 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:49:43,762 - flet_runtime - INFO - Starting up UDS server on /tmp/hnrdT4nhHL
+2024-09-14 12:49:43,763 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:49:43,763 - flet_runtime - INFO - App URL: /tmp/hnrdT4nhHL
+2024-09-14 12:49:43,763 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:49:43,764 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:49:45,111 - flet_runtime - INFO - App session started
+2024-09-14 12:49:50,872 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'new_key_input'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 50, in add_setting
+    new_key = self.new_key_input
+              ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'new_key_input'
+2024-09-14 12:50:54,345 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:50:54,346 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:50:54,347 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:50:54,349 - flet_runtime - INFO - Starting up UDS server on /tmp/Koj0WAA937
+2024-09-14 12:50:54,349 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:50:54,350 - flet_runtime - INFO - App URL: /tmp/Koj0WAA937
+2024-09-14 12:50:54,350 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:50:54,351 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:50:55,700 - flet_runtime - INFO - App session started
+2024-09-14 12:51:01,701 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:51:01,701 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:51:01,703 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:51:01,704 - flet_runtime - INFO - Starting up UDS server on /tmp/gXYDQLyB5Q
+2024-09-14 12:51:01,705 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:51:01,705 - flet_runtime - INFO - App URL: /tmp/gXYDQLyB5Q
+2024-09-14 12:51:01,705 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:51:01,706 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:51:03,061 - flet_runtime - INFO - App session started
+2024-09-14 12:54:51,107 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:54:51,111 - root - INFO - Logging configurado correctamente.
+2024-09-14 12:54:51,125 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 12:54:51,132 - flet_runtime - INFO - Starting up UDS server on /tmp/056zzLVHtw
+2024-09-14 12:54:51,136 - flet_runtime - INFO - Flet app has started...
+2024-09-14 12:54:51,138 - flet_runtime - INFO - App URL: /tmp/056zzLVHtw
+2024-09-14 12:54:51,139 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 12:54:51,143 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 12:54:53,006 - flet_runtime - INFO - App session started
+2024-09-14 13:00:42,087 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:00:42,088 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:00:42,090 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:00:42,092 - flet_runtime - INFO - Starting up UDS server on /tmp/EkGQvASVHj
+2024-09-14 13:00:42,093 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:00:42,093 - flet_runtime - INFO - App URL: /tmp/EkGQvASVHj
+2024-09-14 13:00:42,093 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:00:42,094 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:00:43,513 - flet_runtime - INFO - App session started
+2024-09-14 13:00:49,615 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 53, in add_setting
+    self.temp_settings[new_key] = new_value
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 13:01:45,671 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:01:45,673 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:01:45,676 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:01:45,680 - flet_runtime - INFO - Starting up UDS server on /tmp/YQBXEcv92S
+2024-09-14 13:01:45,683 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:01:45,684 - flet_runtime - INFO - App URL: /tmp/YQBXEcv92S
+2024-09-14 13:01:45,685 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:01:45,688 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:01:47,122 - flet_runtime - INFO - App session started
+2024-09-14 13:01:53,120 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError('list indices must be integers or slices, not str')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 53, in add_setting
+    temp_settings[new_key] = new_value
+    ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-09-14 13:02:42,862 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:02:42,863 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:02:42,865 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:02:42,866 - flet_runtime - INFO - Starting up UDS server on /tmp/zG2jGcoe60
+2024-09-14 13:02:42,867 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:02:42,867 - flet_runtime - INFO - App URL: /tmp/zG2jGcoe60
+2024-09-14 13:02:42,867 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:02:42,868 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:02:44,308 - flet_runtime - INFO - App session started
+2024-09-14 13:02:54,571 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:02:54,573 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:02:54,579 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:02:54,582 - flet_runtime - INFO - Starting up UDS server on /tmp/gN4lI08dPH
+2024-09-14 13:02:54,584 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:02:54,584 - flet_runtime - INFO - App URL: /tmp/gN4lI08dPH
+2024-09-14 13:02:54,584 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:02:54,585 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:02:56,083 - flet_runtime - INFO - App session started
+2024-09-14 13:03:00,360 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:03:00,361 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:03:00,362 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:03:00,364 - flet_runtime - INFO - Starting up UDS server on /tmp/yCSCRpWiEm
+2024-09-14 13:03:00,364 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:03:00,364 - flet_runtime - INFO - App URL: /tmp/yCSCRpWiEm
+2024-09-14 13:03:00,365 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:03:00,365 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:03:01,754 - flet_runtime - INFO - App session started
+2024-09-14 13:03:04,977 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:03:04,978 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:03:04,980 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:03:04,982 - flet_runtime - INFO - Starting up UDS server on /tmp/RpHKGVeYrP
+2024-09-14 13:03:04,983 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:03:04,983 - flet_runtime - INFO - App URL: /tmp/RpHKGVeYrP
+2024-09-14 13:03:04,983 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:03:04,984 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:03:06,359 - flet_runtime - INFO - App session started
+2024-09-14 13:03:52,958 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:03:52,959 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:03:52,961 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:03:52,963 - flet_runtime - INFO - Starting up UDS server on /tmp/crlnPjwyW8
+2024-09-14 13:03:52,964 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:03:52,965 - flet_runtime - INFO - App URL: /tmp/crlnPjwyW8
+2024-09-14 13:03:52,965 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:03:52,966 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:03:54,368 - flet_runtime - INFO - App session started
+2024-09-14 13:04:00,479 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError('list indices must be integers or slices, not str')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 53, in add_setting
+    temp_settings[new_key] = str(new_value)
+    ~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-09-14 13:05:58,023 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:05:58,023 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:05:58,025 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:05:58,027 - flet_runtime - INFO - Starting up UDS server on /tmp/ZwUcMdQNJd
+2024-09-14 13:05:58,028 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:05:58,029 - flet_runtime - INFO - App URL: /tmp/ZwUcMdQNJd
+2024-09-14 13:05:58,029 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:05:58,030 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:05:59,455 - flet_runtime - INFO - App session started
+2024-09-14 13:06:05,290 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError('list indices must be integers or slices, not str')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 53, in add_setting
+    temp_settings[str(new_key)] = str(new_value)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-09-14 13:06:21,859 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:06:21,860 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:06:21,863 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:06:21,867 - flet_runtime - INFO - Starting up UDS server on /tmp/2nr4JOrkcO
+2024-09-14 13:06:21,869 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:06:21,870 - flet_runtime - INFO - App URL: /tmp/2nr4JOrkcO
+2024-09-14 13:06:21,870 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:06:21,871 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:06:23,156 - flet_runtime - INFO - App session started
+2024-09-14 13:06:26,837 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:06:26,840 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:06:26,844 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:06:26,849 - flet_runtime - INFO - Starting up UDS server on /tmp/3YtHZFZXi7
+2024-09-14 13:06:26,850 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:06:26,851 - flet_runtime - INFO - App URL: /tmp/3YtHZFZXi7
+2024-09-14 13:06:26,852 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:06:26,854 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:06:28,140 - flet_runtime - INFO - App session started
+2024-09-14 13:07:12,759 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:07:12,762 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:07:12,770 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:07:12,776 - flet_runtime - INFO - Starting up UDS server on /tmp/1oRguyVKPF
+2024-09-14 13:07:12,778 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:07:12,779 - flet_runtime - INFO - App URL: /tmp/1oRguyVKPF
+2024-09-14 13:07:12,780 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:07:12,783 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:07:14,264 - flet_runtime - INFO - App session started
+2024-09-14 13:08:42,353 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError('list indices must be integers or slices, not str')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 53, in add_setting
+    temp_settings[str(new_key)] = str(new_value)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-09-14 13:09:41,537 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:09:41,538 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:09:41,539 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:09:41,541 - flet_runtime - INFO - Starting up UDS server on /tmp/0KvGG5nCz8
+2024-09-14 13:09:41,541 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:09:41,542 - flet_runtime - INFO - App URL: /tmp/0KvGG5nCz8
+2024-09-14 13:09:41,542 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:09:41,542 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:09:42,855 - flet_runtime - INFO - App session started
+2024-09-14 13:09:47,278 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError('list indices must be integers or slices, not str')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    temp_settings[str(new_key)] = str(new_value)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-09-14 13:11:24,844 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:11:24,845 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:11:24,847 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:11:24,848 - flet_runtime - INFO - Starting up UDS server on /tmp/AZToExB2u6
+2024-09-14 13:11:24,849 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:11:24,849 - flet_runtime - INFO - App URL: /tmp/AZToExB2u6
+2024-09-14 13:11:24,849 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:11:24,850 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:11:26,715 - flet_runtime - INFO - App session started
+2024-09-14 13:11:32,658 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    self.temp_settings[str(new_key)] = str(new_value)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 13:11:35,712 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    self.temp_settings[str(new_key)] = str(new_value)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 13:11:36,203 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    self.temp_settings[str(new_key)] = str(new_value)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 13:11:36,399 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    self.temp_settings[str(new_key)] = str(new_value)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 13:11:36,582 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    self.temp_settings[str(new_key)] = str(new_value)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 13:12:29,543 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:12:29,546 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:12:29,555 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:12:29,561 - flet_runtime - INFO - Starting up UDS server on /tmp/sME9GOEce4
+2024-09-14 13:12:29,563 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:12:29,564 - flet_runtime - INFO - App URL: /tmp/sME9GOEce4
+2024-09-14 13:12:29,565 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:12:29,568 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:12:30,973 - flet_runtime - INFO - App session started
+2024-09-14 13:14:26,980 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:14:26,981 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:14:26,983 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:14:26,984 - flet_runtime - INFO - Starting up UDS server on /tmp/iZxxRl3Aag
+2024-09-14 13:14:26,985 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:14:26,985 - flet_runtime - INFO - App URL: /tmp/iZxxRl3Aag
+2024-09-14 13:14:26,985 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:14:26,986 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:14:28,627 - flet_runtime - INFO - App session started
+2024-09-14 13:14:33,524 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if not self.temp_settings:
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 13:16:55,760 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:16:55,760 - root - INFO - Logging configurado correctamente.
+2024-09-14 13:16:55,762 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 13:16:55,764 - flet_runtime - INFO - Starting up UDS server on /tmp/4SPkqkUd7F
+2024-09-14 13:16:55,764 - flet_runtime - INFO - Flet app has started...
+2024-09-14 13:16:55,765 - flet_runtime - INFO - App URL: /tmp/4SPkqkUd7F
+2024-09-14 13:16:55,765 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 13:16:55,765 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 13:16:57,056 - flet_runtime - INFO - App session started
+2024-09-14 13:17:00,612 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if not self.temp_settings:
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:35:23,689 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:35:23,690 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:35:23,691 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 14:35:23,693 - flet_runtime - INFO - Starting up UDS server on /tmp/bbhHX8cGEF
+2024-09-14 14:35:23,694 - flet_runtime - INFO - Flet app has started...
+2024-09-14 14:35:23,694 - flet_runtime - INFO - App URL: /tmp/bbhHX8cGEF
+2024-09-14 14:35:23,694 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 14:35:23,695 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 14:35:25,074 - flet_runtime - INFO - App session started
+2024-09-14 14:39:05,360 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:39:05,362 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:39:05,364 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 14:39:05,366 - flet_runtime - INFO - Starting up UDS server on /tmp/fYJg5xgdV9
+2024-09-14 14:39:05,372 - flet_runtime - INFO - Flet app has started...
+2024-09-14 14:39:05,373 - flet_runtime - INFO - App URL: /tmp/fYJg5xgdV9
+2024-09-14 14:39:05,373 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 14:39:05,374 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 14:39:07,445 - flet_runtime - INFO - App session started
+2024-09-14 14:39:13,346 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if not self.temp_settings:
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:41:08,728 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:41:08,730 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:41:08,732 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 14:41:08,734 - flet_runtime - INFO - Starting up UDS server on /tmp/Qp7RkXjAMX
+2024-09-14 14:41:08,736 - flet_runtime - INFO - Flet app has started...
+2024-09-14 14:41:08,737 - flet_runtime - INFO - App URL: /tmp/Qp7RkXjAMX
+2024-09-14 14:41:08,741 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 14:41:08,742 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 14:41:10,944 - flet_runtime - INFO - App session started
+2024-09-14 14:41:19,084 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if self.temp_settings == None:
+      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:41:26,476 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:41:26,478 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:41:26,480 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 14:41:26,482 - flet_runtime - INFO - Starting up UDS server on /tmp/QfbLs5YFvX
+2024-09-14 14:41:26,484 - flet_runtime - INFO - Flet app has started...
+2024-09-14 14:41:26,484 - flet_runtime - INFO - App URL: /tmp/QfbLs5YFvX
+2024-09-14 14:41:26,485 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 14:41:26,485 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 14:41:28,457 - flet_runtime - INFO - App session started
+2024-09-14 14:41:49,047 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:41:49,050 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:41:49,055 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 14:41:49,067 - flet_runtime - INFO - Starting up UDS server on /tmp/T2aWSWaxzl
+2024-09-14 14:41:49,077 - flet_runtime - INFO - Flet app has started...
+2024-09-14 14:41:49,077 - flet_runtime - INFO - App URL: /tmp/T2aWSWaxzl
+2024-09-14 14:41:49,077 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 14:41:49,078 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 14:41:51,608 - flet_runtime - INFO - App session started
+2024-09-14 14:41:57,956 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if self.temp_settings != None:
+      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:42:31,440 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:42:31,441 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:42:31,442 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 14:42:31,444 - flet_runtime - INFO - Starting up UDS server on /tmp/CYpkWLpjxa
+2024-09-14 14:42:31,444 - flet_runtime - INFO - Flet app has started...
+2024-09-14 14:42:31,445 - flet_runtime - INFO - App URL: /tmp/CYpkWLpjxa
+2024-09-14 14:42:31,445 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 14:42:31,445 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 14:42:32,952 - flet_runtime - INFO - App session started
+2024-09-14 14:42:39,436 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if self.temp_settings == None:
+      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:42:42,450 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if self.temp_settings == None:
+      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:42:42,634 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if self.temp_settings == None:
+      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:42:42,803 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if self.temp_settings == None:
+      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:42:43,555 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if self.temp_settings == None:
+      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:42:44,131 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if self.temp_settings == None:
+      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:42:45,149 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if self.temp_settings == None:
+      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:42:45,770 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if self.temp_settings == None:
+      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:42:46,654 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if self.temp_settings == None:
+      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:43:56,514 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:43:56,515 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:43:56,516 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 14:43:56,518 - flet_runtime - INFO - Starting up UDS server on /tmp/Zopo8aO3ve
+2024-09-14 14:43:56,518 - flet_runtime - INFO - Flet app has started...
+2024-09-14 14:43:56,519 - flet_runtime - INFO - App URL: /tmp/Zopo8aO3ve
+2024-09-14 14:43:56,519 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 14:43:56,519 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 14:43:58,328 - flet_runtime - INFO - App session started
+2024-09-14 14:44:03,812 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=UnboundLocalError("cannot access local variable 'temp_settings' where it is not associated with a value")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if not temp_settings:
+           ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'temp_settings' where it is not associated with a value
+2024-09-14 14:45:48,249 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:45:48,250 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:45:48,251 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 14:45:48,253 - flet_runtime - INFO - Starting up UDS server on /tmp/9u4sfpRea4
+2024-09-14 14:45:48,253 - flet_runtime - INFO - Flet app has started...
+2024-09-14 14:45:48,254 - flet_runtime - INFO - App URL: /tmp/9u4sfpRea4
+2024-09-14 14:45:48,254 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 14:45:48,254 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 14:45:49,757 - flet_runtime - INFO - App session started
+2024-09-14 14:45:53,384 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 56, in add_setting
+    self.temp_settings = self.settings.copy()
+                        ^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'settings'
+2024-09-14 14:48:35,183 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:48:35,184 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:48:35,186 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 14:48:35,187 - flet_runtime - INFO - Starting up UDS server on /tmp/306jeYxvtB
+2024-09-14 14:48:35,188 - flet_runtime - INFO - Flet app has started...
+2024-09-14 14:48:35,188 - flet_runtime - INFO - App URL: /tmp/306jeYxvtB
+2024-09-14 14:48:35,188 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 14:48:35,189 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 14:48:36,562 - flet_runtime - INFO - App session started
+2024-09-14 14:48:41,446 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if not self.temp_settings:
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 14:49:43,220 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:49:43,222 - root - INFO - Logging configurado correctamente.
+2024-09-14 14:49:43,231 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 14:49:43,237 - flet_runtime - INFO - Starting up UDS server on /tmp/AXERFrAqHe
+2024-09-14 14:49:43,240 - flet_runtime - INFO - Flet app has started...
+2024-09-14 14:49:43,241 - flet_runtime - INFO - App URL: /tmp/AXERFrAqHe
+2024-09-14 14:49:43,242 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 14:49:43,245 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 14:49:44,559 - flet_runtime - INFO - App session started
+2024-09-14 15:07:30,484 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:07:30,485 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:07:30,487 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:07:30,488 - flet_runtime - INFO - Starting up UDS server on /tmp/lgMJgqDJvH
+2024-09-14 15:07:30,489 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:07:30,489 - flet_runtime - INFO - App URL: /tmp/lgMJgqDJvH
+2024-09-14 15:07:30,489 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:07:30,490 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:07:31,843 - flet_runtime - INFO - App session started
+2024-09-14 15:07:35,477 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError('SettingsManager.run_gui.<locals>.add_setting() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+TypeError: SettingsManager.run_gui.<locals>.add_setting() takes 0 positional arguments but 1 was given
+2024-09-14 15:08:15,473 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:08:15,473 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:08:15,475 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:08:15,476 - flet_runtime - INFO - Starting up UDS server on /tmp/R2TnZbPTUB
+2024-09-14 15:08:15,477 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:08:15,478 - flet_runtime - INFO - App URL: /tmp/R2TnZbPTUB
+2024-09-14 15:08:15,478 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:08:15,478 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:08:17,076 - flet_runtime - INFO - App session started
+2024-09-14 15:08:20,574 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'page'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 49, in add_setting
+    new_key = self.page.controls[1].controls[0].value
+              ^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'page'
+2024-09-14 15:09:39,205 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:09:39,205 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:09:39,208 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:09:39,212 - flet_runtime - INFO - Starting up UDS server on /tmp/WcwYBLnIBC
+2024-09-14 15:09:39,213 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:09:39,213 - flet_runtime - INFO - App URL: /tmp/WcwYBLnIBC
+2024-09-14 15:09:39,213 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:09:39,215 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:09:40,659 - flet_runtime - INFO - App session started
+2024-09-14 15:09:48,249 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:09:48,250 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:09:48,251 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:09:48,253 - flet_runtime - INFO - Starting up UDS server on /tmp/7apKgPaxmz
+2024-09-14 15:09:48,253 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:09:48,253 - flet_runtime - INFO - App URL: /tmp/7apKgPaxmz
+2024-09-14 15:09:48,254 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:09:48,254 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:09:49,651 - flet_runtime - INFO - App session started
+2024-09-14 15:09:55,016 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 56, in add_setting
+    if not self.temp_settings:
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 15:11:10,195 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:11:10,195 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:11:10,197 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:11:10,198 - flet_runtime - INFO - Starting up UDS server on /tmp/ICBzjAdXGh
+2024-09-14 15:11:10,199 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:11:10,199 - flet_runtime - INFO - App URL: /tmp/ICBzjAdXGh
+2024-09-14 15:11:10,199 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:11:10,200 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:11:11,554 - flet_runtime - INFO - App session started
+2024-09-14 15:11:24,662 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:11:24,662 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:11:24,664 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:11:24,665 - flet_runtime - INFO - Starting up UDS server on /tmp/SIIWcWeHh4
+2024-09-14 15:11:24,666 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:11:24,666 - flet_runtime - INFO - App URL: /tmp/SIIWcWeHh4
+2024-09-14 15:11:24,666 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:11:24,667 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:11:26,049 - flet_runtime - INFO - App session started
+2024-09-14 15:11:30,270 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError('super(type, obj): obj must be an instance or subtype of type')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 56, in add_setting
+    if not super().temp_settings:
+          ^^^^^^^^^^^^^^^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+2024-09-14 15:15:40,581 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:15:40,581 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:15:40,583 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:15:40,584 - flet_runtime - INFO - Starting up UDS server on /tmp/wKThEJCFli
+2024-09-14 15:15:40,585 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:15:40,585 - flet_runtime - INFO - App URL: /tmp/wKThEJCFli
+2024-09-14 15:15:40,586 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:15:40,586 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:15:41,884 - flet_runtime - INFO - App session started
+2024-09-14 15:15:45,299 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 56, in add_setting
+    if not self.temp_settings:
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 15:19:18,756 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:19:18,756 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:19:18,758 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:19:18,759 - flet_runtime - INFO - Starting up UDS server on /tmp/eByKECUXs0
+2024-09-14 15:19:18,760 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:19:18,760 - flet_runtime - INFO - App URL: /tmp/eByKECUXs0
+2024-09-14 15:19:18,760 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:19:18,761 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:19:20,195 - flet_runtime - INFO - App session started
+2024-09-14 15:19:23,761 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("SettingsManager.run_gui.<locals>.add_setting() missing 1 required positional argument: 'e'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+TypeError: SettingsManager.run_gui.<locals>.add_setting() missing 1 required positional argument: 'e'
+2024-09-14 15:19:54,927 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:19:54,928 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:19:54,929 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:19:54,931 - flet_runtime - INFO - Starting up UDS server on /tmp/qirMGpDnty
+2024-09-14 15:19:54,931 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:19:54,932 - flet_runtime - INFO - App URL: /tmp/qirMGpDnty
+2024-09-14 15:19:54,932 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:19:54,932 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:19:56,198 - flet_runtime - INFO - App session started
+2024-09-14 15:20:01,133 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("SettingsManager.run_gui.<locals>.add_setting() missing 2 required positional arguments: 'self' and 'e'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 128, in <lambda>
+    self.add_button = ft.FilledButton(text="Add Setting", on_click=lambda e:add_setting())
+                                                                            ^^^^^^^^^^^^^
+TypeError: SettingsManager.run_gui.<locals>.add_setting() missing 2 required positional arguments: 'self' and 'e'
+2024-09-14 15:20:25,624 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:20:25,625 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:20:25,629 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:20:25,633 - flet_runtime - INFO - Starting up UDS server on /tmp/19kOF2ddWe
+2024-09-14 15:20:25,636 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:20:25,636 - flet_runtime - INFO - App URL: /tmp/19kOF2ddWe
+2024-09-14 15:20:25,637 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:20:25,637 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:20:26,959 - flet_runtime - INFO - App session started
+2024-09-14 15:21:00,845 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:21:00,846 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:21:00,848 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:21:00,849 - flet_runtime - INFO - Starting up UDS server on /tmp/hBelQPvf1b
+2024-09-14 15:21:00,850 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:21:00,850 - flet_runtime - INFO - App URL: /tmp/hBelQPvf1b
+2024-09-14 15:21:00,850 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:21:00,851 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:21:02,187 - flet_runtime - INFO - App session started
+2024-09-14 15:21:40,764 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:21:40,764 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:21:40,766 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:21:40,768 - flet_runtime - INFO - Starting up UDS server on /tmp/0rnhV6PU1s
+2024-09-14 15:21:40,769 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:21:40,769 - flet_runtime - INFO - App URL: /tmp/0rnhV6PU1s
+2024-09-14 15:21:40,769 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:21:40,770 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:21:41,962 - flet_runtime - INFO - App session started
+2024-09-14 15:21:45,285 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'page'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 128, in <lambda>
+    self.add_button = ft.FilledButton(text="Add Setting", on_click=lambda e:add_setting(self,e))
+                                                                            ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 49, in add_setting
+    new_key = self.page.controls[1].controls[0].value
+              ^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'page'
+2024-09-14 15:26:57,728 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:26:57,729 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:26:57,731 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:26:57,732 - flet_runtime - INFO - Starting up UDS server on /tmp/czrnTCuUZr
+2024-09-14 15:26:57,733 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:26:57,733 - flet_runtime - INFO - App URL: /tmp/czrnTCuUZr
+2024-09-14 15:26:57,734 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:26:57,734 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:26:58,948 - flet_runtime - INFO - App session started
+2024-09-14 15:27:03,494 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("SettingsManager.run_gui.<locals>.add_setting() missing 1 required positional argument: 'e'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+TypeError: SettingsManager.run_gui.<locals>.add_setting() missing 1 required positional argument: 'e'
+2024-09-14 15:27:27,129 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:27:27,130 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:27:27,132 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:27:27,133 - flet_runtime - INFO - Starting up UDS server on /tmp/vqri1RMmMd
+2024-09-14 15:27:27,134 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:27:27,134 - flet_runtime - INFO - App URL: /tmp/vqri1RMmMd
+2024-09-14 15:27:27,134 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:27:27,135 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:27:28,407 - flet_runtime - INFO - App session started
+2024-09-14 15:27:37,059 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'page'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 49, in add_setting
+    new_key = self.page.controls[1].controls[0].value
+              ^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'page'
+2024-09-14 15:29:07,815 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:29:07,818 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:29:07,826 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:29:07,833 - flet_runtime - INFO - Starting up UDS server on /tmp/ZMLiSNPvNd
+2024-09-14 15:29:07,835 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:29:07,836 - flet_runtime - INFO - App URL: /tmp/ZMLiSNPvNd
+2024-09-14 15:29:07,837 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:29:07,840 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:29:09,273 - flet_runtime - INFO - App session started
+2024-09-14 15:32:06,422 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'page'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 49, in add_setting
+    new_key = self.page.controls[1].controls[0].value
+              ^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'page'
+2024-09-14 15:38:28,736 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'page'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 49, in add_setting
+    if new_key and new_value:
+              ^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'page'
+2024-09-14 15:39:15,756 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:39:15,757 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:39:15,758 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:39:15,760 - flet_runtime - INFO - Starting up UDS server on /tmp/lOwmqTwWWS
+2024-09-14 15:39:15,760 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:39:15,760 - flet_runtime - INFO - App URL: /tmp/lOwmqTwWWS
+2024-09-14 15:39:15,761 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:39:15,761 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:39:17,202 - flet_runtime - INFO - App session started
+2024-09-14 15:39:20,655 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if self.temp_settings:
+      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 15:41:30,629 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:41:30,632 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:41:30,641 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:41:30,646 - flet_runtime - INFO - Starting up UDS server on /tmp/XVNSncKaN1
+2024-09-14 15:41:30,649 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:41:30,650 - flet_runtime - INFO - App URL: /tmp/XVNSncKaN1
+2024-09-14 15:41:30,651 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:41:30,654 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:41:32,020 - flet_runtime - INFO - App session started
+2024-09-14 15:42:39,805 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if not self.temp_settings:
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 15:43:09,038 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:43:09,039 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:43:09,041 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:43:09,042 - flet_runtime - INFO - Starting up UDS server on /tmp/GxZvFxmrYJ
+2024-09-14 15:43:09,043 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:43:09,043 - flet_runtime - INFO - App URL: /tmp/GxZvFxmrYJ
+2024-09-14 15:43:09,044 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:43:09,044 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:43:10,197 - flet_runtime - INFO - App session started
+2024-09-14 15:43:19,673 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ControlEvent' object has no attribute 'temp_settings'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 54, in add_setting
+    if not self.temp_settings: # -----------------------------------ACA SE ROMPE; LO ULTIMO!!!!
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlEvent' object has no attribute 'temp_settings'
+2024-09-14 15:48:17,878 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:48:17,879 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:48:17,881 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:48:17,883 - flet_runtime - INFO - Starting up UDS server on /tmp/FxfDx1WBAE
+2024-09-14 15:48:17,884 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:48:17,884 - flet_runtime - INFO - App URL: /tmp/FxfDx1WBAE
+2024-09-14 15:48:17,884 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:48:17,885 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:48:19,080 - flet_runtime - INFO - App session started
+2024-09-14 15:48:23,808 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError('list indices must be integers or slices, not str')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 62, in add_setting
+    temp_settings[str(new_key)] = str(new_value)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-09-14 15:49:54,147 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:49:54,148 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:49:54,150 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:49:54,151 - flet_runtime - INFO - Starting up UDS server on /tmp/qVZRh0sQYx
+2024-09-14 15:49:54,152 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:49:54,152 - flet_runtime - INFO - App URL: /tmp/qVZRh0sQYx
+2024-09-14 15:49:54,152 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:49:54,153 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:49:55,583 - flet_runtime - INFO - App session started
+2024-09-14 15:54:48,288 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:54:48,289 - root - INFO - Logging configurado correctamente.
+2024-09-14 15:54:48,291 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 15:54:48,293 - flet_runtime - INFO - Starting up UDS server on /tmp/ZN7eX50XZT
+2024-09-14 15:54:48,294 - flet_runtime - INFO - Flet app has started...
+2024-09-14 15:54:48,294 - flet_runtime - INFO - App URL: /tmp/ZN7eX50XZT
+2024-09-14 15:54:48,294 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 15:54:48,295 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 15:54:49,636 - flet_runtime - INFO - App session started
+2024-09-14 16:06:24,583 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:06:24,583 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:06:24,585 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 16:06:24,587 - flet_runtime - INFO - Starting up UDS server on /tmp/qgPIpCNeBk
+2024-09-14 16:06:24,588 - flet_runtime - INFO - Flet app has started...
+2024-09-14 16:06:24,588 - flet_runtime - INFO - App URL: /tmp/qgPIpCNeBk
+2024-09-14 16:06:24,588 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 16:06:24,589 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 16:06:25,995 - flet_runtime - INFO - App session started
+2024-09-14 16:06:45,779 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:06:45,780 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:06:45,781 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 16:06:45,783 - flet_runtime - INFO - Starting up UDS server on /tmp/AeZXsj7ibQ
+2024-09-14 16:06:45,783 - flet_runtime - INFO - Flet app has started...
+2024-09-14 16:06:45,783 - flet_runtime - INFO - App URL: /tmp/AeZXsj7ibQ
+2024-09-14 16:06:45,784 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 16:06:45,784 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 16:06:47,091 - flet_runtime - INFO - App session started

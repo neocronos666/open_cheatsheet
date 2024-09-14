@@ -58,6 +58,7 @@ class MainContent(ft.Column):
                             ft.Text(directory)
                         ],
                     ),                    
+                    # on_click=lambda e: self.on_category_click
                     on_click=self.on_category_click
                 )
             )
@@ -82,6 +83,7 @@ class MainContent(ft.Column):
                                     ft.Text(file_name)
                                 ],                                                            
                             ),
+                            # on_click=lambda e: self.on_file_click
                             on_click=self.on_file_click
                         )
                     )

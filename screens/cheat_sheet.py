@@ -30,6 +30,8 @@ class CheatSheetViewer(ft.Column):
 
         # Guardar la imagen en un archivo temporal
         img_path = "./cfg/.latex_buffer.png"
+        # ACA PODRIA ACTIVAR O DESACTIVAR LA CHACHE
+
         plt.savefig(img_path, format='png', bbox_inches='tight', pad_inches=0.1)
         plt.close(fig)
 
