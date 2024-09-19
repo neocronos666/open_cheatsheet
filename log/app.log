@@ -3748,3 +3748,896 @@ TypeError: list indices must be integers or slices, not str
 2024-09-14 16:06:45,784 - flet_runtime - INFO - Starting Flet View app...
 2024-09-14 16:06:45,784 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
 2024-09-14 16:06:47,091 - flet_runtime - INFO - App session started
+2024-09-14 16:34:01,918 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:34:01,918 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:34:01,920 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 16:34:01,922 - flet_runtime - INFO - Starting up UDS server on /tmp/xt4tqftmWQ
+2024-09-14 16:34:01,922 - flet_runtime - INFO - Flet app has started...
+2024-09-14 16:34:01,923 - flet_runtime - INFO - App URL: /tmp/xt4tqftmWQ
+2024-09-14 16:34:01,923 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 16:34:01,923 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 16:34:03,377 - flet_runtime - INFO - App session started
+2024-09-14 16:34:28,952 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:34:28,953 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:34:28,954 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 16:34:28,956 - flet_runtime - INFO - Starting up UDS server on /tmp/UXNMrTitGJ
+2024-09-14 16:34:28,956 - flet_runtime - INFO - Flet app has started...
+2024-09-14 16:34:28,956 - flet_runtime - INFO - App URL: /tmp/UXNMrTitGJ
+2024-09-14 16:34:28,957 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 16:34:28,957 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 16:34:30,177 - flet_runtime - INFO - App session started
+2024-09-14 16:34:48,030 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:34:48,031 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:34:48,033 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 16:34:48,034 - flet_runtime - INFO - Starting up UDS server on /tmp/bu8tB2T2SL
+2024-09-14 16:34:48,035 - flet_runtime - INFO - Flet app has started...
+2024-09-14 16:34:48,035 - flet_runtime - INFO - App URL: /tmp/bu8tB2T2SL
+2024-09-14 16:34:48,035 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 16:34:48,036 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 16:34:49,227 - flet_runtime - INFO - App session started
+2024-09-14 16:34:59,489 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:34:59,489 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:34:59,491 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 16:34:59,492 - flet_runtime - INFO - Starting up UDS server on /tmp/JsWt94pDKT
+2024-09-14 16:34:59,493 - flet_runtime - INFO - Flet app has started...
+2024-09-14 16:34:59,493 - flet_runtime - INFO - App URL: /tmp/JsWt94pDKT
+2024-09-14 16:34:59,493 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 16:34:59,494 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 16:35:00,612 - flet_runtime - INFO - App session started
+2024-09-14 16:37:24,937 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:37:24,938 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:37:24,939 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 16:37:24,941 - flet_runtime - INFO - Starting up UDS server on /tmp/9EhTeNdPv9
+2024-09-14 16:37:24,941 - flet_runtime - INFO - Flet app has started...
+2024-09-14 16:37:24,942 - flet_runtime - INFO - App URL: /tmp/9EhTeNdPv9
+2024-09-14 16:37:24,942 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 16:37:24,942 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 16:37:26,267 - flet_runtime - INFO - App session started
+2024-09-14 16:37:40,117 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:40:40,926 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:40:59,774 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:41:24,423 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:41:34,206 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:41:35,047 - root - INFO - Logging configurado correctamente.
+2024-09-14 16:41:36,221 - root - INFO - Logging configurado correctamente.
+2024-09-14 18:29:33,791 - root - INFO - Logging configurado correctamente.
+2024-09-14 18:29:33,792 - root - INFO - Logging configurado correctamente.
+2024-09-14 18:29:33,794 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 18:29:33,797 - flet_runtime - INFO - Starting up UDS server on /tmp/CKqljKEIIG
+2024-09-14 18:29:33,798 - flet_runtime - INFO - Flet app has started...
+2024-09-14 18:29:33,798 - flet_runtime - INFO - App URL: /tmp/CKqljKEIIG
+2024-09-14 18:29:33,798 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 18:29:33,799 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 18:29:37,669 - flet_runtime - INFO - App session started
+2024-09-14 18:30:06,848 - root - INFO - Logging configurado correctamente.
+2024-09-14 18:30:06,848 - root - INFO - Logging configurado correctamente.
+2024-09-14 18:30:06,850 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 18:30:06,851 - flet_runtime - INFO - Starting up UDS server on /tmp/aMmkwUpq9L
+2024-09-14 18:30:06,852 - flet_runtime - INFO - Flet app has started...
+2024-09-14 18:30:06,852 - flet_runtime - INFO - App URL: /tmp/aMmkwUpq9L
+2024-09-14 18:30:06,852 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 18:30:06,853 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 18:30:08,300 - flet_runtime - INFO - App session started
+2024-09-14 18:30:27,823 - root - INFO - Logging configurado correctamente.
+2024-09-14 18:30:27,823 - root - INFO - Logging configurado correctamente.
+2024-09-14 18:30:27,825 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 18:30:27,826 - flet_runtime - INFO - Starting up UDS server on /tmp/PL4uv89QSZ
+2024-09-14 18:30:27,827 - flet_runtime - INFO - Flet app has started...
+2024-09-14 18:30:27,827 - flet_runtime - INFO - App URL: /tmp/PL4uv89QSZ
+2024-09-14 18:30:27,827 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 18:30:27,828 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 18:30:29,051 - flet_runtime - INFO - App session started
+2024-09-14 18:30:37,302 - root - INFO - Logging configurado correctamente.
+2024-09-14 18:30:37,303 - root - INFO - Logging configurado correctamente.
+2024-09-14 18:30:37,305 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 18:30:37,306 - flet_runtime - INFO - Starting up UDS server on /tmp/cdAjq1MTr9
+2024-09-14 18:30:37,307 - flet_runtime - INFO - Flet app has started...
+2024-09-14 18:30:37,307 - flet_runtime - INFO - App URL: /tmp/cdAjq1MTr9
+2024-09-14 18:30:37,307 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 18:30:37,308 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 18:30:38,498 - flet_runtime - INFO - App session started
+2024-09-14 18:30:51,456 - root - INFO - Logging configurado correctamente.
+2024-09-14 18:30:51,456 - root - INFO - Logging configurado correctamente.
+2024-09-14 18:30:51,458 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 18:30:51,459 - flet_runtime - INFO - Starting up UDS server on /tmp/3SKAvz9EKO
+2024-09-14 18:30:51,460 - flet_runtime - INFO - Flet app has started...
+2024-09-14 18:30:51,460 - flet_runtime - INFO - App URL: /tmp/3SKAvz9EKO
+2024-09-14 18:30:51,460 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 18:30:51,461 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 18:30:52,762 - flet_runtime - INFO - App session started
+2024-09-14 18:31:09,231 - root - INFO - Logging configurado correctamente.
+2024-09-14 18:31:09,232 - root - INFO - Logging configurado correctamente.
+2024-09-14 18:31:09,234 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 18:31:09,236 - flet_runtime - INFO - Starting up UDS server on /tmp/CrDOA0zWaT
+2024-09-14 18:31:09,237 - flet_runtime - INFO - Flet app has started...
+2024-09-14 18:31:09,238 - flet_runtime - INFO - App URL: /tmp/CrDOA0zWaT
+2024-09-14 18:31:09,238 - flet_runtime - INFO - Starting Flet View app...
+2024-09-14 18:31:09,239 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-14 18:31:10,758 - flet_runtime - INFO - App session started
+2024-09-14 20:31:35,584 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:31:41,282 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:31:41,283 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:31:41,285 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-14 20:31:41,291 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError('signal only works in main thread of the main interpreter')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 129, in route_change
+    page.add(SettingsApp(g_c.get_nav_link()))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 58, in __init__
+    sm.run_gui()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 104, in run_gui
+    ft.app(target=settings_page)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_runtime/app.py", line 70, in app
+    return asyncio.run(
+           ^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_runtime/app.py", line 148, in app_async
+    signal.signal(signal.SIGINT, exit_gracefully)
+  File "/home/neocronos/anaconda3/lib/python3.12/signal.py", line 58, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: signal only works in main thread of the main interpreter
+2024-09-14 20:33:29,669 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:33:29,670 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:33:31,715 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:33:31,718 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:33:33,693 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:33:33,694 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:34:30,940 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:34:35,795 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:34:35,795 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:43:06,675 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:43:10,189 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:43:10,189 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:43:10,190 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=NameError("name 'SettingsApp' is not defined")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 140, in route_change
+    page.add(SettingsApp(g_c.get_nav_link()))
+             ^^^^^^^^^^^
+NameError: name 'SettingsApp' is not defined
+2024-09-14 20:43:49,971 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:43:54,421 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:43:54,422 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:46:37,859 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:46:41,313 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:46:41,313 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:46:41,314 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=UnboundLocalError("cannot access local variable 'update_list_view' where it is not associated with a value")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 134, in route_change
+    sm.run_gui(g_c.get_nav_link())
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 28, in run_gui
+    update_list_view()
+    ^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'update_list_view' where it is not associated with a value
+2024-09-14 20:47:24,461 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:47:27,238 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:47:27,238 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:47:27,239 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=UnboundLocalError("cannot access local variable 'update_list_view' where it is not associated with a value")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 134, in route_change
+    sm.run_gui(g_c.get_nav_link())
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 28, in run_gui
+    update_list_view
+UnboundLocalError: cannot access local variable 'update_list_view' where it is not associated with a value
+2024-09-14 20:48:43,339 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:48:46,861 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:48:46,862 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:49:01,372 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:49:05,126 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:49:05,127 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:49:19,140 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:50:28,370 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:50:34,433 - root - INFO - Logging configurado correctamente.
+2024-09-14 20:50:34,433 - root - INFO - Logging configurado correctamente.
+2024-09-14 23:45:40,687 - root - INFO - Logging configurado correctamente.
+2024-09-15 14:51:36,753 - root - INFO - Logging configurado correctamente.
+2024-09-15 14:51:40,759 - root - INFO - Logging configurado correctamente.
+2024-09-15 14:51:40,759 - root - INFO - Logging configurado correctamente.
+2024-09-15 14:53:08,189 - root - INFO - Logging configurado correctamente.
+2024-09-15 14:53:21,166 - root - INFO - Logging configurado correctamente.
+2024-09-15 14:53:21,173 - root - INFO - Logging configurado correctamente.
+2024-09-15 14:58:47,628 - root - INFO - Logging configurado correctamente.
+2024-09-15 14:58:52,851 - root - INFO - Logging configurado correctamente.
+2024-09-15 14:58:52,858 - root - INFO - Logging configurado correctamente.
+2024-09-15 15:02:22,073 - root - INFO - Logging configurado correctamente.
+2024-09-15 15:02:22,074 - root - INFO - Logging configurado correctamente.
+2024-09-15 15:04:17,897 - root - INFO - Logging configurado correctamente.
+2024-09-15 15:04:17,904 - root - INFO - Logging configurado correctamente.
+2024-09-15 15:16:27,302 - root - INFO - Logging configurado correctamente.
+2024-09-15 15:16:31,146 - root - INFO - Logging configurado correctamente.
+2024-09-15 15:16:31,151 - root - INFO - Logging configurado correctamente.
+2024-09-15 15:16:31,159 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'SettingsManager' object has no attribute 'list_view'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 134, in route_change
+    sm.run_gui(g_c.get_nav_link())
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 109, in run_gui
+    update_list_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/settings_manager.py", line 70, in update_list_view
+    if self.list_view.page:
+       ^^^^^^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'list_view'
+2024-09-15 15:35:28,431 - root - INFO - Logging configurado correctamente.
+2024-09-15 16:36:44,330 - root - INFO - Logging configurado correctamente.
+2024-09-15 16:36:47,622 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError('SettingsManager.__init__() takes from 1 to 2 positional arguments but 3 were given')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 136, in route_change
+    page.add(SettingsApp(g_c.get_nav_link()))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 58, in __init__
+    self.setting_manager = SettingsManager(self, back_link)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SettingsManager.__init__() takes from 1 to 2 positional arguments but 3 were given
+2024-09-15 16:37:30,349 - root - INFO - Logging configurado correctamente.
+2024-09-15 16:37:33,334 - root - INFO - Logging configurado correctamente.
+2024-09-15 16:37:33,337 - root - INFO - Logging configurado correctamente.
+2024-09-15 16:37:33,346 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'list' object has no attribute '_build_add_commands'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 136, in route_change
+    page.add(SettingsApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 445, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute '_build_add_commands'
+2024-09-15 16:40:21,005 - root - INFO - Logging configurado correctamente.
+2024-09-15 16:40:23,812 - root - INFO - Logging configurado correctamente.
+2024-09-15 16:40:23,813 - root - INFO - Logging configurado correctamente.
+2024-09-15 16:40:23,823 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'list' object has no attribute '_build_add_commands'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 136, in route_change
+    page.add(SettingsApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 445, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute '_build_add_commands'
+2024-09-16 23:40:27,460 - root - INFO - Logging configurado correctamente.
+2024-09-16 23:40:36,112 - root - INFO - Logging configurado correctamente.
+2024-09-16 23:40:36,113 - root - INFO - Logging configurado correctamente.
+2024-09-16 23:40:36,133 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'list' object has no attribute '_build_add_commands'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 136, in route_change
+    page.add(SettingsApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 445, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute '_build_add_commands'
+2024-09-17 15:00:10,948 - root - INFO - Logging configurado correctamente.
+2024-09-17 15:00:45,964 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError('ListApp.__init__() takes 2 positional arguments but 3 were given')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(0,g_c.get_nav_link()))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ListApp.__init__() takes 2 positional arguments but 3 were given
+2024-09-17 15:03:05,275 - root - INFO - Logging configurado correctamente.
+2024-09-17 15:03:08,407 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'ListApp' object has no attribute 'menu_find_nav'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link()))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 50, in __init__
+    self.menu_find_nav,
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ListApp' object has no attribute 'menu_find_nav'
+2024-09-17 15:03:46,070 - root - INFO - Logging configurado correctamente.
+2024-09-17 15:10:02,907 - root - INFO - Logging configurado correctamente.
+2024-09-17 15:10:09,918 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=UnboundLocalError("cannot access local variable 'lists_view' where it is not associated with a value")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 445, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 513, in _build_add_commands
+    content = self.build()
+              ^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 21, in build
+    lists_view.controls.append(
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'lists_view' where it is not associated with a value
+2024-09-17 15:12:16,446 - root - INFO - Logging configurado correctamente.
+2024-09-17 15:12:19,113 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=NameError("name 'item' is not defined")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 445, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 513, in _build_add_commands
+    content = self.build()
+              ^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 32, in build
+    on_click=lambda e, path=item: self.on_item_click(path)
+                            ^^^^
+NameError: name 'item' is not defined. Did you mean: 'iter'?
+2024-09-17 15:16:14,710 - root - INFO - Logging configurado correctamente.
+2024-09-17 15:26:39,008 - root - INFO - Logging configurado correctamente.
+2024-09-17 15:36:06,248 - root - INFO - Logging configurado correctamente.
+2024-09-17 15:38:07,801 - root - INFO - Logging configurado correctamente.
+2024-09-17 15:50:23,355 - root - INFO - Logging configurado correctamente.
+2024-09-17 15:50:25,504 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("ListView.__init__() got an unexpected keyword argument 'items'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link()))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 48, in __init__
+    self.lists_content = Lists(selected)
+                     ^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 19, in __init__
+    self.build_file_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 62, in build_file_view
+    self.content_view = ft.ListView(
+                        ^^^^^^^^^^^^
+TypeError: ListView.__init__() got an unexpected keyword argument 'items'
+2024-09-17 16:34:07,337 - root - INFO - Logging configurado correctamente.
+2024-09-17 16:34:09,365 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("Lists.on_item_click() missing 1 required positional argument: 'path'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link()))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 48, in __init__
+    self.lists_content = Lists(selected)
+                     ^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 19, in __init__
+    self.build_file_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 80, in build_file_view
+    on_click=self.on_item_click()
+             ^^^^^^^^^^^^^^^^^^^^
+TypeError: Lists.on_item_click() missing 1 required positional argument: 'path'
+2024-09-17 16:52:00,574 - root - INFO - Logging configurado correctamente.
+2024-09-17 16:52:02,245 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'ListView' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 445, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 544, in _build_add_commands
+    for control in children:
+TypeError: 'ListView' object is not iterable
+2024-09-17 16:55:22,547 - root - INFO - Logging configurado correctamente.
+2024-09-17 16:55:25,168 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link()))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 48, in __init__
+    self.lists_content = Lists(selected)
+                     ^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 19, in __init__
+    self.build_file_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 69, in build_file_view
+    con[0]='Please Select a list'
+    ~~~^^^
+IndexError: list assignment index out of range
+2024-09-17 16:57:46,003 - root - INFO - Logging configurado correctamente.
+2024-09-17 16:57:48,890 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError('can only concatenate str (not "list") to str')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link()))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 48, in __init__
+    self.lists_content = Lists(selected)
+                     ^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 19, in __init__
+    self.build_file_view()
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 75, in build_file_view
+    print("---------------------CON:" + con)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+TypeError: can only concatenate str (not "list") to str
+2024-09-17 16:58:41,690 - root - INFO - Logging configurado correctamente.
+2024-09-17 16:58:43,506 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'ListView' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 445, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 544, in _build_add_commands
+    for control in children:
+TypeError: 'ListView' object is not iterable
+2024-09-17 17:00:21,731 - root - INFO - Logging configurado correctamente.
+2024-09-17 17:00:25,959 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'ListView' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 445, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 544, in _build_add_commands
+    for control in children:
+TypeError: 'ListView' object is not iterable
+2024-09-17 17:02:28,995 - root - INFO - Logging configurado correctamente.
+2024-09-17 17:07:51,839 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'ListView' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 445, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 544, in _build_add_commands
+    for control in children:
+TypeError: 'ListView' object is not iterable
+2024-09-17 17:09:07,540 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:10:26,816 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:10:29,552 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'ListView' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 445, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 544, in _build_add_commands
+    for control in children:
+TypeError: 'ListView' object is not iterable
+2024-09-17 22:11:01,431 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:15:31,352 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:17:46,681 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:17:58,347 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:18:53,066 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:21:04,473 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:24:13,493 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:24:15,283 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AssertionError('Control must be added to the page first.')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link()))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 48, in __init__
+    self.lists_content = Lists(selected)
+                     ^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 18, in __init__
+    self.build_directory_view(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 39, in build_directory_view
+    on_click=self.on_list_click(file)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 104, in on_list_click
+    self.update()
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 314, in update
+    assert self.__page, "Control must be added to the page first."
+           ^^^^^^^^^^^
+AssertionError: Control must be added to the page first.
+2024-09-17 22:34:50,404 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:34:53,137 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'NoneType' object has no attribute 'go'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 123, in route_change
+    page.add(ListApp(g_c.get_nav_link(),s_value))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 48, in __init__
+    self.lists_content = Lists(selected)
+                     ^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 18, in __init__
+    self.build_directory_view(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 39, in build_directory_view
+    on_click=self.on_list_click(file)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/lists.py", line 104, in on_list_click
+    self.page.go("/list?s=" + list_file)
+    ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'go'
+2024-09-17 22:35:52,197 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:37:30,651 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:37:51,820 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:41:50,067 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:44:12,475 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:44:16,610 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError('can only concatenate str (not "NoneType") to str')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 121, in route_change
+    print("VALUE=========" + s_value)
+          ~~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+2024-09-17 22:45:38,824 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:48:27,790 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:50:37,062 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:55:39,189 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:56:58,637 - root - INFO - Logging configurado correctamente.
+2024-09-17 22:59:10,866 - root - INFO - Logging configurado correctamente.
+2024-09-19 09:25:50,792 - root - INFO - Logging configurado correctamente.
+2024-09-19 15:27:05,136 - root - INFO - Logging configurado correctamente.
+2024-09-19 15:28:52,346 - root - INFO - Logging configurado correctamente.
+2024-09-19 15:35:14,780 - root - INFO - Logging configurado correctamente.
+2024-09-19 15:43:07,911 - root - INFO - Logging configurado correctamente.
+2024-09-19 15:43:32,400 - root - INFO - Logging configurado correctamente.
+2024-09-19 15:43:34,385 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=UnboundLocalError("cannot access local variable 'selected_value' where it is not associated with a value")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 122, in route_change
+    page.add(ListApp(g_c.get_nav_link(),selected_value))
+                                       ^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'selected_value' where it is not associated with a value
+2024-09-19 15:49:01,603 - root - INFO - Logging configurado correctamente.
+2024-09-19 15:57:21,535 - root - INFO - Logging configurado correctamente.
+2024-09-19 16:04:49,924 - root - INFO - Logging configurado correctamente.
+2024-09-19 16:10:29,402 - root - INFO - Logging configurado correctamente.
+2024-09-19 16:15:17,503 - root - INFO - Logging configurado correctamente.
+2024-09-19 16:17:25,942 - root - INFO - Logging configurado correctamente.
+2024-09-19 16:18:30,604 - root - INFO - Logging configurado correctamente.
+2024-09-19 16:45:47,809 - root - INFO - Logging configurado correctamente.
+2024-09-19 16:45:53,423 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("unsupported operand type(s) for +: 'NoneType' and 'str'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 117, in route_change
+    page.title = selected_value + " [open CHEATSHEET pre-Alpha]"
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+2024-09-19 16:45:57,822 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("unsupported operand type(s) for +: 'NoneType' and 'str'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 117, in route_change
+    page.title = selected_value + " [open CHEATSHEET pre-Alpha]"
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+2024-09-19 16:46:33,358 - root - INFO - Logging configurado correctamente.
+2024-09-19 16:46:42,911 - root - INFO - Logging configurado correctamente.
+2024-09-19 16:46:49,734 - root - INFO - Logging configurado correctamente.
+2024-09-19 16:46:55,704 - root - INFO - Logging configurado correctamente.
+2024-09-19 16:47:08,947 - root - INFO - Logging configurado correctamente.
+2024-09-19 16:47:08,947 - root - INFO - Logging configurado correctamente.
+2024-09-19 16:47:08,958 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'list' object has no attribute '_build_add_commands'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 132, in route_change
+    page.add(SettingsApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 445, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute '_build_add_commands'

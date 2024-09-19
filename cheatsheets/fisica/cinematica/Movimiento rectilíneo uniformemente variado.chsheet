@@ -3,6 +3,7 @@
     "description": "Descripci\u00f3n breve sobre el movimiento rectil\u00edneo uniformementye variado.",
     "detail": "<markup>Explicaci\u00f3n detallada del tema, puede incluir m\u00faltiples p\u00e1rrafos, listas, etc.</markup>",
     "forms": "\\frac{d}{t} = v",
+    "img" : "mru.jpg",
     "var_table": [
         {
             "var": "xi",

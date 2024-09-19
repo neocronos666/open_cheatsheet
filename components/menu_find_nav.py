@@ -37,6 +37,12 @@ class MenuFindNav(ft.Row):
     
     def on_settings_click(self, e):
         # on_click=self.on_settings_click
+        # g_c = GlobalCfg()
+        # link=g_c.go_back()
+        self.page.go("/settings") 
+
+
+
         print("Settings------------")
 
     def on_new_click(self, e):        

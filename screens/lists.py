@@ -4,66 +4,107 @@ from utils import read_lists
 import os
 
 class Lists(ft.Column):
-    def __init__(self,selected):
+    def __init__(self,selected=None):
         super().__init__()
-        self.lists_directory = "./lists"
-        self.selected_list = None
-        print("----------ACAA------------")
-        print(os.listdir(self.lists_directory))
+        self.lists_directory = "./lists" #Estos directorios deberian venir del setting manager
+        # self.cheatsheets_directory = "./cheatsheets"
+
+        self.selected_list = selected
+        # print("----------ACAA------------")
+        # print(os.listdir(self.lists_directory))
         self.list_files = [            
-            file for file in os.listdir(self.lists_directory)if file.endswith(".chlist")
+            file for file in os.listdir(self.lists_directory) if file.endswith(".chlist") and not file.startswith(".")
         ]
         self.list_content = []
+        self.controls = [
+            self.build_directory_view(),
+             self.build_file_view()
+        ]
 
-    def build(self):
+
+    def build_directory_view(self):
         # Lista de archivos .chlist
-        lists_view = ft.Column(           
+        lists_view = ft.Column()  
+
+        for file in self.list_files:                     
             lists_view.controls.append(
                         ft.Container(
                             padding=ft.Padding(left=10, top=5, right=0, bottom=5),
                             content=ft.Row(
                                 controls=[
-                                    ft.Icon(ft.icons.INSERT_DRIVE_FILE),
-                                    ft.Text(self.list_files)
+                                    ft.Icon(ft.icons.LIST),
+                                    ft.Text(file)
                                     # ft.Text(file_name)
                                 ],                                                            
                             ),
                             #on_click=self.on_file_click
-                            on_click=lambda e, path=item: self.on_item_click(path)
+                             on_click=lambda e: self.on_list_click(file)
+                            #on_click=lambda e, line=line: self.on_item_click(self.lists_directory + "/" + line) if self.selected_list else None
                         )
                     )
-            )
-        '''
-        items=[
-            ft.TextButton(
-                text=list_file,
-                on_click=lambda e, file=list_file: self.on_list_click(file)
-            )
-            for list_file in self.list_files
-        ]
-        '''
+            return lists_view       
+    
+    
+    def build_file_view(self):
+        # Lista de contenido de archivo seleccionado
+        # self.content_view = ft.ListView()
+        self.content_view = ft.Column()
+        
+        # if not self.selected_list:
+        
+        # con = ['Please Select a list'] if not self.selected_list else read_lists( self.lists_directory + self.selected_list) 
+        if not self.selected_list:  #-----------------ACA PUEDE HABER LIO; VER QUE PASA CUANDO llega con un link
+            con =[]
+            con.append('Please Select a list')
+        else:
+            con = read_lists( self.lists_directory + "/" + self.selected_list) 
+            print("DIR:" + self.lists_directory + "/" + self.selected_list)
+
+
+        #    content = read_lists( self.lists_directory + self.selected_list) if not  self.selected_list
+        print("---------------------CON:")
+        print(con)
+
+        for line in con:
+            
+            self.content_view.controls.append(
+                ft.Container(
+
+                    padding=ft.Padding(left=10, top=5, right=0, bottom=5),
+                    content=ft.Row(
+                        controls=[
+                            ft.Icon(ft.icons.INSERT_DRIVE_FILE),
+                            ft.Text(line)
+                        ]                                                            
+                    ),
+                    # on_click=lambda e: self.on_file_click
+                    # on_click = self.on_item_click(self.lists_directory + line) if self.selected_list
+                    # on_click=lambda e, line=line: self.on_item_click(self.lists_directory + "/" + line) if self.selected_list else None
+                    # on_click=lambda e, line=line: self.on_item_click(self.cheatsheets_directory + "/" + line) if self.selected_list else None
+                    on_click=lambda e, line=line: self.on_item_click(line) if self.selected_list else None
+                )
+            )      
+        return self.content_view
+
+
         
 
-        # Lista de contenido de archivo seleccionado
-        self.content_view = ft.ListView(
-            items=[
-                ft.TextButton(
-                    text=item.split('/')[-1],  # Mostrar solo el nombre
-                    on_click=lambda e, path=item: self.on_item_click(path)
-                )
-                for item in self.list_content
-            ]
-        )
-
-        return ft.Column([lists_view, self.content_view])
-
     def on_list_click(self, list_file):
-        self.selected_list = os.path.join(self.lists_directory, list_file)
-        self.list_content = read_lists(self.selected_list)
-        self.update()
+        # self.selected_list = os.path.join(self.lists_directory, list_file)
+        # self.list_content = read_lists(self.selected_list)
+        # self.page.go("/list?s=" + list_file) 
+        # self.update()
+        print("----------------LIST CONTENT ON LIST CLICK, LIST FILE:")
+        print(list_file)
+        self.page.go("/lists?s=" + list_file) 
+          # ---------------------ACA---------
 
     def on_item_click(self, path):
+        print("----------------------ON ITEM CLICK. RUTA:")
         print(f"Ruta completa: {path}")
+        # print(self.list_content)
+        # self.page.go("/lists?s="+path)
+        self.page.go("/sheet?s=" + path)
 
 
 

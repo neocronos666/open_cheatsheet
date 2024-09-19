@@ -27,7 +27,7 @@ class GlobalCfg:
 
     def get_nav_link(self):
         nav = self.nav_hist
-        if len(nav) > 2: return str(nav[-2])
+        if len(nav) >= 2: return str(nav[-2])
         elif len(nav)==1: return str(nav[-1])
         else: return "/"
 

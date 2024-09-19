@@ -3,6 +3,7 @@
     "description": "Descripción breve sobre el movimiento rectilíneo uniforme.", // Texto breve que resume el concepto
     "detail": "<markup>Explicación detallada del tema, puede incluir múltiples párrafos, listas, etc.</markup>", // Sección para detalles extensos, puede incluir HTML o algún otro markup
     "forms": "\\frac{d}{t} = v", // Fórmula principal en formato LaTeX
+    "img": "mru.jpg", // imagen
     "var_table": [
         {"var": "d", "desc": "Distancia recorrida"},
         {"var": "t", "desc": "Tiempo transcurrido"},
