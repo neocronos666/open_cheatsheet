@@ -57,13 +57,15 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/open-cheatsheet
-Install the required dependencies (coming soon):
 ```
+Install the required dependencies:
+
 
 ```bash
 pip install -r requirements.txt
-Run the app:
 ```
+Run the app:
+
 ```bash
 python main.py
 ```

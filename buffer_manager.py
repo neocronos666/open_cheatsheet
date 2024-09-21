@@ -2,13 +2,25 @@ import os
 
 import logging
 from settings_manager import *
-
+from components.global_cfg import GlobalCfg
 
 
 class BufferManager:
-    def __init__(self, cheatsheets_path, buffer_file):
-        self.cheatsheets_path = cheatsheets_path
-        self.buffer_file = buffer_file
+   
+    
+    def __init__(self, cheatsheets_path = None, buffer_file = None):
+        g_c=GlobalCfg        
+        if not cheatsheets_path:
+            self.cheatsheets_path=g_c.get_cheatsheets_path(self)
+            # self.cheatsheets_path='cheatsheets'
+        else:
+            self.cheatsheets_path = cheatsheets_path
+        
+        if not buffer_file:
+            self.buffer_file=g_c.get_buffer_file(self)
+        else:
+            self.buffer_file = buffer_file
+        self.all_buffer=self.load_buffer()
 
     def create_buffer(self):
         """Crea un buffer con la lista de archivos .chsheet y lo guarda en un archivo.
@@ -40,7 +52,8 @@ class BufferManager:
         else:
             logging.error("El archivo de buffer no existe.")
             return []
-        
+    def get_buffer(self):
+        return self.all_buffer
     
 
 # Ejemplo de uso

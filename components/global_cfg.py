@@ -6,24 +6,30 @@ import logging as lg
 class GlobalCfg:
     _instance = None    
     nav_hist = []
-    settings_file='cfg/settings.json'
+    
     settings = []
+    
     
     def __new__(cls):
         if cls._instance is None:
-            cls._instance = super(GlobalCfg, cls).__new__(cls)
-            # cls._instance.settings = {}            
-            # cls._instance.nav_history = []
+            cls._instance = super(GlobalCfg, cls).__new__(cls)           
         return cls._instance
     
     def __init__(self):
+        self.settings_file='cfg/settings.json'
+        self.buffer_file='cfg/.buffer'
+        self.cheatsheets_path='cheatsheets'
+        self.help_url = ["https://github.com/neocronos666"]
+
+
+
         self.settings = self.load_settings()
         self.setup_logging()
     
     #--------NAVIGATION----------------
     def add_nav(self,nav):
         self.nav_hist.append(nav)
-        print("----ADDED: "+nav)
+        # print("----ADDED: "+nav)
 
     def get_nav_link(self):
         nav = self.nav_hist
@@ -68,7 +74,9 @@ class GlobalCfg:
         with open(self.settings_file, 'w') as f:
             json.dump(self.settings, f, indent=4)
     
-
+    #--------UTILS-------------------
+    def get_help_url(self):
+        return self.help_url
 
     #--------LOGGING-----------------
     def setup_logging(self):
@@ -82,3 +90,11 @@ class GlobalCfg:
                             handlers=[lg.FileHandler(logging_file), lg.StreamHandler()])
 
         lg.info("Logging configurado correctamente.")
+    
+    #----------GETTERS----------------------------
+    def get_buffer_file(self): 
+        #return self.buffer_file
+        return 'cfg/.buffer'
+    def get_cheatsheets_path(self): 
+        # return self.cheatsheets_path
+        return 'cheatsheets'

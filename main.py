@@ -10,7 +10,9 @@ from screens.cheat_sheet import *
 from screens.lists import *
 from screens.favs import *
 from screens.lists import *
+from screens.about import *
 from settings_manager import SettingsManager
+
 
 
 # ----Clases de Maquetacion-------------------------------------------
@@ -53,8 +55,7 @@ class ListApp(ft.Column):
         ]
 class CheatSheetViewerApp(ft.Column):
     def __init__(self, back_link, selected=None):
-        super().__init__()        
-        
+        super().__init__()          
         self.menu_find_nav = MenuFindNav(back_link)                
         self.sheet_content =CheatSheetViewer(selected)
         self.controls = [
@@ -70,8 +71,19 @@ class SettingsApp(ft.Column):
             self.setting_manager
         ]
 
-#---------Metodos propios--------------------
+class AboutApp(ft.Column):
+    def __init__(self,back_link):
+        super().__init__()        
+        self.about_content = AboutScreen(back_link).view    
+        self.controls = [
+            self.about_content
+        ]
 
+
+
+
+
+#---------Metodos propios--------------------
 def main(page: ft.Page):
     page.title = "open CHEATSHEET pre-Alpha"
     page.vertical_alignment = ft.MainAxisAlignment.START
@@ -120,8 +132,7 @@ def main(page: ft.Page):
             print("S_VALUE=========" + str(selected_value))
 
         elif page.route == "/favs":
-            g_c.add_nav("/favs")
-            #nav.append("/favs")
+            g_c.add_nav("/favs")            
             print("-----FAVS")
             page.title = "Settings Manager - [open CHEATSHEET pre-Alpha]"            
             page.add(FavsApp(g_c.get_nav_link()))
@@ -130,9 +141,14 @@ def main(page: ft.Page):
             g_c.add_nav("/settings")            
             print("-----SETTINGS")            
             page.add(SettingsApp(g_c.get_nav_link()))            
+
+        elif page.route == "/about":
+            g_c.add_nav("/about")            
+            print("-----ABOUT")            
+            page.add(AboutApp(g_c.get_nav_link()))        
+
         else:
-            g_c.add_nav("/")
-            # nav.append("/")
+            g_c.add_nav("/")            
             page.route = "/"
             page.add(MainApp(g_c.get_nav_link()))
         #print("MAIN:GET NAV LINK:")
