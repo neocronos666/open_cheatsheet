@@ -1,6 +1,4 @@
 import flet as ft
-# import os
-
 from components.global_cfg import GlobalCfg
 
 from components.menu_find_nav import *
@@ -13,15 +11,16 @@ from screens.lists import *
 from screens.about import *
 from settings_manager import SettingsManager
 
-
-
-# ----Clases de Maquetacion-------------------------------------------
 class MainApp(ft.Column):
     def __init__(self,back_link):
         super().__init__()
-        self.menu_find_nav = MenuFindNav(back_link)
-        # self.tab_selector = TabSelector()
+        self.menu_find_nav = MenuFindNav(back_link)        
         self.iconbutton_selector = IconButtonSelector()
+        #
+        # g_c=GlobalCfg()                 
+        # self.main_content = MainContent(buffer_file=self.g_c.get_buffer_file)            
+        #
+
         self.main_content = MainContent(buffer_file="./cfg/.buffer")            
         self.controls = [
             self.menu_find_nav,
@@ -68,9 +67,8 @@ class SettingsApp(ft.Column):
         self.setting_manager = SettingsManager(back_link)
         
         self.controls = [
-            self.setting_manager
+            self.setting_manager.build()
         ]
-
 class AboutApp(ft.Column):
     def __init__(self,back_link):
         super().__init__()        
@@ -78,85 +76,51 @@ class AboutApp(ft.Column):
         self.controls = [
             self.about_content
         ]
-
-
-
-
-
-#---------Metodos propios--------------------
+#-------------------------------------------------
 def main(page: ft.Page):
-    page.title = "open CHEATSHEET pre-Alpha"
+    page.title = "open CHEATSHEET Public-Alpha"
     page.vertical_alignment = ft.MainAxisAlignment.START
     page.scroll = ft.ScrollMode.ADAPTIVE  
     g_c = GlobalCfg()
-    # nav = []
-    # Manejar rutas
+    
     def route_change(route):        
         page.controls.clear()
-        # param_value = page.route_params.get("s")
-        print("--------------Page.route: " + page.route)
-
         full_route = page.route
-
-        # Separar la ruta del parámetro (si existe)
         route_parts = full_route.split('?')
-
-        # Almacenar la parte izquierda de la ruta
-        path = route_parts[0]
-
-        # Almacenar la parte derecha de la ruta (parámetro s)
-        params = route_parts[1] if len(route_parts) > 1 else None
-
-        # Extraer el valor de "s"
+        path = route_parts[0]        
+        params = route_parts[1] if len(route_parts) > 1 else None        
         selected_value = None
         if params:
-            selected_value = params.split('=')[1] if '=' in params else None         
+            selected_value = params.split('=')[1] if '=' in params else None          
         
-        
-
-        #-------RUTAS-------------------------
+        #-------ROUTES-------------------------
         if page.route == "/":
             g_c.add_nav("/")            
-            page.add(MainApp(g_c.get_nav_link()))  # Página principal     
-                  
+            page.add(MainApp(g_c.get_nav_link()))                     
         elif path == "/sheet":
             g_c.add_nav(full_route)            
-            page.title = selected_value + " [open CHEATSHEET pre-Alpha]"            
+            page.title = selected_value + " [open CHEATSHEET Public-Alpha]"            
             page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))        
-
         elif path == "/lists":
-            g_c.add_nav(page.route)            
-            # page.title = selected_value + " [open CHEATSHEET pre-Alpha]" 
-            print("-----NAVEGACION LISTS")
-            page.add(ListApp(g_c.get_nav_link(),selected_value)) 
-            print("S_VALUE=========" + str(selected_value))
-
+            g_c.add_nav(page.route)                          
+            page.add(ListApp(g_c.get_nav_link(),selected_value))             
         elif page.route == "/favs":
-            g_c.add_nav("/favs")            
-            print("-----FAVS")
-            page.title = "Settings Manager - [open CHEATSHEET pre-Alpha]"            
-            page.add(FavsApp(g_c.get_nav_link()))
-        
+            g_c.add_nav("/favs")                        
+            page.title = "Settings Manager - [open CHEATSHEET Public-Alpha]"            
+            page.add(FavsApp(g_c.get_nav_link()))        
         elif page.route == "/settings":
-            g_c.add_nav("/settings")            
-            print("-----SETTINGS")            
-            page.add(SettingsApp(g_c.get_nav_link()))            
-
+            g_c.add_nav("/settings")                          
+            page.add(SettingsApp(g_c.get_nav_link()))     
         elif page.route == "/about":
-            g_c.add_nav("/about")            
-            print("-----ABOUT")            
+            g_c.add_nav("/about")                        
             page.add(AboutApp(g_c.get_nav_link()))        
-
         else:
             g_c.add_nav("/")            
             page.route = "/"
             page.add(MainApp(g_c.get_nav_link()))
-        #print("MAIN:GET NAV LINK:")
-        #print(g_c.get_nav_link())        
-   
-
+        
     page.on_route_change = route_change
-    page.go(page.route)  # Cargar la página principal al inicio   
+    page.go(page.route) 
 # ------------APP----------------------------
 ft.app(target=main)
-#ft.app(target=sheet)
+

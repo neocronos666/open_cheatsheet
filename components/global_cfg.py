@@ -94,7 +94,8 @@ class GlobalCfg:
     #----------GETTERS----------------------------
     def get_buffer_file(self): 
         #return self.buffer_file
-        return 'cfg/.buffer'
+        return './cfg/.buffer'
     def get_cheatsheets_path(self): 
         # return self.cheatsheets_path
         return 'cheatsheets'
+    #-----theme = settings.get_setting("theme", default="dark")-------------------

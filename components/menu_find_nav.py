@@ -4,6 +4,9 @@ import flet as ft
 from components.global_cfg import GlobalCfg
 from buffer_manager import BufferManager
 
+import subprocess
+import sys
+
 class MenuFindNav(ft.Row):
     def __init__(self,back_link):
         super().__init__()
@@ -24,7 +27,8 @@ class MenuFindNav(ft.Row):
         )
 
         find_button = ft.IconButton(icon=ft.icons.SEARCH, on_click=self.on_search_click)
-        search_box = ft.TextField(hint_text="Search...", expand=True,on_change=self.on_search_change)
+        # search_box = ft.TextField(hint_text="Search...", expand=True,on_change=self.on_search_change)
+        search_box = ft.TextField(hint_text="Search...(soon)", expand=True)
         back_button = ft.IconButton(icon=ft.icons.ARROW_BACK, on_click=self.on_back_click)
         dropdown = ft.Dropdown()
 
@@ -41,13 +45,17 @@ class MenuFindNav(ft.Row):
             expand=True
         )
     
-    def on_settings_click(self, e):
-        # on_click=self.on_settings_click
-        # g_c = GlobalCfg()
-        # link=g_c.go_back()
-        self.page.go("/settings") 
-        print("Settings------------")
+    def on_settings_click(self, e): #----------------ACA------------
+       
+        # self.page.go("/settings") 
+        # print("Settings------------")
 
+        subprocess.Popen([sys.executable, 'settings_manager.py'])
+        #sys.exit()
+        # self.page.window.visible = False
+        self.page.window.close()
+        self.page.update()  
+        
     def on_new_click(self, e):        
         print("NEW----------(SOON)")
     

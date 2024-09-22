@@ -1,6 +1,7 @@
 # Codigo de sergio
 
 import flet as ft
+# from components.global_cfg import GlobalCfg
 
 # from main import sheet
 # from screens.cheat_sheet import *
@@ -8,8 +9,9 @@ import flet as ft
 
 
 class MainContent(ft.Column):
-    def __init__(self, buffer_file):
-        super().__init__()
+    def __init__(self, buffer_file=None):
+        super().__init__()       
+        
         self.buffer_file = buffer_file
         self.all_paths = []  # Lista para almacenar las rutas completas
         self.directory_structure = self.load_directory_structure()

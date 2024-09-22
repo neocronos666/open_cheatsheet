@@ -1,4 +1,4 @@
-# Open CheatSheet
+# Open CheatSheet Public-Alpha v0.18
 
 > **Enhance your study efficiency with Open CheatSheet**: Instantly access all your necessary formulas and tips, distraction-free and without ads, right from your phone or any device. Open CheatSheet is designed to help students focus and retain productivity by keeping all the formulas, constants, and tips in one place—without the need for an internet connection.
 
@@ -26,13 +26,58 @@ Whether you're working on a complex math problem or need a quick reminder of gam
 
 **Open CheatSheet** is a Python-based application that organizes and provides essential formulas, constants, and tips in a structured, easy-to-access format. The app is inspired by mobile-first design but is built to function natively across all major platforms. The app's goal is to eliminate the distractions that come with online searches, focusing instead on delivering fast, relevant information offline. It’s lightweight, fast, and created with **flet** to ensure that it runs smoothly on any device.
 
+## Roadmap
+
+#### Stay updated by checking our Roadmap for detailed information on upcoming features and timelines.
+
+### :baby: Pre-Alpha
+- [*] Design front-end
+- [*] Create minimum controls
+- [*] Add Favs
+- [*] Add Lists
+- [*] Implement Navigation
+- [*] Implment URL navigation
+- [*] Create [Settings Manager](/docs/settings_manager.md) Tool
+- [*] Create [Get Requirements](/docs/get_requirements.md) Tool
+- [*] Create about screen
+- [*] Write documentation
+- [*] Private tests
+- [*] debug
+- Open to Suggestions
+
+### :boy: Public-Alpha
+- [*] Public Alpha Release
+- [ ] Create new ChSheet
+- [ ] Search in Buffer
+- [ ] Imporove Interface
+- [ ] Implement Dark/light theme
+- [ ] Autodetect platform theme
+- [ ] MULTI LANG SUPPORT
+- Open to issues and suggestions
+
+### :man: Public-Beta
+- [ ] create all platforms package installer
+- [ ] Study the chance to get a server and post an free online version of the app
+- [ ] Implement autoupdate protocol
+- [ ] Agregar funciones con ayuda de la comunidad
+- Open to issues and suggestions
+
+### :suspect: Release
+- [ ] Upload packages to repos
+- Open to issues and suggestions
+
+### :vulcan_salute: Branching
+- [ ] Study branches to create using the format, like for videogames cheats or cook recipes.
+- [ ] Create an online test version
+- Open to issues and suggestions
+
 ### Current State
 
-Currently, the app is in **pre-Alpha** development, with testing primarily done on desktop platforms. However, the goal is to release it for all supported platforms once the development stabilizes.
+Currently, the app is in **Public-Alpha** development, with testing primarily done on desktop platforms. However, the goal is to release it for all supported platforms once the development stabilizes.
 
 ---
 
-## How It Works
+## What is a .chsheet file?
 
 Open CheatSheet uses files with the `.chsheet` extension to store formulas, constants, and explanations in a structured format. Here’s what a typical file contains:
 
@@ -45,6 +90,8 @@ Open CheatSheet uses files with the `.chsheet` extension to store formulas, cons
 - **Images**: An optional image related to the concept (e.g., diagrams, charts, etc.).
 - **References**: Links to websites that provide more in-depth information on the topic.
 - **Related Formulas**: Links to other related `.chsheet` files.
+
+
 
 ---
 
@@ -91,34 +138,32 @@ Areas of Contribution:
 - **Programming and Testing:** Test the app across different platforms, contribute code, and help us optimize the app for better performance.
 
 We will be adding detailed guides for contributors in the Docs section, so stay tuned! 
-All collaboration is managed through GitHub and Discord (coming soon).
+All collaboration is managed through GitHub and Discord (more info see [how_to_contribute](docs/how_to_contribute.md)).
+
+
 
 ---
 
 ## Documentation
 - [FAQ](docs/faq.md)
-- [CheatSheets format](docs/chsheet_format.md)
-- [CheatSheets Examples](docs/chsheet_examples.md)
+- [CheatSheets format](docs/ES_chsheet_format.md)
+- [CheatSheets Examples](docs/ES_chsheet_examples.md)
 - [Known installation problems](docs/solved.md)
+- [Get Requirement Tools](docs/get_requirements.md)
+- [Settings Manager Tools](docs/settings_manager.md)
+- [HOW TO CONTRIBUTE](docs/how_to_contribute.md)
 
 
 ## Licensing
 This project is licensed under the GPL (General Public License), meaning it's free for personal and educational use, and anyone who modifies the code must give proper credit and may not use it for commercial purposes.
 
-## Roadmap
-We are currently in the Pre-Alpha stage, focusing on desktop testing. Here's an overview of our roadmap:
 
-- [*] Pre-Alpha: Initial development and desktop testing.
-- [ ] Alpha: First public version with mobile testing.
-- [ ] Beta: Optimization and bug fixes across platforms.
-- [ ] Version 1.0: Full release with complete functionality, including sharing and printing features.
-- [ ] Stay updated by checking our Roadmap for detailed information on upcoming features and timelines.
 
 ## Reach Contact
 - 🇬🇧 [English bug report discord channel](https://discord.gg/4Dnd5CeYFy)
 - 🇪🇸 [Canal de discord en Español para reporte de errores](https://discord.gg/ZbEu5cwzkJ)
 
-## Donations
+## Donations (Soon)
 Love the project and want to support us? Consider making an anonymous donation. Your contribution will help us keep the project free, open-source, and available to students worldwide!
 
 Thank you for your support!
