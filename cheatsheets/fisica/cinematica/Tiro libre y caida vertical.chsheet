@@ -1,0 +1,44 @@
+{
+    "title": "Tiro libre y caída vertical",
+    "description": "Una descripción breve del tiro libre y la caída vertical, incluyendo los conceptos básicos de su movimiento.",
+    "detail": "### El tiro libre y la caída vertical son ejemplos de movimiento bajo la influencia de la gravedad, donde no se considera la resistencia del aire. La aceleración constante es igual a la aceleración gravitacional.",
+    "img": "Tiro_libre_y_caida_vertical.jpg",
+    "forms": "y = y_0 + v_0t - \\frac{1}{2} gt^2",
+    
+    "var_table": [
+        {"var": "y", "desc": "Posición final"},
+        {"var": "y_0", "desc": "Posición inicial"},
+        {"var": "v_0", "desc": "Velocidad inicial"},
+        {"var": "t", "desc": "Tiempo"},
+        {"var": "g", "desc": "Aceleración debida a la gravedad"}
+    ],
+    "cons_table": {
+        "headers": [
+            "Constante",
+            "Valor",
+            "Descripci\u00f3n"
+        ],
+        "rows": [
+            {
+                "constante": "g",
+                "valor": "9.81 m/s²",
+                "descripcion": "Aceleraci\u00f3n de la gravedad"
+            }            
+        ]
+    },
+    "c_date": "2024-09-12",
+    "m_date": "2024-09-12",
+    "author": "Neocronos666 [using chatGPT4]",
+    "email": "autor@ejemplo.com",
+    "web": "https://www.ejemplo.com",
+    "ref_webs": [
+        "https://es.wikipedia.org/wiki/Tiro_parab%C3%B3lico",
+        "https://www.fisicaenlinea.com/movimiento-vertical"
+    ],
+    "rel_forms": [
+        "ES_movimiento_parabolico.chsheet"
+    ],
+    "template": [
+        "Default"
+    ]
+}

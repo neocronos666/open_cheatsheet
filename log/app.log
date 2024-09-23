@@ -6795,3 +6795,615 @@ AttributeError: 'MainApp' object has no attribute 'g_c'
 2024-09-21 22:32:01,879 - flet_runtime - INFO - App session started
 2024-09-21 22:32:14,437 - root - INFO - Logging configurado correctamente.
 2024-09-21 22:32:14,442 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-22 00:41:36,268 - root - INFO - Logging configurado correctamente.
+2024-09-22 00:41:36,273 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-22 11:21:08,322 - root - INFO - Logging configurado correctamente.
+2024-09-22 11:21:08,326 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-22 11:21:10,724 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-22 11:21:13,349 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-22 11:21:15,138 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-22 11:21:20,990 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-22 11:21:32,414 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-22 11:21:33,954 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-22 13:43:46,317 - root - INFO - Logging configurado correctamente.
+2024-09-22 13:43:46,325 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:33:51,950 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:33:51,956 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:35:05,612 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:35:05,613 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:35:05,613 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:35:05,615 - root - INFO - Buffer creado con 4 archivos .chsheet.
+2024-09-23 16:35:05,615 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:35:42,567 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:35:42,571 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:35:52,563 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:35:54,467 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:35:55,795 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:35:57,520 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:36:55,543 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:36:55,544 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:36:55,544 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:36:55,545 - root - INFO - Buffer creado con 4 archivos .chsheet.
+2024-09-23 16:36:55,546 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:38:38,234 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:38:38,235 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:38:38,235 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:38:38,236 - root - INFO - Buffer creado con 4 archivos .chsheet.
+2024-09-23 16:38:38,237 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:40:22,193 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:40:22,194 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:40:22,194 - root - INFO - Buffer cargado con 4 archivos.
+2024-09-23 16:40:22,196 - root - INFO - Buffer creado con 5 archivos .chsheet.
+2024-09-23 16:40:22,196 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:40:36,401 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:40:36,406 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:40:45,106 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:40:46,046 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("\n\\[ y = y_0 + v_0t - \\frac{1}{2}gt^2 \\]\n^\nParseFatalException: Unknown symbol: \\[, found '\\'  (at char 0), (line:1, col:1)")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 59, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 13, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 65, in render_cheatsheet
+    img_buffer = self.render_latex_as_image(value)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 35, in render_latex_as_image
+    plt.savefig(img_path, format='png', bbox_inches='tight', pad_inches=0.1)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/pyplot.py", line 1134, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_qtagg.py", line 75, in print_figure
+    super().print_figure(*args, **kwargs)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 2164, in print_figure
+    self.figure.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3154, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 3070, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 748, in draw
+    bbox, info, descent = self._get_layout(renderer)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 381, in _get_layout
+    w, h, d = _get_text_metrics_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 69, in _get_text_metrics_with_cache
+    return _get_text_metrics_with_cache_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 77, in _get_text_metrics_with_cache_impl
+    return renderer_ref().get_text_width_height_descent(text, fontprop, ismath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 217, in get_text_width_height_descent
+    self.mathtext_parser.parse(s, self.dpi, prop)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 79, in parse
+    return self._parse_cached(s, dpi, prop, antialiased)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 100, in _parse_cached
+    box = self._parser.parse(s, fontset, fontsize, dpi)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/_mathtext.py", line 2165, in parse
+    raise ValueError("\n" + ParseException.explain(err, 0)) from None
+ValueError: 
+\[ y = y_0 + v_0t - \frac{1}{2}gt^2 \]
+^
+ParseFatalException: Unknown symbol: \[, found '\'  (at char 0), (line:1, col:1)
+2024-09-23 16:43:20,007 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:43:20,011 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:43:24,430 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:43:25,327 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("\n$y = y_0 + v_0 t - \x0crac{1}{2} g t^2$\n^\nParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 59, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 13, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 65, in render_cheatsheet
+    img_buffer = self.render_latex_as_image(value)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 35, in render_latex_as_image
+    plt.savefig(img_path, format='png', bbox_inches='tight', pad_inches=0.1)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/pyplot.py", line 1134, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_qtagg.py", line 75, in print_figure
+    super().print_figure(*args, **kwargs)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 2164, in print_figure
+    self.figure.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3154, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 3070, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 748, in draw
+    bbox, info, descent = self._get_layout(renderer)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 381, in _get_layout
+    w, h, d = _get_text_metrics_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 69, in _get_text_metrics_with_cache
+    return _get_text_metrics_with_cache_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 77, in _get_text_metrics_with_cache_impl
+    return renderer_ref().get_text_width_height_descent(text, fontprop, ismath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 217, in get_text_width_height_descent
+    self.mathtext_parser.parse(s, self.dpi, prop)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 79, in parse
+    return self._parse_cached(s, dpi, prop, antialiased)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 100, in _parse_cached
+    box = self._parser.parse(s, fontset, fontsize, dpi)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/_mathtext.py", line 2165, in parse
+    raise ValueError("\n" + ParseException.explain(err, 0)) from None
+ValueError: 
+$y = y_0 + v_0 t - rac{1}{2} g t^2$
+^
+ParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)
+2024-09-23 16:44:39,997 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:44:40,003 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:44:46,319 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:44:47,413 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'list' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 59, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 13, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 76, in render_cheatsheet
+    headers = value.get("headers", [])
+              ^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2024-09-23 16:46:05,652 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:46:05,655 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:46:11,373 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:46:11,375 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=JSONDecodeError('Invalid \\escape: line 6 column 15 (char 480)')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 59, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 12, in __init__
+    self.cheatsheet_data = self.load_cheatsheet()
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 20, in load_cheatsheet
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Invalid \escape: line 6 column 15 (char 480)
+2024-09-23 16:48:37,117 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:48:37,122 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:48:44,392 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:48:45,258 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("\n\\[ y = y_0 + v_0t - \x0crac{1}{2}gt^2 \\]\n^\nParseFatalException: Unknown symbol: \\[, found '\\'  (at char 0), (line:1, col:1)")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 59, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 13, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 65, in render_cheatsheet
+    img_buffer = self.render_latex_as_image(value)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 35, in render_latex_as_image
+    plt.savefig(img_path, format='png', bbox_inches='tight', pad_inches=0.1)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/pyplot.py", line 1134, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_qtagg.py", line 75, in print_figure
+    super().print_figure(*args, **kwargs)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 2164, in print_figure
+    self.figure.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3154, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 3070, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 748, in draw
+    bbox, info, descent = self._get_layout(renderer)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 381, in _get_layout
+    w, h, d = _get_text_metrics_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 69, in _get_text_metrics_with_cache
+    return _get_text_metrics_with_cache_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 77, in _get_text_metrics_with_cache_impl
+    return renderer_ref().get_text_width_height_descent(text, fontprop, ismath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 217, in get_text_width_height_descent
+    self.mathtext_parser.parse(s, self.dpi, prop)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 79, in parse
+    return self._parse_cached(s, dpi, prop, antialiased)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 100, in _parse_cached
+    box = self._parser.parse(s, fontset, fontsize, dpi)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/_mathtext.py", line 2165, in parse
+    raise ValueError("\n" + ParseException.explain(err, 0)) from None
+ValueError: 
+\[ y = y_0 + v_0t - rac{1}{2}gt^2 \]
+^
+ParseFatalException: Unknown symbol: \[, found '\'  (at char 0), (line:1, col:1)
+2024-09-23 16:50:04,804 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:50:04,808 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:50:10,679 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:50:17,692 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:50:17,700 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:50:20,718 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:50:20,725 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=JSONDecodeError('Invalid \\escape: line 6 column 15 (char 480)')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 59, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 12, in __init__
+    self.cheatsheet_data = self.load_cheatsheet()
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 20, in load_cheatsheet
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Invalid \escape: line 6 column 15 (char 480)
+2024-09-23 16:52:13,661 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:52:13,667 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:52:24,166 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:52:25,208 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("\n$ y = y_0 + v_0t - \x0crac{1}{2} gt^2 $\n^\nParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 59, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 13, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 65, in render_cheatsheet
+    img_buffer = self.render_latex_as_image(value)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 35, in render_latex_as_image
+    plt.savefig(img_path, format='png', bbox_inches='tight', pad_inches=0.1)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/pyplot.py", line 1134, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_qtagg.py", line 75, in print_figure
+    super().print_figure(*args, **kwargs)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 2164, in print_figure
+    self.figure.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3154, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 3070, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 748, in draw
+    bbox, info, descent = self._get_layout(renderer)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 381, in _get_layout
+    w, h, d = _get_text_metrics_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 69, in _get_text_metrics_with_cache
+    return _get_text_metrics_with_cache_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 77, in _get_text_metrics_with_cache_impl
+    return renderer_ref().get_text_width_height_descent(text, fontprop, ismath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 217, in get_text_width_height_descent
+    self.mathtext_parser.parse(s, self.dpi, prop)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 79, in parse
+    return self._parse_cached(s, dpi, prop, antialiased)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 100, in _parse_cached
+    box = self._parser.parse(s, fontset, fontsize, dpi)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/_mathtext.py", line 2165, in parse
+    raise ValueError("\n" + ParseException.explain(err, 0)) from None
+ValueError: 
+$ y = y_0 + v_0t - rac{1}{2} gt^2 $
+^
+ParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)
+2024-09-23 16:52:59,009 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:52:59,012 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:53:01,896 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:53:02,986 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'list' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 59, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 13, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 76, in render_cheatsheet
+    headers = value.get("headers", [])
+              ^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2024-09-23 16:54:02,813 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:54:02,816 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:54:07,877 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:54:07,880 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=JSONDecodeError('Invalid \\escape: line 6 column 15 (char 480)')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 59, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 12, in __init__
+    self.cheatsheet_data = self.load_cheatsheet()
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 20, in load_cheatsheet
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Invalid \escape: line 6 column 15 (char 480)
+2024-09-23 16:55:06,815 - root - INFO - Logging configurado correctamente.
+2024-09-23 16:55:06,821 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:55:10,216 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 16:55:11,318 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'list' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 59, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 13, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 76, in render_cheatsheet
+    headers = value.get("headers", [])
+              ^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2024-09-23 17:01:02,504 - root - INFO - Logging configurado correctamente.
+2024-09-23 17:01:02,508 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:01:35,011 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:01:36,331 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'list' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 59, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 13, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 76, in render_cheatsheet
+    headers = value.get("headers", [])
+              ^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2024-09-23 17:25:25,763 - root - INFO - Logging configurado correctamente.
+2024-09-23 17:25:25,783 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:25:31,140 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:25:34,883 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'list' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 59, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 13, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 76, in render_cheatsheet
+    headers = value.get("headers", [])
+              ^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2024-09-23 17:28:33,796 - root - INFO - Logging configurado correctamente.
+2024-09-23 17:28:33,799 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:28:36,627 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:30:00,018 - root - INFO - Logging configurado correctamente.
+2024-09-23 17:30:00,021 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:30:02,700 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:34:50,034 - root - INFO - Logging configurado correctamente.
+2024-09-23 17:34:50,042 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:34:52,514 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:38:02,570 - root - INFO - Logging configurado correctamente.
+2024-09-23 17:38:02,574 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:38:05,151 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:39:15,695 - root - INFO - Logging configurado correctamente.
+2024-09-23 17:39:15,698 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:39:27,425 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:39:57,900 - root - INFO - Logging configurado correctamente.
+2024-09-23 17:39:57,908 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:40:07,714 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:41:06,848 - root - INFO - Logging configurado correctamente.
+2024-09-23 17:41:06,854 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-23 17:41:10,219 - root - INFO - Buffer cargado con 5 archivos.

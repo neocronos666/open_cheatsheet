@@ -58,9 +58,9 @@ class BufferManager:
 
 # Ejemplo de uso
 if __name__ == "__main__":
-    settings_manager = SettingsManager('cfg/settings.json')
+    settings_manager = SettingsManager()
     
-    buffer_manager = BufferManager('cheatsheets', 'cfg/.buffer')
+    buffer_manager = BufferManager()
     
     # Crear el buffer
     buffer_manager.create_buffer()

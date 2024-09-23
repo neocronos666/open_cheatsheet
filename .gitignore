@@ -5,3 +5,5 @@ __pycache__
 qtest.py
 .pytest_cache
 .vscode
+*__pycache__/*
+

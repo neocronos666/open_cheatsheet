@@ -33,6 +33,7 @@ class CheatSheetViewer(ft.Column):
         # ACA PODRIA ACTIVAR O DESACTIVAR LA CHACHE
 
         plt.savefig(img_path, format='png', bbox_inches='tight', pad_inches=0.1)
+        # plt.savefig("output.svg", format="svg") Probar!!!!!
         plt.close(fig)
 
         return img_path  # Devolver la ruta del archivo de imagen
