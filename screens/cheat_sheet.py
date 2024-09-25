@@ -3,6 +3,9 @@ import json
 import os
 import matplotlib.pyplot as plt
 import io
+
+
+from matplotlib import transforms
 # from components.menu_find_nav import MenuFindNav as bar
 
 class CheatSheetViewer(ft.Column):
@@ -22,6 +25,8 @@ class CheatSheetViewer(ft.Column):
             print(f"Error: El archivo {file_path} no existe.")
             return None
     
+    '''
+    
     def render_latex_as_image(self, latex_string):
         # Crear un gráfico vacío y agregar el texto LaTeX
         fig, ax = plt.subplots()
@@ -29,15 +34,72 @@ class CheatSheetViewer(ft.Column):
         ax.axis('off')
 
         # Guardar la imagen en un archivo temporal
-        img_path = "./cfg/.latex_buffer.png"
+        img_path = "./cfg/.latex_buffer.svg"
+
         # ACA PODRIA ACTIVAR O DESACTIVAR LA CHACHE
 
-        plt.savefig(img_path, format='png', bbox_inches='tight', pad_inches=0.1)
-        # plt.savefig("output.svg", format="svg") Probar!!!!!
+        # plt.savefig(img_path + ".png", format='png', bbox_inches='tight', pad_inches=0.1)
+        plt.savefig(img_path, format="svg", bbox_inches='tight', pad_inches=0.1)
         plt.close(fig)
 
-        return img_path  # Devolver la ruta del archivo de imagen
-   
+        return img_path # Devolver la ruta del archivo de imagen
+    '''
+
+    
+
+    def render_latex_as_image(self, latex_string, font_size=20, font_family="serif", color="#7134eb"):
+        # Configurar la familia de fuentes y el color de la fuente en Matplotlib
+        plt.rcParams['mathtext.fontset'] = 'custom'
+        plt.rcParams['mathtext.rm'] = font_family
+        plt.rcParams['mathtext.it'] = font_family
+        plt.rcParams['mathtext.bf'] = font_family
+        plt.rcParams['text.color'] = color              
+        
+        # Crear figura y ejes
+        fig, ax = plt.subplots()
+
+        # Agregar el texto LaTeX y obtener el objeto de texto
+        text_obj = ax.text(0.5, 0.5, f"${latex_string}$", fontsize=font_size, ha='center', va='center', transform=ax.transAxes)
+
+        # Desactivar ejes
+        ax.axis('off')
+
+        # Dibujar la figura para calcular el tamaño del texto
+        fig.canvas.draw()
+
+        # Obtener el tamaño del texto renderizado en unidades de figura
+        bbox = text_obj.get_window_extent(renderer=fig.canvas.get_renderer())
+        
+        # Convertir las coordenadas del cuadro delimitador a coordenadas de figura
+        inv = ax.transData.inverted()
+        bbox_data = bbox.transformed(inv)
+
+        # Calcular el tamaño del texto en coordenadas de figura
+        width, height = bbox_data.width, bbox_data.height
+
+        # Calcular el factor de escala necesario para que el texto quepa en la figura con un margen del 5%
+        scale_x = 0.9 / width
+        scale_y = 0.9 / height
+        scale = min(scale_x, scale_y)
+
+        # Escalar el tamaño de la fuente
+        new_fontsize = text_obj.get_fontsize() * scale
+        text_obj.set_fontsize(new_fontsize)
+
+        # Establecer los márgenes para centrar el contenido
+        # ax.margins(x=(1-scale_x)/2, y=(1-scale_y)/2)
+        ax.margins(x= 0.05 / width, y= 0.05/height)
+
+        # Ruta de la imagen SVG
+        img_path = "./cfg/.latex_buffer.svg"
+
+        # Guardar la imagen en formato SVG con ajustes de tamaño
+        plt.savefig(img_path, format="svg", bbox_inches='tight', pad_inches=0.1, transparent=True)
+        plt.close(fig)
+
+        return img_path
+
+
     def render_cheatsheet(self):
         if not self.cheatsheet_data:
             return []

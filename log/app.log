@@ -7407,3 +7407,126 @@ AttributeError: 'list' object has no attribute 'get'
 2024-09-23 17:41:06,848 - root - INFO - Logging configurado correctamente.
 2024-09-23 17:41:06,854 - root - INFO - Buffer cargado con 5 archivos.
 2024-09-23 17:41:10,219 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:25:22,681 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:25:22,702 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:25:27,130 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:25:30,392 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:25:34,638 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:25:38,131 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:26:57,679 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:26:57,685 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:27:20,726 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:27:22,348 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:27:23,395 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:27:28,732 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:27:28,747 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:27:29,777 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:27:31,280 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:27:31,287 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:27:32,559 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:27:33,255 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:27:33,262 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:27:34,140 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:27:34,780 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:27:35,443 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:27:52,629 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:28:06,427 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:28:06,436 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:54:08,729 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:54:08,735 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:55:40,651 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:55:40,655 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 05:55:46,497 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:55:46,498 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:55:46,500 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-25 05:55:46,502 - flet_runtime - INFO - Starting up UDS server on /tmp/RgxDq6Sq5Q
+2024-09-25 05:55:46,503 - flet_runtime - INFO - Flet app has started...
+2024-09-25 05:55:46,504 - flet_runtime - INFO - App URL: /tmp/RgxDq6Sq5Q
+2024-09-25 05:55:46,504 - flet_runtime - INFO - Starting Flet View app...
+2024-09-25 05:55:46,505 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-25 05:55:49,057 - flet_runtime - INFO - App session started
+2024-09-25 05:56:03,652 - root - INFO - Logging configurado correctamente.
+2024-09-25 05:56:03,657 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:04:49,441 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:04:49,444 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:04:53,387 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:06:33,019 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:06:33,026 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:06:35,964 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:09:14,462 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:09:14,466 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:09:17,601 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:10:53,973 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:10:53,976 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:11:06,610 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:12:00,606 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:12:00,610 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:12:03,253 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:13:18,382 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:13:18,390 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:13:20,262 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:22:03,426 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:22:03,432 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:22:08,211 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:25:07,687 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:25:07,691 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:25:13,647 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:25:14,631 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError('margin must be greater than -0.5')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 103, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 59, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 16, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 120, in render_cheatsheet
+    img_buffer = self.render_latex_as_image(value)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 83, in render_latex_as_image
+    ax.margins(x=(1-scale_x)/2, y=(1-scale_y)/2)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 2742, in margins
+    self.set_xmargin(x)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 2644, in set_xmargin
+    raise ValueError("margin must be greater than -0.5")
+ValueError: margin must be greater than -0.5
+2024-09-25 06:27:29,732 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:27:29,754 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:27:32,542 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:32:12,044 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:32:12,066 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:32:16,168 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:35:50,612 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:35:50,616 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:35:54,679 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:38:12,531 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:38:12,535 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:38:14,188 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:46:38,504 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:46:38,509 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:46:42,585 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:46:43,361 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-09-25 06:46:43,361 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-09-25 06:51:26,481 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:51:26,487 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:51:30,332 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:51:31,066 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-09-25 06:51:31,067 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-09-25 06:52:36,109 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:52:36,113 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:52:38,693 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:52:39,449 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-09-25 06:52:39,450 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-09-25 06:54:11,645 - root - INFO - Logging configurado correctamente.
+2024-09-25 06:54:11,651 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:54:19,846 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:54:21,114 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 06:54:22,560 - root - INFO - Buffer cargado con 5 archivos.
