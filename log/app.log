@@ -7530,3 +7530,40 @@ ValueError: margin must be greater than -0.5
 2024-09-25 06:54:19,846 - root - INFO - Buffer cargado con 5 archivos.
 2024-09-25 06:54:21,114 - root - INFO - Buffer cargado con 5 archivos.
 2024-09-25 06:54:22,560 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 07:20:02,892 - root - INFO - Logging configurado correctamente.
+2024-09-25 07:20:02,897 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 07:20:51,887 - root - INFO - Logging configurado correctamente.
+2024-09-25 07:20:51,888 - root - INFO - Logging configurado correctamente.
+2024-09-25 07:20:51,890 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-25 07:20:51,892 - flet_runtime - INFO - Starting up UDS server on /tmp/psHL9pStu7
+2024-09-25 07:20:51,893 - flet_runtime - INFO - Flet app has started...
+2024-09-25 07:20:51,893 - flet_runtime - INFO - App URL: /tmp/psHL9pStu7
+2024-09-25 07:20:51,894 - flet_runtime - INFO - Starting Flet View app...
+2024-09-25 07:20:51,894 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-25 07:20:53,649 - flet_runtime - INFO - App session started
+2024-09-25 07:21:25,369 - root - INFO - Logging configurado correctamente.
+2024-09-25 07:21:25,377 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 07:21:30,598 - root - INFO - Logging configurado correctamente.
+2024-09-25 07:21:30,598 - root - INFO - Logging configurado correctamente.
+2024-09-25 07:21:30,601 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-25 07:21:30,603 - flet_runtime - INFO - Starting up UDS server on /tmp/Pn8wJxaUg5
+2024-09-25 07:21:30,605 - flet_runtime - INFO - Flet app has started...
+2024-09-25 07:21:30,605 - flet_runtime - INFO - App URL: /tmp/Pn8wJxaUg5
+2024-09-25 07:21:30,606 - flet_runtime - INFO - Starting Flet View app...
+2024-09-25 07:21:30,607 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-25 07:21:32,313 - flet_runtime - INFO - App session started
+2024-09-25 07:21:42,954 - root - INFO - Logging configurado correctamente.
+2024-09-25 07:21:42,959 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 07:22:36,401 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 07:23:49,111 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 07:23:51,563 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 07:23:52,650 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 07:23:53,591 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-25 07:24:07,548 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-26 09:57:01,311 - root - INFO - Logging configurado correctamente.
+2024-09-26 09:57:01,329 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-26 09:57:20,085 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-26 09:57:21,455 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-26 09:57:22,822 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-26 10:25:12,873 - root - INFO - Logging configurado correctamente.
+2024-09-26 10:25:12,877 - root - INFO - Buffer cargado con 5 archivos.
