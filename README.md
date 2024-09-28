@@ -153,7 +153,6 @@ All collaboration is managed through GitHub and Discord (more info see [how_to_c
 - [Settings Manager Tools](docs/settings_manager.md)
 - [HOW TO CONTRIBUTE](docs/how_to_contribute.md)
 
-
 ## Licensing
 This project is licensed under the GPL (General Public License), meaning it's free for personal and educational use, and anyone who modifies the code must give proper credit and may not use it for commercial purposes.
 
