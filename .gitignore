@@ -1,9 +1,9 @@
 relevamiento.txt
 docs/gui.xlsx
-estructura.json
-__pycache__
+__pycache__/
 qtest.py
-.pytest_cache
-.vscode
-*__pycache__/*
+.pytest_cache/
+.vscode/
+assets_android/
+**/__pycache__/
 

@@ -1,0 +1,218 @@
+High School
+    Bachiller (Argentina)
+    1. First Year
+        Mathematics
+        Physics
+        Chemistry
+        Biology
+        Geography
+        History
+        Language and Literature
+    2. Second Year
+        Mathematics
+        Physics
+        Chemistry
+        Biology
+        History
+        Civic Education
+        Language and Literature
+    3. Third Year
+        Mathematics
+        Physics
+        Chemistry
+        Biology
+        Philosophy
+        History
+        Language and Literature
+    4. Fourth Year
+        Mathematics
+        Physics
+        Chemistry
+        Biology
+        Philosophy
+        Argentine and Latin American History
+        Language and Literature
+    5. Fifth Year
+        Mathematics
+        Physics
+        Chemistry
+        Biology
+        Sociology
+        Contemporary History
+        Language and Literature
+    Technical Chemistry (Argentina)
+        1. First Year
+            Mathematics
+            Physics
+            General Chemistry
+            Biology
+            Technical Drawing
+        2. Second Year
+            Mathematics
+            Inorganic Chemistry
+            Physics
+            Biology
+            Organic Chemistry
+        3. Third Year
+            Mathematics
+            Organic Chemistry
+            Physics
+            Chemical Laboratory
+            Industrial Processes
+        4. Fourth Year
+            Mathematics
+            Industrial Chemistry
+            Analytical Chemistry
+            Laboratory
+        5. Fifth Year
+            Advanced Industrial Processes
+            Advanced Mathematics
+            Quality Control
+            Analytical Chemistry II
+        6. Sixth Year
+            Instrumental Analysis
+            Process Control
+            Final Project
+    Commercial (Argentina)
+        1. First Year
+            Mathematics
+            Economics
+            History
+            Accounting
+            Language
+        2. Second Year
+            Mathematics
+            Physics
+            Accounting
+            Economics
+            Business Administration
+        3. Third Year
+            Mathematics
+            Economics
+            Basic Finance
+            Law
+            Accounting
+        4. Fourth Year
+            Mathematics
+            International Economics
+            Finance
+            Accounting
+            Marketing
+        5. Fifth Year
+            Mathematics
+            Advanced Accounting
+            Advanced Finance
+            Marketing and Advertising
+    Mexican Schools
+        1. First Year
+            Mathematics
+            Physics
+            Biology
+            Chemistry
+            History
+            Language
+        2. Second Year
+            Mathematics
+            Physics
+            Chemistry
+            Ethics and Values
+            Geography
+            Language        
+    US Schools
+        1. Freshman Year
+            Algebra I
+            Biology
+            English Literature
+            US History
+            Physical Education
+            Health
+        2. Sophomore Year
+            Geometry
+            Chemistry
+            World History
+            English II
+            Physical Education
+            Art
+    European Schools
+        1. First Year
+            Mathematics
+            Physics
+            Chemistry
+            Biology
+            History
+            Language
+        2. Second Year
+            Mathematics
+            Chemistry
+            Physics
+            Foreign Language        
+University
+    Engineering
+        Civil Engineering
+            Structural Calculations
+            Strength of Materials
+            Applied Thermodynamics
+            Structural Design
+        Electrical Engineering
+            Electrical Circuits
+            Advanced Electromagnetism
+            Electrical Machines
+            Control Systems
+    Business
+        Economics
+            Corporate Finance
+            International Economics
+            Econometrics
+            Market Analysis
+        Management
+            Project Management
+            Marketing
+            Advanced Accounting
+            Human Resources
+EVERYONE
+    Video Games
+        Video Game Cheats
+            Consoles
+                PSx
+                PS2
+                PS3
+                PS4
+                PS5
+                NES
+                SNES
+                SEGA GENESIS
+                XBOX
+                XBOX 360
+                XBOX One
+                Nintendo 64
+                Nintendo Switch
+            PC
+                Strategy
+                Action
+                RPG
+                FPS
+            Mobile
+                Puzzle
+                Arcade
+                Action
+    Cooking Recipes
+        Types of Cuisine
+            Vegan
+            BBQ
+            Keto
+            Low Carb
+            Italian
+            Desserts
+        Regional Cuisine
+            Mexican
+            Hebrew
+            Arabic
+            Chinese
+    Lifehacks
+        Productivity
+            Personal Organization
+            Focus Methods
+            Time Management
+        Repairs
+            Quick Home Repairs
+            Appliance Repair
