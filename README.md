@@ -5,7 +5,7 @@
 ---
 ![screenshot](/screenshots/main.jpg)
 ---
-## Why Open CheatSheet?
+## :bookmark_tabs: Why Open CheatSheet?
 
 In today’s digital world, students often turn to the internet to look up formulas or quick references. Unfortunately, this opens the door to distractions such as ads, social media, or unrelated content. This results in wasted time and loss of concentration. **Open CheatSheet** solves this problem by providing an offline, fast, and distraction-free reference tool where students can access all the essential formulas and tricks they need in their studies or games.
 
@@ -13,7 +13,7 @@ Whether you're working on a complex math problem or need a quick reminder of gam
 
 ---
 
-## Key Features
+## :hearts: Key Features
 
 - **Offline Access**: All necessary formulas and tricks are available at your fingertips, even without an internet connection.
 - **Multi-platform & Adaptive**: Available for Android, iOS, Windows, macOS, Linux, and Raspberry Pi. It is designed to work smoothly on any device.
@@ -22,11 +22,11 @@ Whether you're working on a complex math problem or need a quick reminder of gam
 
 ---
 
-## What is Open CheatSheet?
+## :bookmark_tabs: What is Open CheatSheet?
 
 **Open CheatSheet** is a Python-based application that organizes and provides essential formulas, constants, and tips in a structured, easy-to-access format. The app is inspired by mobile-first design but is built to function natively across all major platforms. The app's goal is to eliminate the distractions that come with online searches, focusing instead on delivering fast, relevant information offline. It’s lightweight, fast, and created with **flet** to ensure that it runs smoothly on any device.
 
-## Roadmap
+## :monorail: Roadmap
 
 #### Stay updated by checking our Roadmap for detailed information on upcoming features and timelines.
 
@@ -47,6 +47,7 @@ Whether you're working on a complex math problem or need a quick reminder of gam
 
 ### :boy: Public-Alpha
 - [*] Public Alpha Release
+- [*] Tools
 - [ ] Create new ChSheet
 - [ ] Search in Buffer
 - [ ] Imporove Interface
@@ -77,7 +78,7 @@ Currently, the app is in **Public-Alpha** development, with testing primarily do
 
 ---
 
-## What is a .chsheet file?
+## :monorail: What is a .chsheet file?
 
 Open CheatSheet uses files with the `.chsheet` extension to store formulas, constants, and explanations in a structured format. Here’s what a typical file contains:
 
@@ -95,7 +96,7 @@ Open CheatSheet uses files with the `.chsheet` extension to store formulas, cons
 
 ---
 
-# Installation
+# :arrow_heading_down: Installation
 Open CheatSheet is developed primarily in Python and uses flet for the graphical interface, ensuring it runs natively across all platforms.
 
 To get started with Open CheatSheet on your machine:
@@ -116,7 +117,7 @@ Run the app:
 ```bash
 python main.py
 ```
-### Supported Platforms
+### :computer: Supported Platforms
 
 The app is designed to be adaptable and available across multiple platforms:
 
@@ -129,7 +130,7 @@ The app is designed to be adaptable and available across multiple platforms:
 
 **We plan to release installation packages for all platforms soon.**
 
-### How to Contribute
+### :sparkling_heart: How to Contribute
 We're building this project as a community effort, and we need your help to take Open CheatSheet to the next level!
 
 Areas of Contribution:
@@ -144,7 +145,7 @@ All collaboration is managed through GitHub and Discord (more info see [how_to_c
 
 ---
 
-## Documentation
+## :books: Documentation
 - [FAQ](docs/faq.md)
 - [CheatSheets format](docs/ES_chsheet_format.md)
 - [CheatSheets Examples](docs/ES_chsheet_examples.md)
@@ -152,17 +153,19 @@ All collaboration is managed through GitHub and Discord (more info see [how_to_c
 - [Get Requirement Tools](docs/get_requirements.md)
 - [Settings Manager Tools](docs/settings_manager.md)
 - [HOW TO CONTRIBUTE](docs/how_to_contribute.md)
+- [:recycle: Extra Tools](docs/tools_inside.md)
 
-## Licensing
+
+## :eyes: Licensing
 This project is licensed under the GPL (General Public License), meaning it's free for personal and educational use, and anyone who modifies the code must give proper credit and may not use it for commercial purposes.
 
 
 
-## Reach Contact
+## :speech_balloon: Reach Contact
 - 🇬🇧 [English bug report discord channel](https://discord.gg/4Dnd5CeYFy)
 - 🇪🇸 [Canal de discord en Español para reporte de errores](https://discord.gg/ZbEu5cwzkJ)
 
-## Donations (Soon)
+## :coffee: Donations (Soon)
 Love the project and want to support us? Consider making an anonymous donation. Your contribution will help us keep the project free, open-source, and available to students worldwide!
 
 Thank you for your support!

@@ -7567,3 +7567,423 @@ ValueError: margin must be greater than -0.5
 2024-09-26 09:57:22,822 - root - INFO - Buffer cargado con 5 archivos.
 2024-09-26 10:25:12,873 - root - INFO - Logging configurado correctamente.
 2024-09-26 10:25:12,877 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 20:55:07,901 - root - INFO - Logging configurado correctamente.
+2024-09-28 20:55:07,908 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 20:55:17,492 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 20:55:19,560 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 20:55:24,654 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 20:55:27,812 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 20:55:28,895 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-09-28 20:55:28,896 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-09-28 21:02:21,714 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:02:21,725 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:03:03,727 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:03:03,730 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:03:08,384 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:03:09,404 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:03:23,802 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:03:24,729 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-09-28 21:03:24,730 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-09-28 21:03:34,967 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:03:34,975 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:03:47,188 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:03:47,764 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:03:47,774 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:03:48,707 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:03:49,258 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:03:49,263 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:03:49,573 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:24:12,713 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:24:12,732 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:24:49,111 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:24:49,915 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-09-28 21:24:49,916 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-09-28 21:32:16,521 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:32:16,525 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:32:54,214 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:32:54,955 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-09-28 21:32:54,955 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-09-28 21:33:21,603 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:33:21,611 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:34:39,064 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:34:39,067 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:34:39,076 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("module 'flet_core.colors' has no attribute 'LIGHT_GREY'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 24, in __init__
+    self.main_content = MainContent(buffer_file="./cfg/.buffer")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 13, in __init__
+    self.build_directory_view(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 86, in build_directory_view
+    bgcolor=ft.colors.LIGHT_GREY,
+            ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'flet_core.colors' has no attribute 'LIGHT_GREY'. Did you mean: 'LIGHT_GREEN'?
+2024-09-28 21:35:25,107 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:35:25,110 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:35:25,112 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("Padding.__init__() missing 2 required positional arguments: 'right' and 'bottom'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 24, in __init__
+    self.main_content = MainContent(buffer_file="./cfg/.buffer")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 13, in __init__
+    self.build_directory_view(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 87, in build_directory_view
+    padding=ft.Padding(5, 2),
+            ^^^^^^^^^^^^^^^^
+TypeError: Padding.__init__() missing 2 required positional arguments: 'right' and 'bottom'
+2024-09-28 21:36:48,552 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:36:48,557 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:36:48,560 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("BorderRadius.__init__() missing 3 required positional arguments: 'top_right', 'bottom_left', and 'bottom_right'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 24, in __init__
+    self.main_content = MainContent(buffer_file="./cfg/.buffer")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 13, in __init__
+    self.build_directory_view(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 88, in build_directory_view
+    border_radius=ft.BorderRadius(10),
+                  ^^^^^^^^^^^^^^^^^^^
+TypeError: BorderRadius.__init__() missing 3 required positional arguments: 'top_right', 'bottom_left', and 'bottom_right'
+2024-09-28 21:37:36,109 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:37:36,114 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:50:40,786 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:50:40,789 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:50:47,613 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("MainContent.on_category_click() got an unexpected keyword argument 'directory'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+TypeError: MainContent.on_category_click() got an unexpected keyword argument 'directory'
+2024-09-28 21:50:50,436 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("MainContent.on_category_click() got an unexpected keyword argument 'directory'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+TypeError: MainContent.on_category_click() got an unexpected keyword argument 'directory'
+2024-09-28 21:50:51,637 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("MainContent.on_category_click() got an unexpected keyword argument 'directory'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+TypeError: MainContent.on_category_click() got an unexpected keyword argument 'directory'
+2024-09-28 21:50:52,849 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("MainContent.on_category_click() got an unexpected keyword argument 'directory'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+TypeError: MainContent.on_category_click() got an unexpected keyword argument 'directory'
+2024-09-28 21:50:54,205 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("MainContent.on_category_click() got an unexpected keyword argument 'directory'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+TypeError: MainContent.on_category_click() got an unexpected keyword argument 'directory'
+2024-09-28 21:50:54,496 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("MainContent.on_category_click() got an unexpected keyword argument 'directory'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+TypeError: MainContent.on_category_click() got an unexpected keyword argument 'directory'
+2024-09-28 21:50:55,463 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("MainContent.on_category_click() got an unexpected keyword argument 'directory'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+TypeError: MainContent.on_category_click() got an unexpected keyword argument 'directory'
+2024-09-28 21:50:55,686 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("MainContent.on_category_click() got an unexpected keyword argument 'directory'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+TypeError: MainContent.on_category_click() got an unexpected keyword argument 'directory'
+2024-09-28 21:51:58,285 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:51:58,288 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 21:57:11,488 - root - INFO - Logging configurado correctamente.
+2024-09-28 21:57:11,530 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 22:02:42,893 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 22:02:45,559 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 22:07:00,380 - root - INFO - Logging configurado correctamente.
+2024-09-28 22:07:00,383 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 22:13:15,771 - root - INFO - Logging configurado correctamente.
+2024-09-28 22:13:15,774 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 22:14:10,305 - root - INFO - Logging configurado correctamente.
+2024-09-28 22:14:10,335 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 22:27:55,319 - root - INFO - Logging configurado correctamente.
+2024-09-28 22:27:55,347 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 22:46:37,278 - root - INFO - Logging configurado correctamente.
+2024-09-28 22:46:37,284 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 22:46:37,288 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'int' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 24, in __init__
+    self.main_content = MainContent(buffer_file="./cfg/.buffer")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 13, in __init__
+    self.build_directory_view(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 125, in build_directory_view
+    self.build_directory_view(subdirectories, level + 1)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 101, in build_directory_view
+    file_count = subdirectories.get("__file_count__", 0)
+                 ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'get'
+2024-09-28 22:47:57,596 - root - INFO - Logging configurado correctamente.
+2024-09-28 22:47:57,601 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 22:47:57,605 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'int' object has no attribute 'items'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 24, in __init__
+    self.main_content = MainContent(buffer_file="./cfg/.buffer")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 13, in __init__
+    self.build_directory_view(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 125, in build_directory_view
+    self.build_directory_view(subdirectories, level + 1)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 125, in build_directory_view
+    self.build_directory_view(subdirectories, level + 1)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 98, in build_directory_view
+    for directory, subdirectories in structure.items():
+                                     ^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'items'
+2024-09-28 22:50:05,660 - root - INFO - Logging configurado correctamente.
+2024-09-28 22:50:05,687 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 22:53:32,780 - root - INFO - Logging configurado correctamente.
+2024-09-28 22:53:32,801 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 22:55:16,241 - root - INFO - Logging configurado correctamente.
+2024-09-28 22:55:16,244 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-28 22:55:16,247 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'int' object has no attribute 'items'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 24, in __init__
+    self.main_content = MainContent(buffer_file="./cfg/.buffer")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 13, in __init__
+    self.build_directory_view(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 126, in build_directory_view
+    self.build_directory_view(subdirectories, level + 1)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 126, in build_directory_view
+    self.build_directory_view(subdirectories, level + 1)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 99, in build_directory_view
+    for directory, subdirectories in structure.items():
+                                     ^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'items'
+2024-09-30 14:40:56,202 - root - INFO - Logging configurado correctamente.
+2024-09-30 14:40:56,206 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 14:40:56,210 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'int' object has no attribute 'items'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 24, in __init__
+    self.main_content = MainContent(buffer_file="./cfg/.buffer")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 13, in __init__
+    self.build_directory_view(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 126, in build_directory_view
+    self.build_directory_view(subdirectories, level + 1)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 126, in build_directory_view
+    self.build_directory_view(subdirectories, level + 1)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 99, in build_directory_view
+    for directory, subdirectories in structure.items():
+                                     ^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'items'
+2024-09-30 15:21:24,199 - root - INFO - Logging configurado correctamente.
+2024-09-30 15:21:24,206 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 15:21:24,208 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'int' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 24, in __init__
+    self.main_content = MainContent(buffer_file="./cfg/.buffer")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 13, in __init__
+    self.build_directory_view(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 127, in build_directory_view
+    self.build_directory_view(subdirectories, level + 1)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 103, in build_directory_view
+    file_count = subdirectories.get("__file_count__", 0)
+                 ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'get'
+2024-09-30 15:23:47,802 - root - INFO - Logging configurado correctamente.
+2024-09-30 15:23:47,806 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 15:23:47,809 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=UnboundLocalError("cannot access local variable 'file_count' where it is not associated with a value")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 24, in __init__
+    self.main_content = MainContent(buffer_file="./cfg/.buffer")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 13, in __init__
+    self.build_directory_view(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 130, in build_directory_view
+    self.build_directory_view(subdirectories, level + 1)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 119, in build_directory_view
+    content=ft.Text(f"{file_count}"),
+                       ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'file_count' where it is not associated with a value
+2024-09-30 15:25:08,473 - root - INFO - Logging configurado correctamente.
+2024-09-30 15:25:08,476 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 15:25:08,479 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=UnboundLocalError("cannot access local variable 'file_count' where it is not associated with a value")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 24, in __init__
+    self.main_content = MainContent(buffer_file="./cfg/.buffer")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 13, in __init__
+    self.build_directory_view(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 130, in build_directory_view
+    self.build_directory_view(subdirectories, level + 1)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 119, in build_directory_view
+    content=ft.Text(f"{file_count}"),
+                       ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'file_count' where it is not associated with a value
+2024-09-30 15:27:04,165 - root - INFO - Logging configurado correctamente.
+2024-09-30 15:27:04,169 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 15:27:04,174 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=AttributeError("'int' object has no attribute 'items'")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 24, in __init__
+    self.main_content = MainContent(buffer_file="./cfg/.buffer")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 13, in __init__
+    self.build_directory_view(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 130, in build_directory_view
+    self.build_directory_view(subdirectories, level + 1)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 130, in build_directory_view
+    self.build_directory_view(subdirectories, level + 1)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/main_content.py", line 99, in build_directory_view
+    for directory, subdirectories in structure.items():
+                                     ^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'items'
+2024-09-30 15:31:16,307 - root - INFO - Logging configurado correctamente.
+2024-09-30 15:31:16,310 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 15:35:22,431 - root - INFO - Logging configurado correctamente.
+2024-09-30 15:35:22,434 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 15:39:41,504 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 15:39:43,293 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 15:39:44,893 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 15:39:45,716 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 15:39:47,193 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 15:39:47,697 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 15:39:54,989 - root - INFO - Buffer cargado con 5 archivos.

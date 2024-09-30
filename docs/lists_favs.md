@@ -1,4 +1,4 @@
-# .chlist File Documentation
+# :ballot_box_with_check: .chlist File Documentation
 
 ## Overview
 

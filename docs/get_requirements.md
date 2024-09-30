@@ -1,4 +1,4 @@
-# get_requirements.py
+# :construction_worker: get_requirements.py
 
 This script scans a directory for Python files, extracts the imported modules, and generates a `requirements.txt` file with the necessary packages and their minimum versions.
 

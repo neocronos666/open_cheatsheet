@@ -1,4 +1,4 @@
-# Settings Manager
+# :page_with_curl: Settings Manager
 
 `settings_manager` is a versatile and modular frontend designed for managing configuration files in JSON format. It interacts seamlessly with the backend library `globalcfg`, which handles the reading and writing of the configuration file. The module is independent and can be extended or adapted for other projects, all under the same GPL license as the original project.
 

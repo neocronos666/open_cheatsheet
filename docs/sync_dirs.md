@@ -1,4 +1,4 @@
-# Sync Dirs Tool
+# :file_folder: :ant: Sync Dirs Tool
 
 ## Overview
 
