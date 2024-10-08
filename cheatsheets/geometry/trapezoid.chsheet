@@ -1,0 +1,29 @@
+{
+    "title": "Trapezoid",
+    "description": "Surface area, median and base calculation",
+    "detail": "<b>S</b>=Surface of the trapezoid<br />\n<b>a</b>=length of one parallel side<br />\n<b>b</b>=length of the other parallel side<br />\n<b>h</b>=height",
+    "img": "/images/img5.png",
+    "forms": "$$S={{a+b}/2} h$$<br />$$S=m h$$<br />\n$$m={a+b}/2$$",
+    "var_table": [],
+    "cons_table": {
+        "headers": [
+            "Constant",
+            "Value",
+            "Description"
+        ],
+        "rows": []
+    },
+    "c_date": "2024-10-08",
+    "m_date": "2024-10-08",
+    "author": "Unknown",
+    "email": "example@example.com",
+    "web": "https://www.wikipedia.org",
+    "ref_webs": [
+        "https://en.wikipedia.org/wiki/Trapezoid"
+    ],
+    "rel_forms": [],
+    "template": [
+        "Default"
+    ]
+}
+

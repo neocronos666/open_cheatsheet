@@ -9094,3 +9094,725 @@ Traceback (most recent call last):
 AttributeError: 'list' object has no attribute '_set_attr_internal'
 2024-09-30 19:12:46,590 - root - INFO - Logging configurado correctamente.
 2024-09-30 19:12:46,593 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:12:37,510 - root - INFO - Logging configurado correctamente.
+2024-09-30 22:12:37,513 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:22:04,194 - root - INFO - Logging configurado correctamente.
+2024-09-30 22:22:04,198 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:43:24,621 - root - INFO - Logging configurado correctamente.
+2024-09-30 22:43:24,625 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:45:41,950 - root - INFO - Logging configurado correctamente.
+2024-09-30 22:45:41,956 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:45:46,782 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:45:49,327 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:45:53,684 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:45:55,095 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:45:56,550 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:45:58,304 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:45:59,892 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:46:05,187 - root - INFO - Logging configurado correctamente.
+2024-09-30 22:46:05,188 - root - INFO - Logging configurado correctamente.
+2024-09-30 22:46:05,190 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-30 22:46:05,191 - flet_runtime - INFO - Starting up UDS server on /tmp/5l4K61DOHf
+2024-09-30 22:46:05,192 - flet_runtime - INFO - Flet app has started...
+2024-09-30 22:46:05,192 - flet_runtime - INFO - App URL: /tmp/5l4K61DOHf
+2024-09-30 22:46:05,192 - flet_runtime - INFO - Starting Flet View app...
+2024-09-30 22:46:05,193 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-30 22:46:06,539 - flet_runtime - INFO - App session started
+2024-09-30 22:46:14,189 - root - INFO - Logging configurado correctamente.
+2024-09-30 22:46:14,192 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:46:20,231 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:46:21,220 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-09-30 22:46:21,220 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-09-30 22:47:05,607 - root - INFO - Logging configurado correctamente.
+2024-09-30 22:47:05,608 - root - INFO - Logging configurado correctamente.
+2024-09-30 22:47:05,610 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-09-30 22:47:05,612 - flet_runtime - INFO - Starting up UDS server on /tmp/20002Z0pEi
+2024-09-30 22:47:05,613 - flet_runtime - INFO - Flet app has started...
+2024-09-30 22:47:05,614 - flet_runtime - INFO - App URL: /tmp/20002Z0pEi
+2024-09-30 22:47:05,614 - flet_runtime - INFO - Starting Flet View app...
+2024-09-30 22:47:05,615 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-09-30 22:47:07,003 - flet_runtime - INFO - App session started
+2024-09-30 22:48:56,237 - root - INFO - Logging configurado correctamente.
+2024-09-30 22:48:56,240 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:49:43,495 - root - INFO - Buffer cargado con 5 archivos.
+2024-09-30 22:49:44,243 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-09-30 22:49:44,244 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-09-30 22:49:46,813 - root - INFO - Logging configurado correctamente.
+2024-09-30 22:49:46,821 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-01 07:06:20,176 - root - INFO - Logging configurado correctamente.
+2024-10-01 07:06:20,180 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-01 07:12:48,114 - root - INFO - Logging configurado correctamente.
+2024-10-01 07:12:48,118 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-01 07:23:18,977 - root - INFO - Logging configurado correctamente.
+2024-10-01 07:23:18,982 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-01 07:25:53,934 - root - INFO - Logging configurado correctamente.
+2024-10-01 07:25:53,937 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-01 07:32:05,076 - root - INFO - Logging configurado correctamente.
+2024-10-01 07:32:05,080 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-01 07:34:30,690 - root - INFO - Logging configurado correctamente.
+2024-10-01 07:34:30,694 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-01 07:34:30,706 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'ListView' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 477, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 544, in _build_add_commands
+    for control in children:
+TypeError: 'ListView' object is not iterable
+2024-10-01 07:41:31,758 - root - INFO - Logging configurado correctamente.
+2024-10-01 07:41:31,778 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-01 07:41:31,871 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'ListView' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 477, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 544, in _build_add_commands
+    for control in children:
+TypeError: 'ListView' object is not iterable
+2024-10-01 09:56:44,700 - root - INFO - Logging configurado correctamente.
+2024-10-01 09:56:44,705 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-01 09:56:44,718 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'ListView' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 477, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 544, in _build_add_commands
+    for control in children:
+TypeError: 'ListView' object is not iterable
+2024-10-01 09:59:48,186 - root - INFO - Logging configurado correctamente.
+2024-10-01 09:59:48,214 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-01 09:59:48,330 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("'ListView' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 99, in route_change
+    page.add(MainApp(g_c.get_nav_link()))
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 734, in add
+    r = self.__update(self)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 832, in __update
+    commands, added_controls, removed_controls = self.__prepare_update(*controls)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 848, in __prepare_update
+    control.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 464, in build_update_commands
+    ctrl.build_update_commands(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 477, in build_update_commands
+    innerCmds = ctrl._build_add_commands(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 545, in _build_add_commands
+    childCmd = control._build_add_commands(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/control.py", line 544, in _build_add_commands
+    for control in children:
+TypeError: 'ListView' object is not iterable
+2024-10-01 10:10:26,836 - root - INFO - Logging configurado correctamente.
+2024-10-01 10:10:26,842 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-01 10:15:53,146 - root - INFO - Logging configurado correctamente.
+2024-10-01 10:15:53,151 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-01 10:23:35,889 - root - INFO - Logging configurado correctamente.
+2024-10-01 10:23:35,893 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-01 11:14:35,011 - root - INFO - Logging configurado correctamente.
+2024-10-01 11:14:35,015 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-05 17:02:39,859 - root - INFO - Logging configurado correctamente.
+2024-10-05 17:02:39,864 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-08 15:04:50,349 - root - INFO - Logging configurado correctamente.
+2024-10-08 15:04:50,353 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-08 16:37:48,203 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:37:48,203 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:37:48,203 - root - INFO - Buffer cargado con 5 archivos.
+2024-10-08 16:37:48,205 - root - INFO - Buffer creado con 10 archivos .chsheet.
+2024-10-08 16:37:48,206 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:38:10,094 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:38:10,100 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:38:17,257 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:38:38,725 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:38:38,731 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:40:09,258 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:40:09,262 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:40:26,439 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:41:57,595 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:41:57,601 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:47:47,601 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:47:47,607 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:50:31,231 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:50:31,237 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:51:01,204 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:51:23,550 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:51:23,555 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:53:30,659 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:53:30,665 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:53:56,743 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:54:09,267 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:54:09,275 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:54:16,558 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:54:17,897 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:54:18,653 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:54:19,092 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:54:19,405 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:54:19,671 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:54:20,321 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:54:38,539 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:54:40,232 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:54:42,215 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:54:45,061 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:54:45,833 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-08 16:54:45,833 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-08 16:57:09,772 - root - INFO - Logging configurado correctamente.
+2024-10-08 16:57:09,811 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 16:58:34,213 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:02:51,494 - root - INFO - Logging configurado correctamente.
+2024-10-08 17:02:51,504 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:03:25,485 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:03:26,318 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-08 17:03:26,318 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-08 17:03:26,479 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("\n$$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$$\n^\nParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 102, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 58, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 16, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 128, in render_cheatsheet
+    img_buffer = self.render_latex_as_image(value)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 68, in render_latex_as_image
+    fig.canvas.draw()
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3154, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 3070, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 748, in draw
+    bbox, info, descent = self._get_layout(renderer)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 381, in _get_layout
+    w, h, d = _get_text_metrics_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 69, in _get_text_metrics_with_cache
+    return _get_text_metrics_with_cache_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 77, in _get_text_metrics_with_cache_impl
+    return renderer_ref().get_text_width_height_descent(text, fontprop, ismath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 217, in get_text_width_height_descent
+    self.mathtext_parser.parse(s, self.dpi, prop)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 79, in parse
+    return self._parse_cached(s, dpi, prop, antialiased)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 100, in _parse_cached
+    box = self._parser.parse(s, fontset, fontsize, dpi)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/_mathtext.py", line 2165, in parse
+    raise ValueError("\n" + ParseException.explain(err, 0)) from None
+ValueError: 
+$$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$$
+^
+ParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)
+2024-10-08 17:06:39,849 - root - INFO - Logging configurado correctamente.
+2024-10-08 17:06:39,855 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:06:50,016 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:06:50,826 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-08 17:06:50,826 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-08 17:06:50,994 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("\n$$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$$\n^\nParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 102, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 58, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 16, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 128, in render_cheatsheet
+    img_buffer = self.render_latex_as_image(value)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 68, in render_latex_as_image
+    fig.canvas.draw()
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3154, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 3070, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 748, in draw
+    bbox, info, descent = self._get_layout(renderer)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 381, in _get_layout
+    w, h, d = _get_text_metrics_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 69, in _get_text_metrics_with_cache
+    return _get_text_metrics_with_cache_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 77, in _get_text_metrics_with_cache_impl
+    return renderer_ref().get_text_width_height_descent(text, fontprop, ismath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 217, in get_text_width_height_descent
+    self.mathtext_parser.parse(s, self.dpi, prop)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 79, in parse
+    return self._parse_cached(s, dpi, prop, antialiased)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 100, in _parse_cached
+    box = self._parser.parse(s, fontset, fontsize, dpi)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/_mathtext.py", line 2165, in parse
+    raise ValueError("\n" + ParseException.explain(err, 0)) from None
+ValueError: 
+$$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$$
+^
+ParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)
+2024-10-08 17:07:31,408 - root - INFO - Logging configurado correctamente.
+2024-10-08 17:07:31,414 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:07:36,215 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:07:36,988 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-08 17:07:36,989 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-08 17:07:37,145 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("\n$$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$$\n^\nParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 102, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 58, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 16, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 128, in render_cheatsheet
+    img_buffer = self.render_latex_as_image(value)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 68, in render_latex_as_image
+    fig.canvas.draw()
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3154, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 3070, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 748, in draw
+    bbox, info, descent = self._get_layout(renderer)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 381, in _get_layout
+    w, h, d = _get_text_metrics_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 69, in _get_text_metrics_with_cache
+    return _get_text_metrics_with_cache_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 77, in _get_text_metrics_with_cache_impl
+    return renderer_ref().get_text_width_height_descent(text, fontprop, ismath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 217, in get_text_width_height_descent
+    self.mathtext_parser.parse(s, self.dpi, prop)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 79, in parse
+    return self._parse_cached(s, dpi, prop, antialiased)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 100, in _parse_cached
+    box = self._parser.parse(s, fontset, fontsize, dpi)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/_mathtext.py", line 2165, in parse
+    raise ValueError("\n" + ParseException.explain(err, 0)) from None
+ValueError: 
+$$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$$
+^
+ParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)
+2024-10-08 17:08:28,351 - root - INFO - Logging configurado correctamente.
+2024-10-08 17:08:28,373 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:11:36,567 - root - INFO - Logging configurado correctamente.
+2024-10-08 17:11:36,586 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:13:42,944 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:13:45,070 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-08 17:13:45,070 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-08 17:13:46,887 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("\n$$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$$\n^\nParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 102, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 58, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 16, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 128, in render_cheatsheet
+    img_buffer = self.render_latex_as_image(value)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 68, in render_latex_as_image
+    fig.canvas.draw()
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3154, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 3070, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 748, in draw
+    bbox, info, descent = self._get_layout(renderer)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 381, in _get_layout
+    w, h, d = _get_text_metrics_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 69, in _get_text_metrics_with_cache
+    return _get_text_metrics_with_cache_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 77, in _get_text_metrics_with_cache_impl
+    return renderer_ref().get_text_width_height_descent(text, fontprop, ismath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 217, in get_text_width_height_descent
+    self.mathtext_parser.parse(s, self.dpi, prop)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 79, in parse
+    return self._parse_cached(s, dpi, prop, antialiased)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 100, in _parse_cached
+    box = self._parser.parse(s, fontset, fontsize, dpi)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/_mathtext.py", line 2165, in parse
+    raise ValueError("\n" + ParseException.explain(err, 0)) from None
+ValueError: 
+$$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$$
+^
+ParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)
+2024-10-08 17:17:04,086 - root - INFO - Logging configurado correctamente.
+2024-10-08 17:17:04,089 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:17:23,091 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:17:23,868 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-08 17:17:23,868 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-08 17:17:24,025 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("\n$$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$$\n^\nParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 102, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 58, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 16, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 128, in render_cheatsheet
+    img_buffer = self.render_latex_as_image(value)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 68, in render_latex_as_image
+    fig.canvas.draw()
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3154, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 3070, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 748, in draw
+    bbox, info, descent = self._get_layout(renderer)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 381, in _get_layout
+    w, h, d = _get_text_metrics_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 69, in _get_text_metrics_with_cache
+    return _get_text_metrics_with_cache_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 77, in _get_text_metrics_with_cache_impl
+    return renderer_ref().get_text_width_height_descent(text, fontprop, ismath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 217, in get_text_width_height_descent
+    self.mathtext_parser.parse(s, self.dpi, prop)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 79, in parse
+    return self._parse_cached(s, dpi, prop, antialiased)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 100, in _parse_cached
+    box = self._parser.parse(s, fontset, fontsize, dpi)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/_mathtext.py", line 2165, in parse
+    raise ValueError("\n" + ParseException.explain(err, 0)) from None
+ValueError: 
+$$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$$
+^
+ParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)
+2024-10-08 17:17:29,350 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:17:31,671 - root - INFO - Logging configurado correctamente.
+2024-10-08 17:17:31,679 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:17:31,776 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("\n$$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$$\n^\nParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 102, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 58, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 16, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 128, in render_cheatsheet
+    img_buffer = self.render_latex_as_image(value)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 68, in render_latex_as_image
+    fig.canvas.draw()
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3154, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 3070, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 748, in draw
+    bbox, info, descent = self._get_layout(renderer)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 381, in _get_layout
+    w, h, d = _get_text_metrics_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 69, in _get_text_metrics_with_cache
+    return _get_text_metrics_with_cache_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 77, in _get_text_metrics_with_cache_impl
+    return renderer_ref().get_text_width_height_descent(text, fontprop, ismath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 217, in get_text_width_height_descent
+    self.mathtext_parser.parse(s, self.dpi, prop)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 79, in parse
+    return self._parse_cached(s, dpi, prop, antialiased)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 100, in _parse_cached
+    box = self._parser.parse(s, fontset, fontsize, dpi)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/_mathtext.py", line 2165, in parse
+    raise ValueError("\n" + ParseException.explain(err, 0)) from None
+ValueError: 
+$$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$$
+^
+ParseException: Expected end of text, found '$'  (at char 0), (line:1, col:1)
+2024-10-08 17:17:38,603 - root - INFO - Logging configurado correctamente.
+2024-10-08 17:17:57,425 - root - INFO - Logging configurado correctamente.
+2024-10-08 17:17:57,430 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:18:10,614 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:18:11,422 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-08 17:18:11,423 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-08 17:18:19,911 - root - INFO - Logging configurado correctamente.
+2024-10-08 17:18:19,918 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:18:26,570 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:21:46,170 - root - INFO - Logging configurado correctamente.
+2024-10-08 17:21:46,199 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:27:40,242 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-08 17:27:42,741 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-08 17:27:42,742 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive

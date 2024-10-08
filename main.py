@@ -20,7 +20,6 @@ class MainApp(ft.Column):
         # g_c=GlobalCfg()                 
         # self.main_content = MainContent(buffer_file=self.g_c.get_buffer_file)            
         #
-
         self.main_content = MainContent(buffer_file="./cfg/.buffer")            
         self.controls = [
             self.menu_find_nav,

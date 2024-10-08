@@ -8,7 +8,7 @@
     | inside a directory from a txt file tabbed       |
     | see documentation on:                           |____________________________
     | https://github.com/neocronos666/open_cheatsheet/tree/main/docs/sync_dirs.md  |
-    '-------------------------------------------------'
+    '------------------------------------------------------------------------------'
 '''
 
 

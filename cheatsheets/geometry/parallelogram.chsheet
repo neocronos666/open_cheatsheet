@@ -1,0 +1,29 @@
+{
+    "title": "Parallelogram",
+    "description": "Surface area and diagonal calculation",
+    "detail": "<b>S</b>=Surface of the parallelogram<br />\n<b>a,b</b> = sides of the parallelogram<br />\n<b>h</b> = height",
+    "img": "/images/img4.png",
+    "forms": "$$S=a h$$<br />$$S=a b Cos(&alpha;)$$<br />$$d=√{(a^2+b^2)}$$",
+    "var_table": [],
+    "cons_table": {
+        "headers": [
+            "Constant",
+            "Value",
+            "Description"
+        ],
+        "rows": []
+    },
+    "c_date": "2024-10-08",
+    "m_date": "2024-10-08",
+    "author": "Unknown",
+    "email": "example@example.com",
+    "web": "https://www.wikipedia.org",
+    "ref_webs": [
+        "https://en.wikipedia.org/wiki/Parallelogram"
+    ],
+    "rel_forms": [],
+    "template": [
+        "Default"
+    ]
+}
+

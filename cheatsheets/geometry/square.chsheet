@@ -1,0 +1,29 @@
+{
+    "title": "Square",
+    "description": "Surface area and diagonal calculation",
+    "detail": "S= Surface of the square<br/ >a=Sides of the square",
+    "img": "/images/img2.png",
+    "forms": "$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$",
+    "var_table": [],
+    "cons_table": {
+        "headers": [
+            "Constant",
+            "Value",
+            "Description"
+        ],
+        "rows": []
+    },
+    "c_date": "2024-10-08",
+    "m_date": "2024-10-08",
+    "author": "Unknown",
+    "email": "example@example.com",
+    "web": "https://www.wikipedia.org",
+    "ref_webs": [
+        "https://en.wikipedia.org/wiki/Square"
+    ],
+    "rel_forms": [],
+    "template": [
+        "Default"
+    ]
+}
+

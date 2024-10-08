@@ -1,0 +1,29 @@
+{
+    "title": "Rectangle",
+    "description": "Surface area and diagonal calculation",
+    "detail": "<b>a,b</b> = sides of the rectangle <br /><br />",
+    "img": "/images/img3.png",
+    "forms": "$$S=a b$$ <br /> $$d=√{(a^2+b^2)}$$",
+    "var_table": [],
+    "cons_table": {
+        "headers": [
+            "Constant",
+            "Value",
+            "Description"
+        ],
+        "rows": []
+    },
+    "c_date": "2024-10-08",
+    "m_date": "2024-10-08",
+    "author": "Unknown",
+    "email": "example@example.com",
+    "web": "https://www.wikipedia.org",
+    "ref_webs": [
+        "https://en.wikipedia.org/wiki/Rectangle"
+    ],
+    "rel_forms": [],
+    "template": [
+        "Default"
+    ]
+}
+
