@@ -1,18 +1,25 @@
 {
     "title": "Square",
     "description": "Surface area and diagonal calculation",
-    "detail": "S= Surface of the square<br/ >a=Sides of the square",
-    "img": "/images/img2.png",
+    "detail": "S = Surface of the square<br />a=Sides of the square",
+    "img": "img2.png",
     "forms": "$$S=a^2$$<br />$$a=√S$$<br />$$d=√{2 a}$$",
-    "var_table": [],
-    "cons_table": {
-        "headers": [
-            "Constant",
-            "Value",
-            "Description"
-        ],
-        "rows": []
-    },
+    "forms": "S = a^2  \\ d = \\sqrt{2 \\cdot a}",
+   
+    "var_table": [
+        {
+            "var": "S",
+            "desc": "Surface"
+        },
+        {
+            "var": "a",
+            "desc": "side"
+        },        
+        {
+            "var": "d",
+            "desc": "diagonal"
+        }
+    ],
     "c_date": "2024-10-08",
     "m_date": "2024-10-08",
     "author": "Unknown",

@@ -1,0 +1,53 @@
+# Here we collect known posible issues at making .chsheet files
+The problems will be grouped by key, if you are creating a .chseet file and some field isn't showing, or all the sheet, you can take a look of this file in case other person had the same issue and corrected.
+
+## img key
+By default, images are stored on '"/images/"', if you want to add an image to your '.chsheet', be sure you aren´t adding an extra '/' to the path.
+```json
+"img": "img4.png",
+```
+If the image is inside a directory:
+```json
+"img": "path/to/image/img4.png",
+```
+In both cases the key must not start with '/'
+
+## form key (LaTeX)
+### General function working
+To make LaTeX work inside a json file, you should replace '\' for '\\' in your form
+The next Example works in LaTeX editors but not on Open Cheatsheet
+
+```latex
+S = a \cdot h 
+```
+To make it work, just add a double '\'
+```json
+"forms": "S = a \\cdot"
+```
+### Multiline forms
+Unfortunelly each form must be in one line, if you have more than one, add one "forms" for each one. This is because LaTeX is inside a JSON and because of the library used, if you create a 1-line form with multiline (like using '\\' , '\n', '\;', etc) it wint work properly.
+
+## Not sure where is the problem
+### Are you using tables?
+If you are **not using** one or both tables, check the key, if present it must be deleted:
+
+This line may cause error
+```json
+ "var_table": [],
+```
+
+The same way, the cons table may look like this and been causin problems.
+
+```json
+ "cons_table": {
+        "headers": [
+            "Constant",
+            "Value",
+            "Description"
+        ],
+        "rows": []
+   },
+```
+In both cases, all key-block should be erased.
+
+

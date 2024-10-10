@@ -25,29 +25,8 @@ class CheatSheetViewer(ft.Column):
             print(f"Error: El archivo {file_path} no existe.")
             return None
     
-    '''
-    
-    def render_latex_as_image(self, latex_string):
-        # Crear un gráfico vacío y agregar el texto LaTeX
-        fig, ax = plt.subplots()
-        ax.text(0.5, 0.5, f"${latex_string}$", fontsize=20, ha='center', va='center')
-        ax.axis('off')
 
-        # Guardar la imagen en un archivo temporal
-        img_path = "./cfg/.latex_buffer.svg"
-
-        # ACA PODRIA ACTIVAR O DESACTIVAR LA CHACHE
-
-        # plt.savefig(img_path + ".png", format='png', bbox_inches='tight', pad_inches=0.1)
-        plt.savefig(img_path, format="svg", bbox_inches='tight', pad_inches=0.1)
-        plt.close(fig)
-
-        return img_path # Devolver la ruta del archivo de imagen
-    '''
-
-    
-
-    def render_latex_as_image(self, latex_string, font_size=20, font_family="serif", color="#7134eb"):
+    def render_latex_as_image(self, latex_string, font_size=20, font_family="serif", color="#7134eb", img_path = "./cfg/.latex_buffer.svg"):
         # Configurar la familia de fuentes y el color de la fuente en Matplotlib
         plt.rcParams['mathtext.fontset'] = 'custom'
         plt.rcParams['mathtext.rm'] = font_family
@@ -91,7 +70,7 @@ class CheatSheetViewer(ft.Column):
         ax.margins(x= 0.05 / width, y= 0.05/height)
 
         # Ruta de la imagen SVG
-        img_path = "./cfg/.latex_buffer.svg"
+        # img_path = "./cfg/.latex_buffer.svg"
 
         # Guardar la imagen en formato SVG con ajustes de tamaño
         plt.savefig(img_path, format="svg", bbox_inches='tight', pad_inches=0.1, transparent=True)
@@ -125,9 +104,8 @@ class CheatSheetViewer(ft.Column):
                     print(f"Error: La imagen {img_path} no existe.")
             elif key == "forms":
                 # controls.append(ft.Markdown(f"$$ {value} $$"))
-                img_buffer = self.render_latex_as_image(value)
-                controls.append(ft.Image(src=img_buffer, width=300))  # Puedes ajustar el tamaño
-
+                img_buffer = self.render_latex_as_image(value,img_path = "./cfg/.latex_buffer2.svg")
+                controls.append(ft.Image(src=img_buffer, width=500))  # Puedes ajustar el tamaño
 
             elif key == "var_table":
                 table = ft.DataTable(
@@ -138,11 +116,12 @@ class CheatSheetViewer(ft.Column):
             elif key == "cons_table":
                 headers = value.get("headers", [])
                 rows = value.get("rows", [])
-                table = ft.DataTable(
-                    columns=[ft.DataColumn(ft.Text(header)) for header in headers],
-                    rows=[ft.DataRow(cells=[ft.DataCell(ft.Text(cell)) for cell in row.values()]) for row in rows]
-                )
-                controls.append(table)
+                if rows[0]:
+                    table = ft.DataTable(
+                        columns=[ft.DataColumn(ft.Text(header)) for header in headers],
+                        rows=[ft.DataRow(cells=[ft.DataCell(ft.Text(cell)) for cell in row.values()]) for row in rows]
+                    )
+                    controls.append(table)
 
         return controls
 

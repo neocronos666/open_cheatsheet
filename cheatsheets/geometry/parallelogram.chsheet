@@ -2,22 +2,38 @@
     "title": "Parallelogram",
     "description": "Surface area and diagonal calculation",
     "detail": "<b>S</b>=Surface of the parallelogram<br />\n<b>a,b</b> = sides of the parallelogram<br />\n<b>h</b> = height",
-    "img": "/images/img4.png",
-    "forms": "$$S=a h$$<br />$$S=a b Cos(&alpha;)$$<br />$$d=√{(a^2+b^2)}$$",
-    "var_table": [],
-    "cons_table": {
-        "headers": [
-            "Constant",
-            "Value",
-            "Description"
-        ],
-        "rows": []
-    },
+    "img": "img4.png",
+    "forms": "S = a \\cdot h \\ S = a \\cdot b \\cdot \\cos(\\alpha) \\ d = \\sqrt{a^2 + b^2}",
+    
+
+    "var_table": [
+         {
+            "var": "S",
+            "desc": "Surface"
+        },
+        {
+            "var": "a b",
+            "desc": "sides"
+        },
+        {
+            "var": "h",
+            "desc": "height"
+        },
+        {
+            "var": "d1 d2",
+            "desc": "diagonals"
+        },
+        {
+            "var": "Alpha",
+            "desc": "angle"
+        }
+    ],
+   
     "c_date": "2024-10-08",
     "m_date": "2024-10-08",
-    "author": "Unknown",
+    "author": "Neocronos666",
     "email": "example@example.com",
-    "web": "https://www.wikipedia.org",
+    "web": "https://github.com/neocronos666",
     "ref_webs": [
         "https://en.wikipedia.org/wiki/Parallelogram"
     ],

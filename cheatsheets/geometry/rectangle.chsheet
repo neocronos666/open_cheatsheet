@@ -2,17 +2,23 @@
     "title": "Rectangle",
     "description": "Surface area and diagonal calculation",
     "detail": "<b>a,b</b> = sides of the rectangle <br /><br />",
-    "img": "/images/img3.png",
-    "forms": "$$S=a b$$ <br /> $$d=√{(a^2+b^2)}$$",
-    "var_table": [],
-    "cons_table": {
-        "headers": [
-            "Constant",
-            "Value",
-            "Description"
-        ],
-        "rows": []
-    },
+    "img": "img3.png",
+    "forms": "S = a \\cdot b \\ d = \\sqrt{(a^2+b^2)}",
+    "var_table": [
+        {
+            "var": "S",
+            "desc": "Surface"
+        },
+        {
+            "var": "a b",
+            "desc": "sides"
+        },        
+        {
+            "var": "d",
+            "desc": "diagonal"
+        }
+    ],
+   
     "c_date": "2024-10-08",
     "m_date": "2024-10-08",
     "author": "Unknown",
