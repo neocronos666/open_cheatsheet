@@ -1,7 +1,7 @@
 {
     "title": "Parallelogram",
     "description": "Surface area and diagonal calculation",
-    "detail": "<b>S</b>=Surface of the parallelogram<br />\n<b>a,b</b> = sides of the parallelogram<br />\n<b>h</b> = height",
+    "detail": "**S**=Surface of the parallelogram  \n **a,b** = sides of the parallelogram  \n **h** = height",
     "img": "img4.png",
     "forms": "S = a \\cdot h \\ S = a \\cdot b \\cdot \\cos(\\alpha) \\ d = \\sqrt{a^2 + b^2}",
     

@@ -1,0 +1,29 @@
+{
+    "title": "Regular Pentagon",
+    "description": "Surface area and apotema calculation for a regular pentagon.",
+    "forms": "S=\\frac{P*A}{2} \\ S=\\frac{5 a^2}{4 \\sqrt{5-2 \\sqrt{5}}} \\ S=\\frac{5}{8} r^2 \\sqrt{10+2 \\sqrt{5}} \\ P=5*a \\ A=\\frac{r \\sqrt{10-5\\sqrt{5}}}{2}",
+    "detail": "**S** = Surface of the Pentagon  \n**a** = Sides  \n**r** = Radius  \n**P** = Perimeter  \n**A** = Apotem  ",
+    "img": "img8.png",
+    "var_table": [
+        {"var": "S", "desc": "Surface of the Pentagon"},
+        {"var": "a", "desc": "Side length"},
+        {"var": "r", "desc": "Radius"},
+        {"var": "P", "desc": "Perimeter"},
+        {"var": "A", "desc": "Apotem"}
+    ],
+    "c_date": "2024-10-08",
+    "m_date": "2024-10-08",
+    "author": "Neocronos666",
+    "email": "example@example.com",
+    "web": "https://github.com/neocronos666",
+    "ref_webs": [
+        "https://en.wikipedia.org/wiki/Pentagon"
+    ],
+    "rel_forms": [
+        "chsheet6",
+        "chsheet1"
+    ],
+    "template": [
+        "Default"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "title": "Regular Octogon",
+    "description": "Surface Area, apotem, and perimeter calculation for a regular octagon.",
+    "forms": "S=P*A  \\ S=2*a \\sigma \\ S=2 \\sigma \\sqrt{d^2 - \\sigma^2} \\ a= \\sigma \\tan\\left(\\frac{45}{2}^\\circ\\right) \\ \\sigma=d \\cos\\left(\\frac{45}{2}^\\circ\\right) \\ P=8 A \\ A=\\frac{a}{2 \\tan\\left(\\frac{45}{2}^\\circ\\right)} \\ d=\\frac{\\sigma}{\\cos\\left(\\frac{45}{2}^\\circ\\right)}",
+    "detail": "**S** = Surface of the Octogon  \n**a** = Side  \n**σ** = Diameter of the inscribed circle  \n**d** = Diameter of the circumscribed circle  \n**P** = Perimeter  \n**A** = Apotem  ",
+    "img": "img10.png",
+    "var_table": [
+        {"var": "S", "desc": "Surface of the Octogon"},
+        {"var": "a", "desc": "Side length"},
+        {"var": "σ", "desc": "Diameter of the inscribed circle"},
+        {"var": "d", "desc": "Diameter of the circumscribed circle"},
+        {"var": "P", "desc": "Perimeter"},
+        {"var": "A", "desc": "Apotem"}
+    ],
+    "c_date": "2024-10-08",
+    "m_date": "2024-10-08",
+    "author": "Neocronos666",
+    "email": "example@example.com",
+    "web": "https://github.com/neocronos666",
+    "ref_webs": [
+        "https://en.wikipedia.org/wiki/Octagon"
+    ],
+    "rel_forms": [
+        "chsheet9",
+        "chsheet8",
+        "chsheet6",
+        "chsheet1"
+    ],
+    "template": [
+        "Default"
+    ]
+}

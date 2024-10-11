@@ -1,0 +1,44 @@
+{
+    "title": "Circle",
+    "description": "Surface area and perimeter calculation of a circle.",
+    "forms": "S={\\pi} r^2  \\ S= {\\pi/4} d^2  \\ P=2 \\pi*r",
+    "detail": "**S** = Surface of the circle  \n**r** = Radius  \n**d** = Diameter  \n**P** = Perimeter",
+    "img": "img13.png",
+    "var_table": [
+        {"var": "S", "desc": "Surface of the circle"},
+        {"var": "r", "desc": "Radius"},
+        {"var": "d", "desc": "Diameter"},
+        {"var": "P", "desc": "Perimeter"}
+    ],
+    "cons_table": {
+        "headers": [
+            "Constant",
+            "Value",
+            "Description"
+        ],
+        "rows": [
+            {
+                "constante": "π",
+                "valor": "3.1416",
+                "descripcion": "Pi, ratio of a circle's circumference to its diameter"
+            }
+        ]
+    },
+    "c_date": "2024-10-08",
+    "m_date": "2024-10-08",
+    "author": "Neocronos666",
+    "email": "example@example.com",
+    "web": "https://github.com/neocronos666",
+    "ref_webs": [
+        "https://en.wikipedia.org/wiki/Circle"
+    ],
+    "rel_forms": [
+        "chsheet14",
+        "chsheet15",
+        "chsheet16",
+        "chsheet17"
+    ],
+    "template": [
+        "Default"
+    ]
+}

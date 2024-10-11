@@ -1,0 +1,28 @@
+{
+    "title": "Irregular Polygon",
+    "description": "Surface Area calculation of any polygon composed by other polygons.",
+    "forms": "S=S_1 + S_2 + S_3 + S_4",
+    "detail": "**S** = Total surface area of the polygon  \n**S₁, S₂, S₃, S₄** = Partial area of the sub polygons",
+    "img": "img11.png",
+    "var_table": [
+        {"var": "S", "desc": "Total surface area of the polygon"},
+        {"var": "S₁, S₂, S₃, S₄", "desc": "Partial area of the sub polygons"}
+    ],
+    "c_date": "2024-10-08",
+    "m_date": "2024-10-08",
+    "author": "Neocronos666",
+    "email": "example@example.com",
+    "web": "https://github.com/neocronos666",
+    "ref_webs": [
+        "https://en.wikipedia.org/wiki/Irregular_polygon"
+    ],
+    "rel_forms": [
+        "chsheet6",
+        "chsheet7",
+        "chsheet2",
+        "chsheet15"
+    ],
+    "template": [
+        "Default"
+    ]
+}

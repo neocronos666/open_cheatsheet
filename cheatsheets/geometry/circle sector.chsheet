@@ -1,0 +1,46 @@
+{
+    "title": "Circle Sector",
+    "description": "Surface area and partial perimeter calculation of a circle sector.",
+    "forms": "S={\\pi/360} r^2 \\alpha  \\ S={â/2} r^2  \\ S={b r}/2  \\ b={\\pi/180} r \\alpha  \\ â={\\pi/180} \\alpha  \\ P=b+2 r",
+    "detail": "**S** = Surface of the circle sector  \n**r** = Radius  \n**b** = Partial circle's perimeter  \n**α** = Angle of the arc in degrees  \n**â** = Angle of the arc in radians  \n**P** = Total perimeter",
+    "img": "img5.png",
+    "var_table": [
+        {"var": "S", "desc": "Surface of the circle sector"},
+        {"var": "r", "desc": "Radius"},
+        {"var": "b", "desc": "Partial circle's perimeter"},
+        {"var": "α", "desc": "Angle of the arc in degrees"},
+        {"var": "â", "desc": "Angle of the arc in radians"},
+        {"var": "P", "desc": "Total perimeter"}
+    ],
+    "cons_table": {
+        "headers": [
+            "Constant",
+            "Value",
+            "Description"
+        ],
+        "rows": [
+            {
+                "constante": "π",
+                "valor": "3.1416",
+                "descripcion": "Pi, ratio of a circle's circumference to its diameter"
+            }
+        ]
+    },
+    "c_date": "2024-10-08",
+    "m_date": "2024-10-08",
+    "author": "Neocronos666",
+    "email": "example@example.com",
+    "web": "https://github.com/neocronos666",
+    "ref_webs": [
+        "https://en.wikipedia.org/wiki/Circular_sector"
+    ],
+    "rel_forms": [
+        "chsheet14",
+        "chsheet13",
+        "chsheet16",
+        "chsheet17"
+    ],
+    "template": [
+        "Default"
+    ]
+}

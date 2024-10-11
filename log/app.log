@@ -11592,3 +11592,404 @@ ParseFatalException: Unknown symbol: \begin, found '\'  (at char 0), (line:1, co
 2024-10-10 16:03:13,322 - root - INFO - Buffer cargado con 10 archivos.
 2024-10-10 16:03:14,040 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
 2024-10-10 16:03:14,040 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-10 16:06:00,436 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:06:00,442 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:06:13,845 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:06:14,991 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:10:32,152 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:10:32,155 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:10:39,387 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:10:40,160 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-10 16:10:40,161 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-10 16:10:51,876 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:10:51,883 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:11:03,765 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:11:03,990 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 102, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 58, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 16, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 119, in render_cheatsheet
+    if rows[0]:
+       ~~~~^^^
+IndexError: list index out of range
+2024-10-10 16:11:09,535 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:11:11,494 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:11:11,498 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:11:11,660 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 102, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 58, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 16, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 119, in render_cheatsheet
+    if rows[0]:
+       ~~~~^^^
+IndexError: list index out of range
+2024-10-10 16:11:27,607 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:11:27,626 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:11:33,521 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:11:33,526 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:11:33,531 - flet_runtime - INFO - Assets path configured: /home/neocronos/Documentos/Python Scripts/open_cheatsheet/assets
+2024-10-10 16:11:33,533 - flet_runtime - INFO - Starting up UDS server on /tmp/tC5r3OJZd6
+2024-10-10 16:11:33,534 - flet_runtime - INFO - Flet app has started...
+2024-10-10 16:11:33,534 - flet_runtime - INFO - App URL: /tmp/tC5r3OJZd6
+2024-10-10 16:11:33,535 - flet_runtime - INFO - Starting Flet View app...
+2024-10-10 16:11:33,536 - flet_runtime - INFO - Flet View found in: /home/neocronos/.flet/bin/flet-0.23.2
+2024-10-10 16:11:36,470 - flet_runtime - INFO - App session started
+2024-10-10 16:11:44,732 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:11:44,737 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:11:50,024 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:11:54,272 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:11:57,534 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:12:25,548 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:12:26,927 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:12:27,681 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:12:29,927 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:12:50,635 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:12:51,790 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-10 16:12:51,791 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-10 16:13:19,410 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:13:19,416 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:13:24,213 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:13:24,415 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 102, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 58, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 16, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 119, in render_cheatsheet
+    if rows[0]:
+       ~~~~^^^
+IndexError: list index out of range
+2024-10-10 16:19:03,485 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:19:03,490 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:19:11,162 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:19:11,710 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 102, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 58, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 16, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 119, in render_cheatsheet
+    if rows[0]:
+       ~~~~^^^
+IndexError: list index out of range
+2024-10-10 16:24:48,801 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:24:48,809 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:24:52,961 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:24:53,707 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-10 16:24:53,708 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-10 16:25:39,297 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:25:39,301 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:25:53,884 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:25:54,613 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-10 16:25:54,613 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-10 16:26:25,546 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:26:25,554 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:26:32,804 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:26:33,547 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-10 16:26:33,547 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-10 16:27:53,958 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:27:53,965 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:28:03,967 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:28:04,759 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-10 16:28:04,759 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-10 16:28:13,970 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:28:13,990 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:29:03,086 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:29:03,087 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:29:03,087 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:29:03,089 - root - INFO - Buffer creado con 10 archivos .chsheet.
+2024-10-10 16:29:03,090 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:29:53,119 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:29:53,133 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:30:00,189 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:30:01,014 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-10 16:30:01,015 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-10 16:30:06,361 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:30:06,367 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:30:14,351 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:30:16,617 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:30:16,623 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:30:27,407 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:30:29,384 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:30:29,390 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:30:33,912 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:30:40,153 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:30:40,162 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:30:46,248 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:31:16,863 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:34:59,381 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:34:59,389 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:35:03,721 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:35:04,506 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-10 16:35:04,506 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-10 16:35:41,546 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:35:41,551 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:35:46,003 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:35:46,758 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-10 16:35:46,759 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-10 16:37:57,194 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:37:57,204 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:38:07,720 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:38:08,458 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-10 16:38:08,458 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-10 16:42:57,996 - root - INFO - Logging configurado correctamente.
+2024-10-10 16:42:58,000 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:43:20,502 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-10 16:43:21,277 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-10 16:43:21,277 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-11 10:47:45,348 - root - INFO - Logging configurado correctamente.
+2024-10-11 10:47:45,348 - root - INFO - Logging configurado correctamente.
+2024-10-11 10:47:45,349 - root - INFO - Buffer cargado con 10 archivos.
+2024-10-11 10:47:45,351 - root - INFO - Buffer creado con 11 archivos .chsheet.
+2024-10-11 10:47:45,351 - root - INFO - Buffer cargado con 11 archivos.
+2024-10-11 10:48:06,686 - root - INFO - Logging configurado correctamente.
+2024-10-11 10:48:06,690 - root - INFO - Buffer cargado con 11 archivos.
+2024-10-11 10:48:15,986 - root - INFO - Buffer cargado con 11 archivos.
+2024-10-11 10:53:55,504 - root - INFO - Logging configurado correctamente.
+2024-10-11 10:53:55,505 - root - INFO - Logging configurado correctamente.
+2024-10-11 10:53:55,506 - root - INFO - Buffer cargado con 11 archivos.
+2024-10-11 10:53:55,508 - root - INFO - Buffer creado con 12 archivos .chsheet.
+2024-10-11 10:53:55,508 - root - INFO - Buffer cargado con 12 archivos.
+2024-10-11 10:54:03,789 - root - INFO - Logging configurado correctamente.
+2024-10-11 10:54:03,793 - root - INFO - Buffer cargado con 12 archivos.
+2024-10-11 10:54:09,144 - root - INFO - Buffer cargado con 12 archivos.
+2024-10-11 10:54:20,264 - root - INFO - Logging configurado correctamente.
+2024-10-11 10:54:20,271 - root - INFO - Buffer cargado con 12 archivos.
+2024-10-11 10:54:26,330 - root - INFO - Buffer cargado con 12 archivos.
+2024-10-11 10:56:04,414 - root - INFO - Logging configurado correctamente.
+2024-10-11 10:56:04,414 - root - INFO - Logging configurado correctamente.
+2024-10-11 10:56:04,415 - root - INFO - Buffer cargado con 12 archivos.
+2024-10-11 10:56:04,416 - root - INFO - Buffer creado con 12 archivos .chsheet.
+2024-10-11 10:56:04,417 - root - INFO - Buffer cargado con 12 archivos.
+2024-10-11 10:56:11,747 - root - INFO - Logging configurado correctamente.
+2024-10-11 10:56:11,750 - root - INFO - Buffer cargado con 12 archivos.
+2024-10-11 10:56:16,859 - root - INFO - Buffer cargado con 12 archivos.
+2024-10-11 10:56:17,592 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-11 10:56:17,592 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-11 10:58:36,581 - root - INFO - Logging configurado correctamente.
+2024-10-11 10:58:36,587 - root - INFO - Buffer cargado con 12 archivos.
+2024-10-11 10:58:39,640 - root - INFO - Buffer cargado con 12 archivos.
+2024-10-11 10:58:40,393 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-11 10:58:40,394 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-11 11:03:41,844 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:03:41,844 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:03:41,845 - root - INFO - Buffer cargado con 12 archivos.
+2024-10-11 11:03:41,847 - root - INFO - Buffer creado con 13 archivos .chsheet.
+2024-10-11 11:03:41,847 - root - INFO - Buffer cargado con 13 archivos.
+2024-10-11 11:04:00,503 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:04:00,506 - root - INFO - Buffer cargado con 13 archivos.
+2024-10-11 11:04:14,821 - root - INFO - Buffer cargado con 13 archivos.
+2024-10-11 11:04:15,577 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-11 11:04:15,577 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-11 11:11:51,740 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:11:51,742 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:11:51,743 - root - INFO - Buffer cargado con 13 archivos.
+2024-10-11 11:11:51,748 - root - INFO - Buffer creado con 13 archivos .chsheet.
+2024-10-11 11:11:51,750 - root - INFO - Buffer cargado con 13 archivos.
+2024-10-11 11:11:57,097 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:11:57,102 - root - INFO - Buffer cargado con 13 archivos.
+2024-10-11 11:12:42,961 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:12:42,965 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:12:42,970 - root - INFO - Buffer cargado con 13 archivos.
+2024-10-11 11:12:42,981 - root - INFO - Buffer creado con 14 archivos .chsheet.
+2024-10-11 11:12:42,982 - root - INFO - Buffer cargado con 14 archivos.
+2024-10-11 11:12:50,486 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:12:50,492 - root - INFO - Buffer cargado con 14 archivos.
+2024-10-11 11:12:55,886 - root - INFO - Buffer cargado con 14 archivos.
+2024-10-11 11:12:56,662 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-11 11:12:56,662 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-11 11:16:07,295 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:16:07,295 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:16:07,296 - root - INFO - Buffer cargado con 14 archivos.
+2024-10-11 11:16:07,298 - root - INFO - Buffer creado con 15 archivos .chsheet.
+2024-10-11 11:16:07,298 - root - INFO - Buffer cargado con 15 archivos.
+2024-10-11 11:16:13,941 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:16:13,948 - root - INFO - Buffer cargado con 15 archivos.
+2024-10-11 11:16:18,967 - root - INFO - Buffer cargado con 15 archivos.
+2024-10-11 11:16:19,690 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-11 11:16:19,690 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-11 11:20:18,597 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:20:18,598 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:20:18,598 - root - INFO - Buffer cargado con 15 archivos.
+2024-10-11 11:20:18,600 - root - INFO - Buffer creado con 16 archivos .chsheet.
+2024-10-11 11:20:18,601 - root - INFO - Buffer cargado con 16 archivos.
+2024-10-11 11:20:26,187 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:20:26,192 - root - INFO - Buffer cargado con 16 archivos.
+2024-10-11 11:20:40,257 - root - INFO - Buffer cargado con 16 archivos.
+2024-10-11 11:20:40,986 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-11 11:20:40,986 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-11 11:26:22,766 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:26:22,766 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:26:22,767 - root - INFO - Buffer cargado con 16 archivos.
+2024-10-11 11:26:22,770 - root - INFO - Buffer creado con 17 archivos .chsheet.
+2024-10-11 11:26:22,771 - root - INFO - Buffer cargado con 17 archivos.
+2024-10-11 11:26:34,621 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:26:34,631 - root - INFO - Buffer cargado con 17 archivos.
+2024-10-11 11:26:43,048 - root - INFO - Buffer cargado con 17 archivos.
+2024-10-11 11:26:43,936 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-11 11:26:43,936 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-11 11:26:58,719 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:26:58,726 - root - INFO - Buffer cargado con 17 archivos.
+2024-10-11 11:27:51,946 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:27:51,947 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:27:51,948 - root - INFO - Buffer cargado con 17 archivos.
+2024-10-11 11:27:51,950 - root - INFO - Buffer creado con 18 archivos .chsheet.
+2024-10-11 11:27:51,951 - root - INFO - Buffer cargado con 18 archivos.
+2024-10-11 11:28:13,247 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:28:13,254 - root - INFO - Buffer cargado con 18 archivos.
+2024-10-11 11:28:20,539 - root - INFO - Buffer cargado con 18 archivos.
+2024-10-11 11:28:35,118 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:28:35,127 - root - INFO - Buffer cargado con 18 archivos.
+2024-10-11 11:29:26,621 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:29:26,627 - root - INFO - Buffer cargado con 18 archivos.
+2024-10-11 11:29:30,717 - root - INFO - Buffer cargado con 18 archivos.
+2024-10-11 11:29:31,445 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-11 11:29:31,446 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-11 11:29:31,633 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=ValueError("\nS=\\pi*(R^2 - r^2)  \\ S={\\pi/4} (D^2 - d^2)  \\ S=\\pi (d+b) b  \\ b=\\frac{D-d}/{2}  \\ P=2 \\pi (R+r)\n                                                                      ^\nParseSyntaxException: Expected \\frac{num}{den}, found '{'  (at char 70), (line:1, col:71)")>
+Traceback (most recent call last):
+  File "/home/neocronos/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/flet_core/page.py", line 941, in wrapper
+    handler(*args)
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 102, in route_change
+    page.add(CheatSheetViewerApp(g_c.get_nav_link(), selected_value))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/main.py", line 58, in __init__
+    self.sheet_content =CheatSheetViewer(selected)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 16, in __init__
+    self.controls = self.render_cheatsheet()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 107, in render_cheatsheet
+    img_buffer = self.render_latex_as_image(value,img_path = "./cfg/.latex_buffer2.svg")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/Documentos/Python Scripts/open_cheatsheet/screens/cheat_sheet.py", line 47, in render_latex_as_image
+    fig.canvas.draw()
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/figure.py", line 3154, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 3070, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 748, in draw
+    bbox, info, descent = self._get_layout(renderer)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 381, in _get_layout
+    w, h, d = _get_text_metrics_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 69, in _get_text_metrics_with_cache
+    return _get_text_metrics_with_cache_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/text.py", line 77, in _get_text_metrics_with_cache_impl
+    return renderer_ref().get_text_width_height_descent(text, fontprop, ismath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 217, in get_text_width_height_descent
+    self.mathtext_parser.parse(s, self.dpi, prop)
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 79, in parse
+    return self._parse_cached(s, dpi, prop, antialiased)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/mathtext.py", line 100, in _parse_cached
+    box = self._parser.parse(s, fontset, fontsize, dpi)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neocronos/anaconda3/lib/python3.12/site-packages/matplotlib/_mathtext.py", line 2165, in parse
+    raise ValueError("\n" + ParseException.explain(err, 0)) from None
+ValueError: 
+S=\pi*(R^2 - r^2)  \ S={\pi/4} (D^2 - d^2)  \ S=\pi (d+b) b  \ b=\frac{D-d}/{2}  \ P=2 \pi (R+r)
+                                                                      ^
+ParseSyntaxException: Expected \frac{num}{den}, found '{'  (at char 70), (line:1, col:71)
+2024-10-11 11:30:01,808 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:30:01,815 - root - INFO - Buffer cargado con 18 archivos.
+2024-10-11 11:30:07,653 - root - INFO - Buffer cargado con 18 archivos.
+2024-10-11 11:30:08,400 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-11 11:30:08,401 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-11 11:33:55,920 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:33:55,927 - root - INFO - Buffer cargado con 18 archivos.
+2024-10-11 11:34:04,902 - root - INFO - Buffer cargado con 18 archivos.
+2024-10-11 11:34:05,627 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-11 11:34:05,627 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-11 11:38:32,257 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:38:32,257 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:38:32,258 - root - INFO - Buffer cargado con 18 archivos.
+2024-10-11 11:38:32,261 - root - INFO - Buffer creado con 19 archivos .chsheet.
+2024-10-11 11:38:32,262 - root - INFO - Buffer cargado con 19 archivos.
+2024-10-11 11:38:42,482 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:38:42,485 - root - INFO - Buffer cargado con 19 archivos.
+2024-10-11 11:38:46,426 - root - INFO - Buffer cargado con 19 archivos.
+2024-10-11 11:38:47,185 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-11 11:38:47,185 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-11 11:41:35,393 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:41:35,398 - root - INFO - Buffer cargado con 19 archivos.
+2024-10-11 11:42:04,248 - root - INFO - Buffer cargado con 19 archivos.
+2024-10-11 11:42:04,982 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-11 11:42:04,983 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+2024-10-11 11:43:05,070 - root - INFO - Logging configurado correctamente.
+2024-10-11 11:43:05,074 - root - INFO - Buffer cargado con 19 archivos.
+2024-10-11 11:43:10,140 - root - INFO - Buffer cargado con 19 archivos.
+2024-10-11 11:43:10,863 - matplotlib.font_manager - WARNING - findfont: Font family ['cursive'] not found. Falling back to DejaVu Sans.
+2024-10-11 11:43:10,864 - matplotlib.font_manager - WARNING - findfont: Generic family 'cursive' not found because none of the following families were found: Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive

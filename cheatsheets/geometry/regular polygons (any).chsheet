@@ -1,0 +1,31 @@
+{
+    "title": "Regular Polygons (any)",
+    "description": "Apotem, surface area, and perimeter calculation for any regular polygon.",
+    "forms": "A= a/{2 tan({180/n})}  \\ P=n*a  \\ S={PA}/2",
+    "detail": "**S** = Surface area  \n**A** = Apotem  \n**a** = Width of the side  \n**n** = Number of sides  \n**P** = Perimeter",
+    "img": "img12.png",
+    "var_table": [
+        {"var": "S", "desc": "Surface area"},
+        {"var": "A", "desc": "Apotem"},
+        {"var": "a", "desc": "Width of the side"},
+        {"var": "n", "desc": "Number of sides"},
+        {"var": "P", "desc": "Perimeter"}
+    ],
+    "c_date": "2024-10-08",
+    "m_date": "2024-10-08",
+    "author": "Neocronos666",
+    "email": "example@example.com",
+    "web": "https://github.com/neocronos666",
+    "ref_webs": [
+        "https://en.wikipedia.org/wiki/Regular_polygon"
+    ],
+    "rel_forms": [
+        "chsheet12",
+        "chsheet10",
+        "chsheet6",
+        "chsheet1"
+    ],
+    "template": [
+        "Default"
+    ]
+}

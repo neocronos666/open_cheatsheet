@@ -1,0 +1,47 @@
+{
+    "title": "Circular Crown",
+    "description": "Surface area and perimeter calculation of a circular crown.",
+    "forms": "S=\\pi*(R^2 - r^2)  \\ S={\\pi/4} (D^2 - d^2)  \\ S=\\pi (d+b) b  \\ b=\\frac{D-d}{2}  \\ P=2 \\pi (R+r)",
+    "detail": "**S** = Surface of the crown  \n**r** = Circle's smallest radius  \n**R** = Circle's major radius  \n**d** = Circle's smallest diameter  \n**D** = Circle's major diameter  \n**P** = Total perimeter  \n**b** = Diameter of the crown",
+    "img": "img14.png",
+    "var_table": [
+        {"var": "S", "desc": "Surface of the crown"},
+        {"var": "r", "desc": "Circle's smallest radius"},
+        {"var": "R", "desc": "Circle's major radius"},
+        {"var": "d", "desc": "Circle's smallest diameter"},
+        {"var": "D", "desc": "Circle's major diameter"},
+        {"var": "P", "desc": "Total perimeter"},
+        {"var": "b", "desc": "Diameter of the crown"}
+    ],
+    "cons_table": {
+        "headers": [
+            "Constant",
+            "Value",
+            "Description"
+        ],
+        "rows": [
+            {
+                "constante": "π",
+                "valor": "3.1416",
+                "descripcion": "Pi, ratio of a circle's circumference to its diameter"
+            }
+        ]
+    },
+    "c_date": "2024-10-08",
+    "m_date": "2024-10-08",
+    "author": "Neocronos666",
+    "email": "example@example.com",
+    "web": "https://github.com/neocronos666",
+    "ref_webs": [
+        "https://en.wikipedia.org/wiki/Annulus_(mathematics)"
+    ],
+    "rel_forms": [
+        "chsheet13",
+        "chsheet15",
+        "chsheet16",
+        "chsheet17"
+    ],
+    "template": [
+        "Default"
+    ]
+}

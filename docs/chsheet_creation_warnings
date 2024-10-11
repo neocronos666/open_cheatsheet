@@ -50,4 +50,11 @@ The same way, the cons table may look like this and been causin problems.
 ```
 In both cases, all key-block should be erased.
 
+# Detail key (Markddown language)
+If you want to add multiple lines in the "detail" field, you just need to add **two spaces** followed by **'\n'**
 
+```json
+{
+  "example": "This is first line.  \nAnd this is second line."
+}
+```

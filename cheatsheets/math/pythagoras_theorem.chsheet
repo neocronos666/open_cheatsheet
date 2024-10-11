@@ -1,18 +1,15 @@
 {
     "title": "Pythagoras Theorem",
     "description": "For right angled triangles sides Calculation",
-    "detail": "In a right angled triangle, with sides <b>a,b,c</b>, the square of the hypotenuse is equal to the sum of the squares of the other two sides.",
-    "img": "/images/img1.png",
-    "forms": "$${\\a^2+\\b^2=c^2}$$<br />$$\\c=√{\\a^2+\\b^2}$$\n",
-    "var_table": [],
-    "cons_table": {
-        "headers": [
-            "Constant",
-            "Value",
-            "Description"
-        ],
-        "rows": []
-    },
+    "detail": "In a right angled triangle, with sides **a,b,c**, the square of the hypotenuse is equal to the sum of the squares of the other two sides.",
+    "img": "img1.png",
+    "forms": "a^2 + b^2 = c^2 \\ C = \\sqrt{a^2+b^2}",
+    "var_table": [
+        {
+            "var": "a,b,c",
+            "desc": "Sides of a Rectagle triangle"
+        }
+    ],   
     "c_date": "2024-10-08",
     "m_date": "2024-10-08",
     "author": "Unknown",

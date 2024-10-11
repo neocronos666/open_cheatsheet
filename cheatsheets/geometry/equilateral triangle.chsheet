@@ -1,0 +1,27 @@
+{
+    "title": "Equilateral Triangle",
+    "description": "Surface Area and height calculation for an equilateral triangle.",
+    "forms": "S=\\frac{a^2}{4} \\cdot \\sqrt{3} \\ S=\\frac{a h}{2} \\ h=\\frac{a}{4} \\cdot \\sqrt{3}",
+    "detail": "**S** = Surface of the triangle  \n**a** = Sides  \n**h** = Height  ",
+    "img": "img7.png",
+    "var_table": [
+        {"var": "S", "desc": "Surface of the triangle"},
+        {"var": "a", "desc": "Side length"},
+        {"var": "h", "desc": "Height of the triangle"}
+    ],
+    "c_date": "2024-10-08",
+    "m_date": "2024-10-08",
+    "author": "Neocronos666",
+    "email": "example@example.com",
+    "web": "https://github.com/neocronos666",
+    "ref_webs": [
+        "https://en.wikipedia.org/wiki/Equilateral_triangle"
+    ],
+    "rel_forms": [
+        "chsheet6",
+        "chsheet1"
+    ],
+    "template": [
+        "Default"
+    ]
+}

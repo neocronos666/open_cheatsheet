@@ -1,0 +1,31 @@
+{
+    "title": "Regular Hexagon",
+    "description": "Surface area and apotem calculation for a regular hexagon.",
+    "forms": "S=P*A \\ S=\\frac{3 a^2 \\sqrt{3}}{2} \\ h=2a \\ h=\\frac{2}{\\sqrt{3}} \\sigma \\ \\sigma=\\frac{\\sqrt{3}}{2} h \\ P=6a \\ A=\\sqrt{r^2 - \\left(\\frac{a}{2}\\right)^2} \\ A=\\frac{a}{\\frac{2 \\sqrt{3}}{3}}",
+    "detail": "**S** = Surface of the Hexagon  \n**a** = Sides  \n**h** = Height  \n**A** = Apotem  \n**σ** = Diameter of inscribed circle  \n**r** = Radius of circumscribed circle  ",
+    "img": "img9.png",
+    "var_table": [
+        {"var": "S", "desc": "Surface of the Hexagon"},
+        {"var": "a", "desc": "Side length"},
+        {"var": "h", "desc": "Height"},
+        {"var": "A", "desc": "Apotem"},
+        {"var": "σ", "desc": "Diameter of inscribed circle"},
+        {"var": "r", "desc": "Radius of circumscribed circle"}
+    ],
+    "c_date": "2024-10-08",
+    "m_date": "2024-10-08",
+    "author": "Neocronos666",
+    "email": "example@example.com",
+    "web": "https://github.com/neocronos666",
+    "ref_webs": [
+        "https://en.wikipedia.org/wiki/Hexagon"
+    ],
+    "rel_forms": [
+        "chsheet8",
+        "chsheet7",
+        "chsheet1"
+    ],
+    "template": [
+        "Default"
+    ]
+}
